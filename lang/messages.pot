@@ -1,0 +1,3442 @@
+# StreamyChat — translation template.
+#
+# START HERE
+#
+#   The source strings below are English, the language they are written in inside the code.
+#   Open this file in Poedit, pick your language, and translate. That is all.
+#
+# WHEN YOU ARE DONE
+#
+#   Save it as <language-code>.po — fr.po, de.po, pt-BR.po — and drop it into the "lang"
+#   folder of your StreamyChat data directory. Restart the app and pick your language in
+#   Settings > Advanced. No build step, no command line.
+#
+# WHAT TO KEEP
+#
+#   %s and %d stand for a value inserted at runtime — a channel name, a count. Keep every
+#   one of them, and use %1$s / %2$s if your language needs a different word order. Poedit
+#   checks these for you.
+#
+#   Twitch and gaming words stay as they are: raid, ban, timeout, clip, cheer, sub, mod,
+#   VIP, emote.
+#
+#   Theme names, interface-language names, clock samples and units are data, not labels:
+#   they never appear here.
+#
+# HOW MUCH TO DO
+#
+#   As much as you like. An untranslated entry falls back to English, so a half-finished
+#   file is perfectly usable. Ship what you have.
+#
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: StreamyChat\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Language-Team: StreamyChat\n"
+"Last-Translator: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/renderer/settings/VoiceSection.tsx:445
+msgid "« Geekness says: hi everyone ». Handy when you're not watching your chat. The username is billed too."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:105
+msgid "« Live » dot"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:154
+msgid "« Subs only » background"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:155
+msgid "« Subs only » text"
+msgstr ""
+
+#: src/main/twitch/transport/fixture-format.ts:473
+msgid "(system event with no text)"
+msgstr ""
+
+#: src/main/twitch/eventsub/session.ts:542
+#, javascript-format
+msgid "%1$s — trying again in %2$s s"
+msgstr ""
+
+#: src/shared/events.ts:557
+#, javascript-format
+msgid "%1$s got a %2$d s timeout."
+msgstr ""
+
+#: src/shared/events.ts:538
+#, javascript-format
+msgid "%1$s is raiding %2$s, with %3$d viewer."
+msgid_plural "%1$s is raiding %2$s, with %3$d viewers."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/shared/events.ts:534
+#, javascript-format
+msgid "%1$s is raiding %2$s."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:464
+#, javascript-format
+msgid "%1$s is timed out for %2$s."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:743
+#, javascript-format
+msgid "%1$s, %2$s."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:504
+#: src/renderer/settings/VoiceSection.tsx:520
+#, javascript-format
+msgid "%d character"
+msgid_plural "%d characters"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/main/ipc/handlers.ts:1585
+#, javascript-format
+msgid "%d correction cleared."
+msgid_plural "%d corrections cleared."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/main/twitch/chat/restrictions.ts:150
+#: src/shared/commands.ts:466
+#, javascript-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/main/twitch/transport/fake.ts:108
+#, javascript-format
+msgid "%d event"
+msgid_plural "%d events"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/renderer/chat/ScopeBanner.tsx:82
+#, javascript-format
+msgid "%d feature needs a Twitch permission."
+msgid_plural "%d features need a Twitch permission."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/renderer/chat/UserPicker.tsx:111
+#, javascript-format
+msgid "%d h ago"
+msgstr ""
+
+#: src/main/twitch/chat/restrictions.ts:146
+#: src/shared/commands.ts:462
+#, javascript-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/renderer/chat/rows/ModerationRow.tsx:149
+#: src/renderer/settings/ChatSection.tsx:115
+#: src/renderer/settings/VoiceSection.tsx:575
+#, javascript-format
+msgid "%d message"
+msgid_plural "%d messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/renderer/settings/AdvancedSection.tsx:203
+#, javascript-format
+msgid "%d message already cleaned up. It won't be paid for again."
+msgid_plural "%d messages already cleaned up. They won't be paid for again."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/renderer/chat/SpeechBar.tsx:123
+#, javascript-format
+msgid "%d message waiting"
+msgid_plural "%d messages waiting"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/renderer/chat/UserPicker.tsx:108
+#, javascript-format
+msgid "%d min ago"
+msgstr ""
+
+#: src/main/twitch/chat/restrictions.ts:143
+#: src/shared/commands.ts:458
+#, javascript-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/renderer/chat/VirtualList.tsx:610
+#, javascript-format
+msgid "%d new message"
+msgid_plural "%d new messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/renderer/chat/EmotePicker.tsx:308
+#, javascript-format
+msgid "%d result"
+msgid_plural "%d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/shared/commands.ts:455
+#, javascript-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/main/config/store.ts:177
+#, javascript-format
+msgid "%d setting was invalid and went back to its default."
+msgid_plural "%d settings were invalid and went back to their defaults."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/renderer/chat/ChannelTabs.tsx:1096
+#, javascript-format
+msgid "%d unread message"
+msgid_plural "%d unread messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/main/ipc/handlers.ts:2111
+#, javascript-format
+msgid "%d unrecognised value went back to its default."
+msgid_plural "%d unrecognised values went back to their defaults."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/main/twitch/chat/restrictions.ts:154
+#, javascript-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/main/twitch/normalize/channel.ts:270
+#, javascript-format
+msgid "%s gave this channel a shoutout."
+msgstr ""
+
+#: src/shared/events.ts:556
+#, javascript-format
+msgid "%s got a timeout."
+msgstr ""
+
+#: src/shared/events.ts:559
+#, javascript-format
+msgid "%s got banned."
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:282
+#, javascript-format
+msgid "%s just followed."
+msgstr ""
+
+#: src/renderer/chat/SpeechBar.tsx:177
+#, javascript-format
+msgid "%s on a message to read it out"
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:86
+#, javascript-format
+msgid "%s redeemed %s for %s points."
+msgstr ""
+
+#: src/renderer/chat/ChannelTabs.tsx:1120
+#: src/renderer/chat/RaidBanner.tsx:108
+#, javascript-format
+msgid "%s viewer"
+msgid_plural "%s viewers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:432
+#: src/renderer/chat/UserCard.tsx:169
+#, javascript-format
+msgid "%s's card"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:591
+msgid "A message in txt speak or full of typos gets rewritten before it's read — otherwise the voice mangles it. Every message cleaned up costs a few thousandths of a cent."
+msgstr ""
+
+#: src/renderer/chat/SpeechBar.tsx:176
+msgid "A message's button reads it out"
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:780
+msgid "A raid is already in progress. Cancel it with /unraid before starting another."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:241
+msgid "A raid only leaves from your own channel."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:114
+msgid "A timeout lasts 14 days at most. Past that, it's a ban."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:108
+msgid "A timeout lasts at least 1 second."
+msgstr ""
+
+#: src/shared/events.ts:550
+msgid "a viewer"
+msgstr ""
+
+#: src/main/twitch/eventsub/subscriptions.ts:140
+msgid "a viewer being purged won't be reported"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:134
+msgid "A viewer's very first message."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:513
+msgid "Above that, nothing gets read. A 500-character wall blocks the queue for a minute."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:94
+msgid "Accent"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:91
+msgid "Accent and borders"
+msgstr ""
+
+#: src/shared/account.ts:74
+msgid "Account age unknown"
+msgstr ""
+
+#: src/shared/account.ts:90
+#, javascript-format
+msgid "Account created %d day ago"
+msgid_plural "Account created %d days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/shared/account.ts:85
+#, javascript-format
+msgid "Account created %d hour ago"
+msgid_plural "Account created %d hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/shared/account.ts:80
+#, javascript-format
+msgid "Account created %d minute ago"
+msgid_plural "Account created %d minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/shared/account.ts:95
+#, javascript-format
+msgid "Account created %d month ago"
+msgid_plural "Account created %d months ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/shared/account.ts:99
+#, javascript-format
+msgid "Account created %d year ago"
+msgid_plural "Account created %d years ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/shared/account.ts:76
+msgid "Account created just now"
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:247
+#, javascript-format
+msgid "Ad break: %s seconds."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:231
+msgid "ad breaks in your chat"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:426
+#: src/renderer/chat/ChannelTabs.tsx:690
+msgid "Add a channel"
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:213
+msgid "Add a reason to the warn, they'll be able to read it."
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:84
+#: src/renderer/settings/SettingsApp.tsx:90
+msgid "Advanced"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:704
+msgid "After"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:72
+msgid "All"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:296
+msgid "All time"
+msgstr ""
+
+#: src/renderer/settings/SettingsApp.tsx:108
+#: src/renderer/settings/SettingsApp.tsx:109
+msgid "Alpha"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:733
+msgid "Already in memory: this one cost nothing."
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:102
+msgid "Always on top"
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:326
+msgid "An announcement needs some text."
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:179
+msgid "An estimate from the published rate. The Fish Audio console is what counts."
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:252
+msgid "An unfinished translation leaves the rest in English. You can add one by dropping a .po file into the lang folder of your data directory."
+msgstr ""
+
+#: src/renderer/chat/EmotePicker.tsx:172
+msgid "animated"
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:93
+msgid "Animated emotes"
+msgstr ""
+
+#: src/renderer/chat/rows/AnnouncementRow.tsx:26
+msgid "Announcement"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:170
+msgid "Announcement — blue"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:171
+msgid "Announcement — green"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:173
+msgid "Announcement — magenta"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:172
+msgid "Announcement — orange"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:169
+msgid "Announcement — purple"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:168
+msgid "Announcement background"
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:210
+msgid "announcements"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:274
+msgid "API key"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:94
+msgid "App language"
+msgstr ""
+
+#: src/renderer/chat/SignIn.tsx:118
+msgid "Ask for a new code"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:327
+msgid "Audio output"
+msgstr ""
+
+#: src/renderer/chat/SpeechBar.tsx:175
+msgid "Auto-read on"
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:146
+msgid "Background opacity"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:116
+msgid "Background when you're mentioned"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:55
+msgid "Backgrounds and text"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:99
+msgid "Backgrounds of selected items."
+msgstr ""
+
+#: src/shared/shortcut.ts:85
+msgid "Backspace"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:62
+msgid "Balanced"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:259
+msgid "Ban permanently"
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:213
+msgid "bans and timeouts"
+msgstr ""
+
+#: src/main/twitch/eventsub/subscriptions.ts:41
+msgid "bans won't be detailed: we'll know messages were removed, not why"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:69
+msgid "Bars"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:498
+msgid "Below that, nothing gets read. « gg » read out loud adds nothing."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:101
+msgid "Borders"
+msgstr ""
+
+#: src/renderer/ui/ColorField.tsx:171
+msgid "Brightness"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:174
+msgid "Built-in themes"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:134
+msgid "Bundles the logs, the session summary and your settings into one file to send. You pick where it goes, and your Twitch access tokens are stripped out."
+msgstr ""
+
+#: src/renderer/chat/DemoBar.tsx:95
+msgid "Burst"
+msgstr ""
+
+#: src/main/twitch/transport/fake.ts:122
+msgid "burst finished"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:94
+msgid "Buttons, selection, active outlines."
+msgstr ""
+
+#: src/renderer/chat/rows/ModerationRow.tsx:114
+#, javascript-format
+msgid "by %s"
+msgstr ""
+
+#: src/renderer/chat/App.tsx:420
+msgid "Can't open this channel."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:195
+msgid "Can't reach Twitch. Check your connection."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:599
+#, javascript-format
+msgid "Can't read that length: « %s ». Try 10, or 1h."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:578
+#, javascript-format
+msgid "Can't read that length: « %s ». Try 30, or 1m."
+msgstr ""
+
+#: src/main/twitch/eventsub/subscriptions.ts:543
+msgid "Can't read this channel's chat. The details are in the logs."
+msgstr ""
+
+#: src/renderer/chat/Composer.tsx:275
+msgid "Can't write"
+msgstr ""
+
+#: src/renderer/settings/SettingsApp.tsx:469
+msgid "Cancel"
+msgstr ""
+
+#: src/shared/commands.ts:116
+msgid "Cancel the raid in progress"
+msgstr ""
+
+#: src/renderer/chat/Composer.tsx:1301
+msgid "Cancel the reply (Esc)"
+msgstr ""
+
+#: src/renderer/chat/App.tsx:809
+msgid "Card unavailable."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:66
+msgid "Cards and slightly raised areas."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:380
+msgid "Changing it costs nothing: messages already read aren't re-synthesised. It can only turn the sound down, never up."
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:438
+msgid "Channel name or Twitch URL"
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:226
+msgid "channel point redeems in your chat"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:128
+msgid "Channel points."
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:450
+msgid "Channels"
+msgstr ""
+
+#: src/renderer/chat/ChannelTabs.tsx:682
+msgid "Channels you follow"
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:58
+#: src/renderer/settings/SettingsApp.tsx:79
+msgid "Chat"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:60
+msgid "Chat background"
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:377
+msgid "Chat cleared."
+msgstr ""
+
+#: src/renderer/chat/Composer.tsx:276
+#, javascript-format
+msgid "Chat in #%s…"
+msgstr ""
+
+#: src/main/twitch/transport/irc.ts:205
+msgid "Chat running in fallback mode (IRC): no GIFs, no gigantified emotes, no shared chat."
+msgstr ""
+
+#: src/renderer/chat/UserPicker.tsx:280
+msgid "Chatters"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:71
+msgid "Chinese"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:590
+msgid "Clean up messages"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:166
+msgid "Cleanup"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:192
+msgid "Cleanups in memory"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:265
+#: src/renderer/settings/VoiceSection.tsx:619
+msgid "Clear"
+msgstr ""
+
+#: src/renderer/chat/App.tsx:1029
+msgid "Click « + » at the top left to open a channel's chat."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:557
+msgid "Click it, then press the key or button you want. It reads the message under your mouse, and it won't fire while you're typing in chat."
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:121
+msgid "Clicks go through the chat and land on whatever is behind it. Only the title bar and the edges stay clickable — that's how you move the window and turn this off. It also keeps the window on top: otherwise the first click on your game would push it behind."
+msgstr ""
+
+#: src/renderer/chat/RaidBanner.tsx:84
+msgid "Close"
+msgstr ""
+
+#: src/renderer/settings/SettingsApp.tsx:316
+msgid "Close (Esc)"
+msgstr ""
+
+#: src/main/twitch/eventsub/messages.ts:197
+#, javascript-format
+msgid "close code %s"
+msgstr ""
+
+#: src/renderer/chat/ChannelTabs.tsx:902
+msgid "Close the channel"
+msgstr ""
+
+#: src/renderer/chat/RaidBanner.tsx:83
+msgid "Close the raid banner"
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:198
+msgid "Close this window"
+msgstr ""
+
+#: src/renderer/chat/rows/ModerationRow.tsx:138
+msgid "Collapse deleted messages"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:147
+msgid "Collapsed message edge"
+msgstr ""
+
+#: src/renderer/chat/Completion.tsx:59
+msgid "Commands"
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:28
+msgid "Compact"
+msgstr ""
+
+#: src/main/config/store.ts:161
+#, javascript-format
+msgid "Config updated from version %s."
+msgstr ""
+
+#: src/renderer/chat/SignIn.tsx:60
+msgid "Confirm the connection on Twitch"
+msgstr ""
+
+#: src/renderer/settings/SettingsApp.tsx:402
+msgid "Confirm?"
+msgstr ""
+
+#: src/renderer/chat/SignIn.tsx:98
+msgid "Connect StreamyChat to Twitch"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:553
+#: src/renderer/chat/SignIn.tsx:118
+msgid "Connect to Twitch"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:953
+#: src/main/ipc/handlers.ts:958
+msgid "Connect to Twitch to moderate."
+msgstr ""
+
+#: src/main/channels/directory.ts:147
+#: src/main/channels/session.ts:376
+#: src/renderer/chat/ChannelPicker.tsx:551
+msgid "Connect to Twitch to open a channel."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1018
+#: src/main/ipc/handlers.ts:1023
+msgid "Connect to Twitch to see this card."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:857
+#: src/main/ipc/handlers.ts:862
+msgid "Connect to Twitch to write."
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:36
+msgid "Connected"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:559
+#: src/renderer/settings/SettingsApp.tsx:369
+#, javascript-format
+msgid "Connected as %s"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:744
+#, javascript-format
+msgid "Connected to #%1$s chat, as %2$s."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:743
+#, javascript-format
+msgid "Connected to #%s chat."
+msgstr ""
+
+#: src/main/twitch/auth/manager.ts:475
+#: src/main/twitch/auth/manager.ts:498
+msgid "Connecting to Twitch failed. The details are in the logs."
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:35
+msgid "Connecting…"
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:39
+msgid "Connection failed"
+msgstr ""
+
+#: src/renderer/chat/UserPicker.tsx:308
+msgid "Contains"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1576
+msgid "Counter reset."
+msgstr ""
+
+#: src/renderer/chat/UserCard.tsx:112
+msgid "Created less than a week ago."
+msgstr ""
+
+#: src/renderer/chat/UserCard.tsx:111
+msgid "Created less than an hour ago: that's the signature of a throwaway account."
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:279
+msgid "Current voice"
+msgstr ""
+
+#: src/renderer/chat/SpeechBar.tsx:145
+msgid "Cut everything and empty the queue"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:373
+msgid "Default"
+msgstr ""
+
+#: src/shared/shortcut.ts:86
+msgid "Del"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:216
+#, javascript-format
+msgid "Delete %s's message"
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:214
+msgid "delete a message and purge"
+msgstr ""
+
+#: src/shared/commands.ts:156
+msgid "Delete a message by its id"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:215
+msgid "Delete this message"
+msgstr ""
+
+#: src/main/twitch/eventsub/subscriptions.ts:134
+msgid "deleted messages will stay on screen"
+msgstr ""
+
+#: src/main/channels/session.ts:649
+#: src/main/channels/session.ts:657
+msgid "Demo"
+msgstr ""
+
+#: src/renderer/chat/Composer.tsx:274
+msgid "Demo channel"
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:62
+msgid "Density"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:177
+msgid "Details"
+msgstr ""
+
+#: src/renderer/settings/SettingsApp.tsx:110
+msgid "Development"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:122
+msgid "Diagnostic mode"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:119
+msgid "Diagnostics"
+msgstr ""
+
+#: src/main/twitch/normalize/settings.ts:20
+msgid "emote-only"
+msgstr ""
+
+#: src/main/twitch/normalize/irc.ts:378
+msgid "emote-only off"
+msgstr ""
+
+#: src/main/twitch/normalize/irc.ts:378
+msgid "emote-only on"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:88
+#: src/renderer/chat/Completion.tsx:60
+#: src/renderer/chat/EmotePicker.tsx:319
+msgid "Emotes"
+msgstr ""
+
+#: src/renderer/chat/Composer.tsx:1350
+msgid "Emotes (Ctrl+E)"
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:94
+msgid "Emotes that move. Turning them off helps a modest machine, and makes chat readable for people that motion bothers. Open channels reconnect to apply the change."
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:220
+msgid "Empty"
+msgstr ""
+
+#: src/shared/shortcut.ts:94
+msgid "End"
+msgstr ""
+
+#: src/main/twitch/transport/fake.ts:151
+msgid "end of the fixture"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:64
+msgid "English"
+msgstr ""
+
+#: src/shared/shortcut.ts:83
+msgid "Enter"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:167
+msgid "Error message"
+msgstr ""
+
+#: src/shared/shortcut.ts:82
+msgid "Esc"
+msgstr ""
+
+#: src/renderer/chat/ChannelTabs.tsx:722
+msgid "Every channel in this window, merged in the order they arrive"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:459
+msgid "Every message that gets past the filters is read without you clicking. It can add up fast on a big channel: start with tight filters."
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:148
+msgid "Export"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:84
+msgid "Faint text"
+msgstr ""
+
+#: src/main/twitch/transport/irc.ts:196
+msgid "fallback mode: IRC"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:63
+msgid "Fast"
+msgstr ""
+
+#: src/main/twitch/eventsub/subscriptions.ts:579
+#, javascript-format
+msgid "Feature unavailable: %s."
+msgstr ""
+
+#: src/main/twitch/eventsub/subscriptions.ts:580
+#, javascript-format
+msgid "Features unavailable: %s."
+msgstr ""
+
+#: src/renderer/chat/DemoBar.tsx:93
+msgid "Fire the whole fixture at once, without waiting for the delays"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:133
+msgid "First message background"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:136
+msgid "First message edge"
+msgstr ""
+
+#: src/main/tts/fishaudio.ts:107
+msgid "Fish Audio isn't answering right now. Try again in a moment."
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:324
+msgid "Fix unreadable usernames"
+msgstr ""
+
+#: src/renderer/chat/DemoBar.tsx:41
+msgid "Fixture replayed by demo mode"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:73
+msgid "Floating menus"
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:430
+msgid "Follow age goes from 0 minutes to 3 months."
+msgstr ""
+
+#: src/shared/account.ts:120
+msgid "Follow unknown"
+msgstr ""
+
+#: src/shared/account.ts:135
+#, javascript-format
+msgid "Follower for %d day"
+msgid_plural "Follower for %d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/shared/account.ts:130
+#, javascript-format
+msgid "Follower for %d hour"
+msgid_plural "Follower for %d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/shared/account.ts:125
+#, javascript-format
+msgid "Follower for %d minute"
+msgid_plural "Follower for %d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/shared/account.ts:140
+#, javascript-format
+msgid "Follower for %d month"
+msgid_plural "Follower for %d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/shared/account.ts:144
+#, javascript-format
+msgid "Follower for %d year"
+msgid_plural "Follower for %d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/shared/account.ts:124
+msgid "Follower for less than a minute"
+msgstr ""
+
+#: src/main/twitch/normalize/settings.ts:26
+msgid "followers"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:73
+msgid "Followers"
+msgstr ""
+
+#: src/main/twitch/normalize/settings.ts:27
+#, javascript-format
+msgid "followers for %s min"
+msgstr ""
+
+#: src/main/twitch/normalize/irc.ts:389
+msgid "followers mode off"
+msgstr ""
+
+#: src/main/twitch/normalize/irc.ts:389
+msgid "followers mode on"
+msgstr ""
+
+#: src/shared/commands.ts:183
+msgid "Followers-only chat — /followers [minutes]"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:63
+msgid "French"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:66
+msgid "German"
+msgstr ""
+
+#: src/shared/commands.ts:103
+msgid "Give another channel a shoutout"
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:238
+#, javascript-format
+msgid "Goal over, not reached: %s"
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:237
+#, javascript-format
+msgid "Goal reached: %s"
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:223
+#, javascript-format
+msgid "Goal started: %s — %s to go."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:221
+msgid "hand out VIP status"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:223
+msgid "Has chat messages read out loud. Every sentence read is billed by Fish Audio."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:214
+msgid "Have chat messages read out loud, and pick where the sound comes out."
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:105
+msgid "Held by « Let clicks through »: a chat you click through and that drops behind your game can't be got back with a click. It'll go back to this setting when you turn that mode off."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:67
+msgid "Held by AutoMod: a moderator has to approve it."
+msgstr ""
+
+#: src/renderer/ui/ColorField.tsx:212
+msgid "Hex colour"
+msgstr ""
+
+#: src/shared/commands.ts:95
+msgid "Highlighted announcement in chat"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:122
+msgid "Highlighted lines"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:127
+msgid "Highlighted message background"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:130
+msgid "Highlighted message edge"
+msgstr ""
+
+#: src/shared/shortcut.ts:93
+msgid "Home"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:95
+msgid "Hovered accent"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:68
+msgid "Hovered line"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:115
+msgid "Hovered links"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:146
+msgid "Hovered sanction"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:181
+msgid "Hovered scrollbar"
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:95
+msgid "How chat windows sit and show up on screen. The size of the interface itself is set in « Look »."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:417
+msgid "How fast the voice talks. Changing it re-synthesises everything already read, so it costs again."
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:254
+msgid "How rounded the four corners are. Windows used to round them itself; StreamyChat does it now, at the value you pick. A maximised window stays square."
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:58
+msgid "How the message flow reads."
+msgstr ""
+
+#: src/renderer/ui/ColorField.tsx:195
+msgid "Hue"
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:214
+#, javascript-format
+msgid "Hype train over at level %s."
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:205
+#, javascript-format
+msgid "Hype train started at level %s."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:229
+msgid "hype trains in your chat"
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:34
+msgid "Idle"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:530
+msgid "Ignored usernames"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:161
+msgid "Import"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:111
+msgid "In messages"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:398
+#, javascript-format
+msgid "In reply to @%1$s: %2$s"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:165
+msgid "Info message"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:70
+msgid "Input fields"
+msgstr ""
+
+#: src/shared/shortcut.ts:95
+msgid "Ins"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:296
+msgid "Interface"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:223
+msgid "Interface size"
+msgstr ""
+
+#: src/main/twitch/eventsub/messages.ts:173
+msgid "internal Twitch server error"
+msgstr ""
+
+#: src/main/twitch/eventsub/messages.ts:180
+msgid "invalid reconnect URL"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:137
+msgid "It stays, it fades."
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:203
+msgid "It travels with the file when you export it."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:254
+#: src/renderer/settings/VoiceSection.tsx:608
+msgid "It's encrypted on your PC. It never shows up in the logs, or in a problem report."
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:67
+msgid "Italian"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:69
+msgid "Japanese"
+msgstr ""
+
+#: src/renderer/chat/UserPicker.tsx:105
+msgid "just now"
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:150
+msgid "Keep on top"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:325
+msgid "Keep the banner open"
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:147
+msgid "Kept on top by click-through mode"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1624
+#: src/main/ipc/handlers.ts:1654
+msgid "Key cleared."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:249
+msgid "Key saved"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1617
+#: src/main/ipc/handlers.ts:1647
+msgid "Key saved."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:219
+msgid "know where you're a moderator"
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:218
+msgid "know whether you're subscribed"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:70
+msgid "Korean"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:88
+#: src/renderer/settings/VoicePicker.tsx:285
+msgid "Language"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:431
+msgid "Latency"
+msgstr ""
+
+#: src/shared/shortcut.ts:60
+msgid "Left click"
+msgstr ""
+
+#: src/shared/shortcut.ts:149
+msgid "Left click on its own doesn't work: you couldn't click anything any more. Add Ctrl, Alt or Shift."
+msgstr ""
+
+#: src/shared/spending.ts:105
+#, javascript-format
+msgid "less than %s"
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:120
+msgid "Let clicks through"
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:124
+msgid "Let clicks through — only this bar stays clickable"
+msgstr ""
+
+#: src/shared/commands.ts:132
+msgid "Lift a ban or a timeout"
+msgstr ""
+
+#: src/shared/commands.ts:144
+msgid "Lift a timeout"
+msgstr ""
+
+#: src/main/twitch/eventsub/subscriptions.ts:42
+msgid "lifted bans and timeouts won't be reported"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:153
+msgid "Lifted sanction background"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:150
+msgid "Lifted sanction text"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:74
+msgid "Lighter than the background: a layer that floats gets closer to it."
+msgstr ""
+
+#: src/main/twitch/transport/fake.ts:244
+#, javascript-format
+msgid "Line %s of %s is unreadable."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:114
+msgid "Links"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:405
+msgid "Listen and compare voices before you pick one."
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:417
+#: src/renderer/settings/VoicePicker.tsx:418
+#, javascript-format
+msgid "Listen to %s"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:271
+msgid "Listen, compare, take your time. The sample comes out on the device you picked."
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:261
+#: src/renderer/chat/ChannelTabs.tsx:1132
+msgid "Live"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:123
+msgid "Logs everything StreamyChat exchanges with Twitch. Turn it on before reproducing a problem, then off again — the logs grow fast."
+msgstr ""
+
+#: src/main/twitch/eventsub/session.ts:502
+msgid "long silence"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:127
+#: src/renderer/settings/SettingsApp.tsx:78
+msgid "Look"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:503
+msgid "Look this channel up on Twitch"
+msgstr ""
+
+#: src/renderer/chat/DemoBar.tsx:75
+msgid "Loop"
+msgstr ""
+
+#: src/main/channels/session.ts:825
+msgid "Main window"
+msgstr ""
+
+#: src/shared/commands.ts:254
+msgid "Make moderator"
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:222
+msgid "make someone a moderator"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:77
+msgid "Make the chat followers only"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:84
+#: src/shared/commands.ts:197
+msgid "Make the chat subs only"
+msgstr ""
+
+#: src/shared/commands.ts:242
+msgid "Make VIP"
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:132
+msgid "Makes everything translucent, text included. The minimum is 40 %: below that, the chat would stop being readable."
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:147
+msgid "Makes only the background translucent: the text always stays sharp. That's what you want to put the chat over a game and still read it. The two settings stack."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:512
+msgid "Maximum length"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:94
+msgid "Measured: 280 ms before the first sound on Balanced, 690 ms on Polished. On a chat message, you can barely hear the difference in quality."
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:104
+msgid "Memory"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:184
+msgid "Menu shadow"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:137
+msgid "Message deleted"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:411
+#, javascript-format
+msgid "Message from %s"
+msgstr ""
+
+#: src/shared/events.ts:553
+#, javascript-format
+msgid "Message from %s deleted."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:169
+msgid "Message refused by Twitch."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:76
+msgid "Message text"
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:98
+#, javascript-format
+msgid "Message too long: %s characters for %s max."
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:271
+msgid "Messages"
+msgstr ""
+
+#: src/shared/events.ts:563
+#, javascript-format
+msgid "Messages from %s were removed."
+msgstr ""
+
+#: src/renderer/chat/DemoBar.tsx:100
+msgid "Messages in the active channel's buffer"
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:107
+msgid "Messages kept"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:567
+msgid "Messages waiting"
+msgstr ""
+
+#: src/shared/shortcut.ts:61
+msgid "Middle click"
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:174
+msgid "Minimise"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:497
+msgid "Minimum length"
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:310
+msgid "Modded."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:141
+msgid "Moderation"
+msgstr ""
+
+#: src/main/twitch/transport/fixture-format.ts:147
+msgid "Moderator"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:308
+msgid "Monospace"
+msgstr ""
+
+#: src/shared/shortcut.ts:63
+msgid "Mouse button 4"
+msgstr ""
+
+#: src/shared/shortcut.ts:64
+msgid "Mouse button 5"
+msgstr ""
+
+#: src/renderer/chat/ChannelTabs.tsx:860
+#, javascript-format
+msgid "Move to « %s »"
+msgstr ""
+
+#: src/renderer/chat/ChannelTabs.tsx:888
+msgid "Move to a new window"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:98
+msgid "Muted accent"
+msgstr ""
+
+#: src/renderer/chat/EmotePicker.tsx:144
+msgid "My emotes"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:322
+msgid "My voices"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:151
+msgid "Neither red nor green: lifting a sanction is a fact, not news."
+msgstr ""
+
+#: src/main/twitch/eventsub/messages.ts:179
+msgid "network: error"
+msgstr ""
+
+#: src/main/twitch/eventsub/messages.ts:178
+msgid "network: timed out"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1671
+msgid "No account connected."
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:528
+msgid "No channel matches."
+msgstr ""
+
+#: src/renderer/chat/App.tsx:577
+msgid "No channel open."
+msgstr ""
+
+#: src/main/tts/fishaudio.ts:108
+msgid "No connection to Fish Audio. Check your internet connection."
+msgstr ""
+
+#: src/renderer/chat/EmotePicker.tsx:360
+msgid "No emote matches."
+msgstr ""
+
+#: src/main/twitch/eventsub/session.ts:541
+msgid "no internet connection"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:504
+msgid "No limit"
+msgstr ""
+
+#: src/main/obs/report.ts:87
+msgid "No session header found in the log."
+msgstr ""
+
+#: src/main/twitch/eventsub/messages.ts:176
+msgid "no subscription created within ten seconds"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:248
+msgid "No translation found for this language, so StreamyChat stays in English. Drop a .po file into the lang folder of your data directory."
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:360
+msgid "No voice found. Try another language, or another name."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:404
+msgid "No voice picked yet: nothing gets read until you choose one."
+msgstr ""
+
+#: src/main/twitch/eventsub/session.ts:516
+msgid "no welcome message"
+msgstr ""
+
+#: src/renderer/chat/UserPicker.tsx:292
+msgid "Nobody has spoken here yet."
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:37
+#: src/renderer/settings/VoicePicker.tsx:280
+#: src/renderer/settings/VoiceSection.tsx:400
+#: src/shared/shortcut.ts:203
+msgid "None"
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:29
+msgid "Normal"
+msgstr ""
+
+#: src/shared/account.ts:121
+msgid "Not following the channel"
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:571
+msgid "Not found on Twitch."
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:200
+msgid "Nothing in memory yet. A message already cleaned up is never paid for twice."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:741
+#, javascript-format
+msgid "Nothing to clean up. %1$s, %2$s."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:91
+msgid "Nothing was attempted."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:162
+msgid "Notice background"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:163
+msgid "Notice edge"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:164
+msgid "Notice text"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:159
+msgid "Notices, system and announcements"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:270
+#: src/renderer/chat/ChannelTabs.tsx:1132
+msgid "Offline"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:309
+msgid "On Twitch"
+msgstr ""
+
+#: src/renderer/chat/SignIn.tsx:102
+msgid "One click, one approval in the browser, and your chat shows up here. No token to copy."
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:69
+msgid "One message every 30 seconds"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:503
+msgid "One moment…"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:534
+msgid "One username per line. Put your bots in here — Nightbot, StreamElements — or they hog the queue."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:478
+msgid "Only read messages from your channel's subs."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:487
+msgid "Only read messages that come with bits. Ticked together with « Subs only », the two stack."
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:90
+#: src/shared/commands.ts:209
+msgid "Only take emotes"
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:244
+#: src/main/twitch/chat/moderation.ts:534
+#: src/main/twitch/chat/moderation.ts:563
+#: src/main/twitch/chat/moderation.ts:568
+msgid "Only the streamer can do that on their channel."
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:649
+msgid "open"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:500
+#, javascript-format
+msgid "Open #%s"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:265
+#, javascript-format
+msgid "Open #%s on Twitch"
+msgstr ""
+
+#: src/renderer/chat/ChannelTabs.tsx:819
+msgid "Open the channel on Twitch"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:77
+#: src/shared/commands.ts:190
+msgid "Open the chat back up to everyone"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:84
+#: src/shared/commands.ts:203
+msgid "Open the chat back up to non-subs"
+msgstr ""
+
+#: src/renderer/chat/SignIn.tsx:80
+msgid "Open the page again"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:628
+msgid "OpenRouter key"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:604
+msgid "OpenRouter key saved"
+msgstr ""
+
+#: src/main/twitch/eventsub/messages.ts:174
+msgid "outbound traffic forbidden: the client sent a message on the socket"
+msgstr ""
+
+#: src/shared/shortcut.ts:92
+msgid "Page Down"
+msgstr ""
+
+#: src/shared/shortcut.ts:91
+msgid "Page Up"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:65
+msgid "Panel background"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:568
+msgid "Past that, the oldest ones are dropped. During a raid, chat spams faster than the voice can talk."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1607
+msgid "Paste your Fish Audio key to save it."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:291
+#: src/renderer/settings/VoiceSection.tsx:643
+msgid "Paste your key here"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1637
+msgid "Paste your OpenRouter key to save it."
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:108
+msgid "Per channel. Past that, the oldest ones are released — that's what lets a chat run for eight hours without swelling."
+msgstr ""
+
+#: src/shared/commands.ts:126
+msgid "Permanent ban — /ban user [reason]"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:471
+msgid "Pick"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:500
+#, javascript-format
+msgid "Pick #%s"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:426
+msgid "Pick a channel"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:328
+msgid "Pick a virtual audio cable — VoiceMeeter, VB-Cable — so your chat can hear the voice. On the default output, it only comes out in your headset."
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:270
+#: src/renderer/settings/VoiceSection.tsx:410
+msgid "Pick a voice"
+msgstr ""
+
+#: src/main/voice/real.ts:259
+msgid "Pick a voice in the settings to have messages read out loud."
+msgstr ""
+
+#: src/main/twitch/eventsub/messages.ts:175
+msgid "ping not honoured"
+msgstr ""
+
+#: src/main/tts/queue.ts:180
+msgid "Playback didn't start on the chosen device."
+msgstr ""
+
+#: src/main/tts/fishaudio.ts:109
+#: src/main/tts/queue.ts:281
+msgid "Playback failed. The details are in the logs."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:61
+msgid "Polished"
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:159
+#, javascript-format
+msgid "Poll over: %s"
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:160
+#, javascript-format
+msgid "Poll over: %s — “%s” wins."
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:148
+#, javascript-format
+msgid "Poll started: %s"
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:227
+msgid "polls in your chat"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:68
+msgid "Portuguese"
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:170
+#, javascript-format
+msgid "Prediction open: %s"
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:194
+#, javascript-format
+msgid "Prediction over: %s"
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:195
+#, javascript-format
+msgid "Prediction over: %s — “%s” wins."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:228
+msgid "predictions in your chat"
+msgstr ""
+
+#: src/renderer/ui/ShortcutField.tsx:140
+msgid "Press a key…"
+msgstr ""
+
+#: src/renderer/settings/ChatPreview.tsx:69
+msgid "Preview"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:133
+msgid "Problem report"
+msgstr ""
+
+#: src/shared/commands.ts:162
+msgid "Purge the whole chat — can't be undone"
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:176
+msgid "Put back"
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:170
+msgid "Puts your chat windows back to the size they started at, and re-centres each one on its screen. That's what you want if you've resized one by accident, or if one has ended up in a corner where you can't find it."
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:198
+msgid "Quit StreamyChat"
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:403
+msgid "Raid cancelled."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:392
+#, javascript-format
+msgid "Raid on #%s started. It leaves in 90 seconds — /unraid cancels it."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:212
+msgid "raids"
+msgstr ""
+
+#: src/main/twitch/eventsub/subscriptions.ts:214
+msgid "raids leaving this channel won't be reported"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:164
+#, javascript-format
+msgid "Read %s's message out loud"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:176
+#: src/renderer/settings/VoiceSection.tsx:222
+msgid "Read aloud"
+msgstr ""
+
+#: src/main/voice/absent.ts:66
+#: src/main/voice/real.ts:134
+#: src/main/voice/real.ts:310
+msgid "Read aloud isn't ready."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:204
+msgid "read chat"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:458
+msgid "Read messages on its own"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:556
+msgid "Read the message under the mouse"
+msgstr ""
+
+#: src/renderer/chat/App.tsx:181
+#: src/renderer/chat/rows/MessageRow.tsx:463
+msgid "Read this message"
+msgstr ""
+
+#: src/renderer/chat/App.tsx:182
+#, javascript-format
+msgid "Read this message — %s on the line"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:85
+msgid "Readable without asking for attention."
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:230
+msgid "reason unknown"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:251
+#: src/renderer/chat/EmotePicker.tsx:142
+msgid "Recent"
+msgstr ""
+
+#: src/renderer/chat/Composer.tsx:1277
+msgid "Reconnect"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:540
+#: src/renderer/chat/ChannelPicker.tsx:566
+msgid "Reconnect to see the channels you follow: that permission didn't exist when your session was opened."
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:545
+#: src/renderer/chat/ChannelPicker.tsx:571
+msgid "Reconnect to Twitch"
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:37
+msgid "Reconnecting…"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:96
+#: src/shared/commands.ts:221
+msgid "Refuse repeated messages"
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:68
+#: src/main/twitch/chat/send.ts:69
+msgid "Refused by the channel's AutoMod."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:169
+#, javascript-format
+msgid "Refused: %s"
+msgstr ""
+
+#: src/renderer/ui/ShortcutField.tsx:150
+#, javascript-format
+msgid "Remove the %s shortcut"
+msgstr ""
+
+#: src/renderer/ui/ShortcutField.tsx:149
+msgid "Remove the shortcut"
+msgstr ""
+
+#: src/shared/commands.ts:248
+msgid "Remove VIP status"
+msgstr ""
+
+#: src/renderer/chat/DemoBar.tsx:55
+msgid "Replay speed multiplier"
+msgstr ""
+
+#: src/renderer/chat/DemoBar.tsx:66
+msgid "Replay the fixture from the start at the end"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:191
+msgid "Reply"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:192
+#, javascript-format
+msgid "Reply to %s"
+msgstr ""
+
+#: src/renderer/chat/Composer.tsx:1294
+#, javascript-format
+msgid "Replying to %s"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1998
+#, javascript-format
+msgid "Report saved: %s"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:303
+msgid "Reset"
+msgstr ""
+
+#: src/renderer/ui/ColorField.tsx:229
+msgid "Restore"
+msgstr ""
+
+#: src/shared/shortcut.ts:62
+msgid "Right click"
+msgstr ""
+
+#: src/main/twitch/eventsub/subscriptions.ts:152
+msgid "room mode changes (subs, slow, followers) will go unnoticed"
+msgstr ""
+
+#: src/main/twitch/eventsub/subscriptions.ts:146
+msgid "room purges won't be reported"
+msgstr ""
+
+#: src/main/twitch/normalize/irc.ts:400
+#: src/main/twitch/normalize/settings.ts:61
+#, javascript-format
+msgid "Room: %s."
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:30
+msgid "Roomy"
+msgstr ""
+
+#: src/renderer/chat/UserCard.tsx:216
+msgid "Said nothing this session."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:145
+msgid "Sanction background"
+msgstr ""
+
+#: src/shared/events.ts:569
+#, javascript-format
+msgid "Sanction lifted for %s."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:144
+msgid "Sanction text"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:142
+msgid "Sanctions, lifts, and a room closed to writing."
+msgstr ""
+
+#: src/renderer/ui/ColorField.tsx:183
+msgid "Saturation"
+msgstr ""
+
+#: src/renderer/settings/SettingsApp.tsx:471
+#: src/renderer/settings/VoiceSection.tsx:306
+#: src/renderer/settings/VoiceSection.tsx:658
+msgid "Save"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:140
+msgid "Save the report"
+msgstr ""
+
+#: src/main/voice/real.ts:132
+msgid "Save your OpenRouter key before trying."
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:140
+msgid "Saving…"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:444
+msgid "Say who's talking"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:224
+msgid "Scales everything: text, buttons, bars, emotes. It's the zoom of the whole app."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:180
+msgid "Scrollbar"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:307
+msgid "Search for a voice name"
+msgstr ""
+
+#: src/renderer/chat/EmotePicker.tsx:345
+msgid "Search for an emote"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:79
+msgid "Secondary text"
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:220
+msgid "see how long someone has followed you"
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:207
+msgid "see the sanctions on your channel"
+msgstr ""
+
+#: src/renderer/chat/Composer.tsx:1364
+msgid "Send (Enter)"
+msgstr ""
+
+#: src/shared/commands.ts:109
+msgid "Send your viewers to another channel"
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:197
+msgid "Sending failed. Try again in a moment."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:215
+msgid "set the room modes"
+msgstr ""
+
+#: src/main/windows/settings.ts:63
+#: src/renderer/chat/TitleBar.tsx:163
+#: src/renderer/settings/SettingsApp.tsx:310
+msgid "Settings"
+msgstr ""
+
+#: src/renderer/settings/SettingsApp.tsx:324
+msgid "Settings sections"
+msgstr ""
+
+#: src/shared/shortcut.ts:79
+msgid "Shift"
+msgstr ""
+
+#: src/main/twitch/normalize/channel.ts:258
+#, javascript-format
+msgid "Shoutout for %s."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:371
+#, javascript-format
+msgid "Shoutout sent for #%s."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:211
+msgid "shoutouts"
+msgstr ""
+
+#: src/renderer/chat/rows/ModerationRow.tsx:138
+msgid "Show deleted messages"
+msgstr ""
+
+#: src/renderer/settings/SettingsApp.tsx:402
+msgid "Sign out"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1684
+msgid "Signed out here, but Twitch didn't answer. Check your connections on twitch.tv."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1689
+msgid "Signed out."
+msgstr ""
+
+#: src/renderer/settings/SettingsApp.tsx:402
+msgid "Signing out…"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:288
+msgid "Since launch"
+msgstr ""
+
+#: src/renderer/chat/ChannelTabs.tsx:880
+msgid "Six chat windows at most. Close one, or pick a window you already have."
+msgstr ""
+
+#: src/renderer/chat/SpeechBar.tsx:138
+msgid "Skip"
+msgstr ""
+
+#: src/renderer/chat/SpeechBar.tsx:136
+msgid "Skip to the next one"
+msgstr ""
+
+#: src/main/twitch/normalize/settings.ts:34
+msgid "slow"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:65
+msgid "Slow"
+msgstr ""
+
+#: src/main/twitch/normalize/settings.ts:34
+#, javascript-format
+msgid "slow (%s s)"
+msgstr ""
+
+#: src/shared/commands.ts:171
+msgid "Slow mode — /slow [seconds], 30 by default"
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:422
+#, javascript-format
+msgid "Slow mode goes from %s to %s seconds."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:72
+msgid "Slow mode is on: wait a few seconds."
+msgstr ""
+
+#: src/main/twitch/normalize/irc.ts:384
+msgid "slow mode off"
+msgstr ""
+
+#: src/main/twitch/normalize/irc.ts:384
+#, javascript-format
+msgid "slow mode: %s s"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:118
+msgid "Someone else being mentioned"
+msgstr ""
+
+#: src/shared/shortcut.ts:81
+msgid "Space"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:65
+msgid "Spanish"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:416
+msgid "Speed"
+msgstr ""
+
+#: src/renderer/chat/DemoBar.tsx:85
+msgid "Start"
+msgstr ""
+
+#: src/renderer/chat/App.tsx:1022
+msgid "Starting…"
+msgstr ""
+
+#: src/renderer/chat/UserPicker.tsx:308
+msgid "Starts with"
+msgstr ""
+
+#: src/renderer/chat/DemoBar.tsx:85
+#: src/renderer/chat/SpeechBar.tsx:147
+msgid "Stop"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:417
+#: src/renderer/settings/VoicePicker.tsx:418
+#, javascript-format
+msgid "Stop %s"
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:149
+msgid "Stop keeping on top"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:325
+msgid "Stop keeping the banner open"
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:38
+msgid "Stopped"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:2011
+msgid "StreamyChat theme"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:102
+msgid "Strong borders"
+msgstr ""
+
+#: src/main/twitch/transport/fixture-format.ts:149
+#: src/renderer/chat/ChannelBanner.tsx:305
+msgid "Sub"
+msgstr ""
+
+#: src/main/twitch/normalize/settings.ts:37
+msgid "subs"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:81
+msgid "Subs"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:477
+msgid "Subs only"
+msgstr ""
+
+#: src/main/twitch/normalize/irc.ts:379
+msgid "subs-only off"
+msgstr ""
+
+#: src/main/twitch/normalize/irc.ts:379
+msgid "subs-only on"
+msgstr ""
+
+#: src/main/twitch/eventsub/subscriptions.ts:128
+msgid "subs, raids and announcements won't show up"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:162
+msgid "Subs, raids, gifts."
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:316
+msgid "Subscribe"
+msgstr ""
+
+#: src/renderer/chat/ChannelTabs.tsx:833
+msgid "Subscribe on Twitch"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:311
+#, javascript-format
+msgid "Subscribe to #%s on Twitch"
+msgstr ""
+
+#: src/main/twitch/eventsub/hub.ts:229
+#: src/main/twitch/eventsub/hub.ts:246
+#: src/main/twitch/eventsub/session.ts:353
+#: src/main/twitch/eventsub/session.ts:357
+msgid "subscriptions failed"
+msgstr ""
+
+#: src/renderer/chat/Completion.tsx:151
+msgid "Suggestions"
+msgstr ""
+
+#: src/main/twitch/eventsub/messages.ts:177
+msgid "switchover deadline missed after a session_reconnect"
+msgstr ""
+
+#: src/shared/theme.ts:375
+msgid "System font"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:333
+msgid "System output"
+msgstr ""
+
+#: src/renderer/chat/TitleBar.tsx:123
+msgid "Take clicks again — the chat becomes clickable again"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:96
+#: src/shared/commands.ts:229
+msgid "Take repeated messages again"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:90
+#: src/shared/commands.ts:215
+msgid "Take text again"
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:376
+msgid "Tell me which channel to raid."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:352
+msgid "Tell me which channel to shout out."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:515
+msgid "Tell me which message to delete. The easiest way is through the chat."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:428
+msgid "Tell me who to ban."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:448
+msgid "Tell me who to time out."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:484
+#: src/main/twitch/chat/moderation.ts:126
+msgid "Tell me who to unban."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:484
+msgid "Tell me who to untimeout."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:494
+msgid "Tell me who to warn."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:164
+#: src/main/twitch/chat/moderation.ts:211
+#: src/main/twitch/chat/moderation.ts:284
+msgid "Tell me who you mean."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:668
+msgid "Test sentence"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:87
+msgid "Text on the accent"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:238
+msgid "Text size"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:117
+msgid "Text when you're mentioned"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:309
+msgid "Text you read character by character: paths, codes."
+msgstr ""
+
+#: src/main/channels/session.ts:452
+msgid "That channel isn't open."
+msgstr ""
+
+#: src/main/channels/session.ts:354
+msgid "That channel name isn't valid."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:2089
+msgid "That file isn't valid JSON."
+msgstr ""
+
+#: src/main/twitch/auth/http.ts:63
+msgid "That login code has expired. Ask for a new one."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:580
+msgid "That role can't be changed for this person."
+msgstr ""
+
+#: src/main/tts/fishaudio.ts:106
+msgid "That voice isn't available any more. Pick another one."
+msgstr ""
+
+#: src/main/channels/session.ts:385
+#, javascript-format
+msgid "The « %s » channel doesn't exist on Twitch."
+msgstr ""
+
+#: src/main/channels/session.ts:261
+#, javascript-format
+msgid "The « %s » channel no longer exists on Twitch. It was removed."
+msgstr ""
+
+#: src/main/config/store.ts:176
+#, javascript-format
+msgid "The « %s » setting was invalid and went back to its default."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:760
+#, javascript-format
+msgid "The /%1$s command couldn't be sent: %2$s"
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:314
+#, javascript-format
+msgid "The /%s command isn't supported yet."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:671
+#, javascript-format
+msgid "The account %s doesn't exist on Twitch."
+msgstr ""
+
+#: src/main/twitch/transport/eventsub.ts:179
+msgid "the account was deleted"
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:515
+msgid "The action couldn't go through. Check your connection."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:206
+msgid "the add-a-channel menu"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:85
+msgid "The answer no longer looked like your message, so it was refused. On a real message, the text would be read as written."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1128
+#: src/main/ipc/handlers.ts:1151
+#: src/main/ipc/handlers.ts:1304
+#: src/renderer/chat/App.tsx:418
+#: src/renderer/chat/App.tsx:588
+msgid "The app isn't ready."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:92
+msgid "The app's colour, and what separates its areas."
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:238
+msgid "The audio output you picked can't be found: the sample came out on the system one."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1584
+msgid "The cache was already empty."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:83
+msgid "The call failed. Check your OpenRouter key."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:701
+#, javascript-format
+msgid "The channel #%s doesn't exist on Twitch."
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:108
+msgid "The chat stays visible over your game and your browser. That's the live setting."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1341
+msgid "The chat window is back to its original size."
+msgstr ""
+
+#: src/main/voice/real.ts:335
+msgid "The chosen output device can't be found: the voice came out on the system one. Pick it again in the settings."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:736
+msgid "The cleanup didn't go through."
+msgstr ""
+
+#: src/renderer/chat/SignIn.tsx:101
+msgid "The code expired before it was approved. You need a new one."
+msgstr ""
+
+#: src/main/twitch/auth/http.ts:61
+msgid "The code expired. Ask for a new one to try again."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:61
+msgid "The colour you stare at for eight hours a day."
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:128
+msgid "The colours of your chat. Everything you change shows up right away, here and in the chat window."
+msgstr ""
+
+#: src/main/config/store.ts:218
+#, javascript-format
+msgid "The config was unreadable. StreamyChat started over on default settings; the old file was kept as %s."
+msgstr ""
+
+#: src/main/twitch/auth/http.ts:62
+msgid "The connection was denied in the browser."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:962
+msgid "The demo channel can't be moderated."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:866
+msgid "The demo channel doesn't take messages."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1027
+msgid "The demo usernames don't exist."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:243
+msgid "The Fish Audio key"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:272
+msgid "The font of the chat body. Inter, Nunito and JetBrains Mono ship with the app: they look the same on every machine."
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:337
+msgid "The higher the threshold, the more the app steps in. At the minimum, it only touches colours that really drown in the background."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:205
+msgid "the IRC fallback when EventSub goes down"
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:217
+msgid "the list of viewers"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:123
+msgid "The messages you mustn't miss."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:88
+msgid "The model didn't follow the instruction. On a real message, the text would be read as written."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:84
+msgid "The model returned nothing. On a real message, the text would be read as written."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:80
+msgid "The model took too long to answer. On a real message, the text would be read as written."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:106
+msgid "The only red that doesn't mean « error »."
+msgstr ""
+
+#: src/main/twitch/transport/eventsub.ts:182
+msgid "the permission was revoked"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:168
+msgid "The real amount, the one OpenRouter bills you."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:2003
+msgid "The report couldn't be saved. Diagnostic mode stays on if you had turned it on."
+msgstr ""
+
+#: src/main/twitch/normalize/settings.ts:60
+msgid "The room has no restrictions left."
+msgstr ""
+
+#: src/shared/events.ts:561
+msgid "The room was cleared."
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:228
+msgid "The sample wouldn't play. The details are in the logs."
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:239
+msgid "The size of messages only, leaving everything else alone. Usernames, timestamps and system text follow it."
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:63
+msgid "The space between messages. A denser chat shows more of them — it doesn't write them smaller."
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:85
+msgid "The stuff you need when something goes wrong."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:2120
+msgid "The theme couldn't be read."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:2058
+msgid "The theme couldn't be written."
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:81
+msgid "The time in front of each message."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:56
+msgid "The two colours everything else follows from."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:394
+msgid "The voice"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:120
+msgid "The voice list couldn't be loaded."
+msgstr ""
+
+#: src/main/voice/real.ts:318
+msgid "The voice list couldn't load. Try again in a moment."
+msgstr ""
+
+#: src/main/index.ts:154
+msgid "The window was saved on a screen that isn't plugged in any more: it's been brought back to the main screen."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:2111
+#, javascript-format
+msgid "Theme « %s » loaded."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:2110
+#, javascript-format
+msgid "Theme « %s » loaded. Save it to keep it."
+msgstr ""
+
+#: src/renderer/settings/SettingsApp.tsx:468
+msgid "Theme changed, not saved yet."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:2055
+#, javascript-format
+msgid "Theme exported: %s"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:202
+msgid "Theme name"
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:786
+msgid "There's no raid in progress to cancel."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:435
+msgid "There's nothing to change."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:93
+msgid "There's nothing to send."
+msgstr ""
+
+#: src/renderer/chat/UserCard.tsx:113
+msgid "This account isn't new."
+msgstr ""
+
+#: src/renderer/chat/EmotePicker.tsx:143
+msgid "This channel"
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:76
+msgid "This channel is suspended."
+msgstr ""
+
+#: src/renderer/chat/EmotePicker.tsx:359
+msgid "This channel's emotes aren't loaded yet."
+msgstr ""
+
+#: src/main/twitch/chat/restrictions.ts:99
+msgid "This chat is for channel subs only."
+msgstr ""
+
+#: src/main/twitch/chat/restrictions.ts:110
+#: src/main/twitch/chat/send.ts:70
+msgid "This chat is for followers only."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:71
+msgid "This chat is subs only."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:77
+msgid "This chat needs a verified email address on your Twitch account."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:78
+msgid "This chat needs a verified phone number."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:73
+msgid "This chat only takes emotes."
+msgstr ""
+
+#: src/main/twitch/chat/restrictions.ts:119
+#, javascript-format
+msgid "This chat requires following the channel for %s."
+msgstr ""
+
+#: src/renderer/chat/SignIn.tsx:69
+#, javascript-format
+msgid "This code expires in %s"
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:185
+msgid "This command needs a permission your session doesn't have. Reconnect to Twitch."
+msgstr ""
+
+#: src/main/config/store.ts:125
+msgid "This config comes from a newer version of StreamyChat. Unknown settings are ignored."
+msgstr ""
+
+#: src/shared/theme.ts:568
+msgid "This file doesn't contain a theme."
+msgstr ""
+
+#: src/shared/theme.ts:577
+msgid "This file isn't a StreamyChat theme: it has no colours in it."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:333
+msgid "This message has no id, so it can't be deleted."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:537
+msgid "This message is too old to delete."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:571
+msgid "This message no longer exists."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:542
+#: src/main/twitch/chat/moderation.ts:576
+msgid "This person already mods the channel."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:524
+msgid "This person has no ban or timeout on this channel."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:539
+#: src/main/twitch/chat/moderation.ts:575
+msgid "This person is already a VIP of the channel."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:521
+#: src/main/twitch/chat/moderation.ts:577
+msgid "This person is already banned from this channel."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:540
+msgid "This person isn't a VIP of the channel."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:546
+msgid "This person mods the channel: unmod them before making them a VIP."
+msgstr ""
+
+#: src/shared/theme.ts:588
+#, javascript-format
+msgid "This theme is in format %1$s, and this version of StreamyChat reads format %2$s."
+msgstr ""
+
+#: src/shared/theme.ts:598
+msgid "This theme is unreadable and wasn't applied."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1038
+msgid "This Twitch account no longer exists."
+msgstr ""
+
+#: src/shared/commands.ts:138
+msgid "Timeout — /timeout user 10m [reason]"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:64
+msgid "Timeout for 1 hour"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:62
+msgid "Timeout for 1 minute"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:63
+msgid "Timeout for 10 minutes"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:61
+msgid "Timeout for 10 seconds"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:65
+msgid "Timeout for 24 hours"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:236
+msgid "Timeout for a while"
+msgstr ""
+
+#: src/renderer/chat/rows/MessageRow.tsx:136
+#: src/renderer/chat/UserCard.tsx:237
+msgid "Timeout length"
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:80
+msgid "Timestamps"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:80
+msgid "Timestamps, labels, system text."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:69
+msgid "Title bar, tab bar."
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:297
+msgid "Title bar, tabs, system text."
+msgstr ""
+
+#: src/renderer/chat/Completion.tsx:220
+#: src/renderer/chat/UserPicker.tsx:334
+msgid "to choose"
+msgstr ""
+
+#: src/renderer/chat/Completion.tsx:215
+msgid "to complete"
+msgstr ""
+
+#: src/renderer/chat/UserPicker.tsx:339
+msgid "to confirm"
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:533
+msgid "to make a VIP"
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:533
+msgid "to mod"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:292
+msgid "Today"
+msgstr ""
+
+#: src/main/twitch/eventsub/subscriptions.ts:538
+msgid "Too many channels open at once: Twitch allows three. Close a tab, then reopen this one."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:193
+msgid "Too many messages in a row: wait a few seconds."
+msgstr ""
+
+#: src/main/twitch/transport/irc.ts:272
+#, javascript-format
+msgid "trying again in %s s"
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:69
+#: src/shared/commands.ts:177
+msgid "Turn off slow mode"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:366
+msgid "Turns the level up at the source. It's the only setting that can make the voice louder — volume can only turn it down. Changing it rebuilds messages already read, so it costs again."
+msgstr ""
+
+#: src/main/twitch/auth/http.ts:68
+msgid "Twitch can't be reached. Check your internet connection; the app will retry on its own."
+msgstr ""
+
+#: src/main/twitch/transport/eventsub.ts:193
+#, javascript-format
+msgid "Twitch cut off « %s »: %s. You need to reconnect."
+msgstr ""
+
+#: src/main/channels/session.ts:426
+msgid "Twitch didn't answer. Try again in a moment."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:152
+msgid "Twitch didn't confirm the send. Try again."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:787
+msgid "Twitch found nothing for that command."
+msgstr ""
+
+#: src/main/twitch/transport/eventsub.ts:181
+msgid "Twitch has withdrawn this version of the event"
+msgstr ""
+
+#: src/main/twitch/auth/http.ts:60
+msgid "Twitch is asking to slow the checks down."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:782
+msgid "Twitch is asking you to wait before trying again."
+msgstr ""
+
+#: src/main/twitch/transport/fallback.ts:203
+msgid "Twitch isn't answering, and fallback mode isn't available on this session. Reconnect to turn it on."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:557
+#: src/main/twitch/chat/moderation.ts:588
+msgid "Twitch refused that action."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:191
+msgid "Twitch refused that message."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:749
+#: src/main/twitch/chat/commands.ts:791
+#, javascript-format
+msgid "Twitch refused the /%1$s command: %2$s"
+msgstr ""
+
+#: src/main/twitch/transport/irc.ts:228
+#, javascript-format
+msgid "Twitch refused the fallback mode (%s)."
+msgstr ""
+
+#: src/main/channels/directory.ts:182
+msgid "Twitch search didn't answer."
+msgstr ""
+
+#: src/main/twitch/auth/http.ts:71
+msgid "Twitch sent back an unexpected answer. The details are in the logs."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:185
+msgid "Two layers: a wide one for depth, a tight one to lift the edge."
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:527
+msgid "Type a channel name to open its chat."
+msgstr ""
+
+#: src/renderer/chat/ChannelBanner.tsx:94
+msgid "Unique"
+msgstr ""
+
+#: src/main/twitch/normalize/settings.ts:38
+msgid "unique messages"
+msgstr ""
+
+#: src/main/twitch/normalize/irc.ts:380
+msgid "unique messages off"
+msgstr ""
+
+#: src/main/twitch/normalize/irc.ts:380
+msgid "unique messages on"
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:221
+#, javascript-format
+msgid "Unknown command: /%1$s. Did you mean %2$s?"
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:218
+#, javascript-format
+msgid "Unknown command: /%s. Type \"/\" to see the ones that exist."
+msgstr ""
+
+#: src/main/twitch/transport/fixture-format.ts:483
+#, javascript-format
+msgid "Unknown event type: « %s »"
+msgstr ""
+
+#: src/shared/commands.ts:260
+msgid "Unmod"
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:310
+msgid "Unmodded."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:336
+msgid "Unnamed device"
+msgstr ""
+
+#: src/main/tts/fishaudio.ts:385
+msgid "Unnamed voice"
+msgstr ""
+
+#: src/main/twitch/transport/fixture-format.ts:492
+#, javascript-format
+msgid "Unreadable fixture line: %s"
+msgstr ""
+
+#: src/renderer/chat/UserCard.tsx:169
+msgid "User card"
+msgstr ""
+
+#: src/renderer/chat/Completion.tsx:61
+#: src/renderer/settings/AppearanceSection.tsx:285
+msgid "Usernames"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:325
+msgid "Viewers pick their colour on Twitch, and some of them vanish against the chat background. Those get lightened or darkened — keeping their hue, so they stay recognisable."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:309
+msgid "VIP granted."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:309
+msgid "VIP removed."
+msgstr ""
+
+#: src/renderer/settings/SettingsApp.tsx:88
+#: src/renderer/settings/VoiceSection.tsx:213
+msgid "Voice"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:399
+msgid "Voice picked"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:365
+msgid "Voice power"
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:230
+#, javascript-format
+msgid "Voice sample won't play: %s"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:379
+msgid "Volume"
+msgstr ""
+
+#: src/main/twitch/auth/http.ts:59
+msgid "Waiting for you to approve it in the browser."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:216
+msgid "warn"
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:234
+msgid "Warn sent."
+msgstr ""
+
+#: src/shared/commands.ts:150
+msgid "Warn without sanctioning — /warn user reason"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:166
+msgid "Warning message"
+msgstr ""
+
+#: src/renderer/settings/ChatSection.tsx:77
+msgid "What each line shows"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:163
+msgid "What it costs"
+msgstr ""
+
+#: src/renderer/settings/palette.ts:112
+msgid "What stands out inside a line."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:160
+msgid "What Twitch and the app say in the feed."
+msgstr ""
+
+#: src/renderer/settings/palette.ts:178
+msgid "What you only notice when it's wrong."
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:336
+msgid "When to start cleaning up"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:322
+msgid "Where the sound comes out"
+msgstr ""
+
+#: src/renderer/settings/SettingsApp.tsx:89
+#: src/renderer/settings/WindowSection.tsx:94
+msgid "Window"
+msgstr ""
+
+#: src/renderer/settings/AppearanceSection.tsx:253
+msgid "Window corners"
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:131
+msgid "Window opacity"
+msgstr ""
+
+#: src/renderer/settings/WindowSection.tsx:169
+msgid "Window position and size"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1612
+#: src/main/ipc/handlers.ts:1642
+msgid "Windows couldn't encrypt the key on this PC. It hasn't been saved."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:486
+msgid "With bits only"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:632
+msgid "Without it, no message gets cleaned up. You create it on openrouter.ai, in your account settings."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:278
+msgid "Without it, nothing can be read. You create it on fish.audio, in your account settings."
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:690
+msgid "Working…"
+msgstr ""
+
+#: src/renderer/settings/VoiceSection.tsx:672
+msgid "Write a badly spelled message and see what comes out. That's how you check your key works, without waiting for a real message."
+msgstr ""
+
+#: src/main/voice/real.ts:130
+msgid "Write a sentence to clean up."
+msgstr ""
+
+#: src/renderer/chat/Composer.tsx:1324
+#, javascript-format
+msgid "Write in #%s"
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:208
+msgid "write in chat"
+msgstr ""
+
+#: src/shared/commands.ts:89
+msgid "Write in the third person"
+msgstr ""
+
+#: src/main/channels/session.ts:487
+#, javascript-format
+msgid "You already have %d chat windows, the most there can be. Close one, or move this channel into a window you already have."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:527
+msgid "You can't ban the streamer or a moderator."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:743
+msgid "You can't target yourself with that command."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:713
+#, javascript-format
+msgid "You can't target yourself: #%s is the channel you're writing in."
+msgstr ""
+
+#: src/renderer/chat/App.tsx:1107
+msgid "You can't write in the merged feed: pick a channel's tab to talk to it."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:74
+#: src/main/twitch/chat/send.ts:75
+msgid "You can't write in this chat."
+msgstr ""
+
+#: src/renderer/chat/App.tsx:1027
+msgid "You don't follow any channel."
+msgstr ""
+
+#: src/renderer/settings/VoicePicker.tsx:357
+msgid "You don't have any voices of your own yet. Create them on fish.audio and they'll show up here."
+msgstr ""
+
+#: src/main/channels/session.ts:232
+#, javascript-format
+msgid "You have %d channels open, and the limit is %d. Close a few: past the limit, Twitch stops telling us when a channel raids."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:746
+#: src/main/twitch/chat/commands.ts:777
+#: src/main/twitch/chat/moderation.ts:530
+#: src/main/twitch/chat/moderation.ts:569
+msgid "You have to be a moderator of this channel to do that."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:740
+msgid "You have to be live to do that — Twitch refuses a shoutout off stream."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:66
+msgid "You just sent that message. Twitch refuses duplicates."
+msgstr ""
+
+#: src/main/channels/session.ts:366
+#, javascript-format
+msgid "You're already following %d channels, the most a Twitch connection takes. Close a tab to open another one."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:585
+msgid "You're going too fast: ten VIPs every ten seconds at most."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:586
+msgid "You're going too fast. Wait a moment."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:188
+msgid "You're not allowed to write in this chat."
+msgstr ""
+
+#: src/main/tts/fishaudio.ts:105
+msgid "You're out of Fish Audio credit. Top your account up to carry on."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:79
+msgid "You're writing too fast for Twitch: wait a second."
+msgstr ""
+
+#: src/main/twitch/chat/moderation.ts:549
+msgid "You've hit the maximum number of VIPs."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:1340
+#, javascript-format
+msgid "Your %d chat windows are back to their original size."
+msgstr ""
+
+#: src/renderer/chat/SignIn.tsx:62
+msgid "Your browser has opened the authorisation page. If it hasn't, go to twitch.tv/activate and enter this code:"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:242
+msgid "Your channel"
+msgstr ""
+
+#: src/renderer/chat/ChannelPicker.tsx:301
+msgid "Your channels"
+msgstr ""
+
+#: src/main/channels/session.ts:248
+msgid "Your channels couldn't be found. The details are in the logs."
+msgstr ""
+
+#: src/main/tts/fishaudio.ts:104
+msgid "Your Fish Audio key is refused. Check it in the voice settings."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:230
+msgid "your goals in your chat"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:210
+msgid "Your message didn't come back from chat. It may not have shown up."
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:101
+#, javascript-format
+msgid "Your PC's language%s"
+msgstr ""
+
+#: src/renderer/chat/ScopeBanner.tsx:76
+#, javascript-format
+msgid "Your session is missing %d Twitch permission."
+msgid_plural "Your session is missing %d Twitch permissions."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/main/index.ts:186
+msgid "Your settings and your channels were carried over from StreamyChat, but not your Twitch account: you have to sign in again. The two versions keep their own settings from now on."
+msgstr ""
+
+#: src/main/index.ts:183
+msgid "Your settings, your channels and your Twitch account were carried over from StreamyChat. The two versions keep their own settings from now on."
+msgstr ""
+
+#: src/main/twitch/auth/constants.ts:209
+msgid "your sub emotes"
+msgstr ""
+
+#: src/main/twitch/auth/manager.ts:396
+msgid "Your Twitch session couldn't be saved: chat keeps working, but you'll have to reconnect next time you start."
+msgstr ""
+
+#: src/main/twitch/chat/send.ts:186
+msgid "Your Twitch session has expired. Reconnect."
+msgstr ""
+
+#: src/main/twitch/auth/http.ts:64
+msgid "Your Twitch session has expired. You need to reconnect — it takes three clicks."
+msgstr ""
+
+#: src/main/twitch/auth/manager.ts:386
+msgid "Your Twitch session is saved again."
+msgstr ""
+
+#: src/main/twitch/auth/http.ts:67
+msgid "Your Twitch session isn't accepted any more. You need to reconnect."
+msgstr ""
+
+#: src/main/twitch/chat/commands.ts:775
+#: src/main/twitch/chat/moderation.ts:564
+msgid "Your Twitch session isn't valid for that action any more. Reconnect."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:2009
+msgid "ZIP archive"
+msgstr ""
