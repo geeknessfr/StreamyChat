@@ -60,6 +60,18 @@ msgstr ""
 msgid "(system event with no text)"
 msgstr ""
 
+#: src/shared/issue.ts:32
+msgid "**How to reproduce it**"
+msgstr ""
+
+#: src/shared/issue.ts:34
+msgid "**The report file**"
+msgstr ""
+
+#: src/shared/issue.ts:30
+msgid "**What happens**"
+msgstr ""
+
 #: src/shared/events.ts:557
 #, javascript-format
 msgid "%1$s got a %2$d s timeout."
@@ -100,7 +112,7 @@ msgid_plural "%d characters"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/main/ipc/handlers.ts:1615
+#: src/main/ipc/handlers.ts:1620
 #, javascript-format
 msgid "%d correction cleared."
 msgid_plural "%d corrections cleared."
@@ -213,7 +225,7 @@ msgid_plural "%d unread messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/main/ipc/handlers.ts:2202
+#: src/main/ipc/handlers.ts:2288
 #, javascript-format
 msgid "%d unrecognised value went back to its default."
 msgid_plural "%d unrecognised values went back to their defaults."
@@ -288,7 +300,7 @@ msgstr ""
 msgid "A new version is ready to install."
 msgstr ""
 
-#: src/renderer/settings/preview-specimens.ts:89
+#: src/renderer/settings/preview-specimens.ts:99
 msgid "a noticeably longer message, written on purpose to check that wrapping works and that the second line stays aligned with the first"
 msgstr ""
 
@@ -435,7 +447,7 @@ msgstr ""
 msgid "An unfinished translation leaves the rest in English. You can add one by dropping a .po file into the lang folder of your data directory."
 msgstr ""
 
-#: src/renderer/settings/preview-specimens.ts:96
+#: src/renderer/settings/preview-specimens.ts:106
 msgid "and one with bits"
 msgstr ""
 
@@ -556,12 +568,16 @@ msgstr ""
 msgid "Brightness"
 msgstr ""
 
+#: src/renderer/settings/AboutSection.tsx:156
+msgid "Bug report file"
+msgstr ""
+
 #: src/renderer/settings/AppearanceSection.tsx:174
 msgid "Built-in themes"
 msgstr ""
 
-#: src/renderer/settings/AboutSection.tsx:134
-msgid "Bundles the logs, the session summary and your settings into one file to send. You pick where it goes, and your Twitch access tokens are stripped out."
+#: src/renderer/settings/AboutSection.tsx:157
+msgid "Bundles the logs, the session summary and your settings into one file. You pick where it goes, and your Twitch access tokens are stripped out."
 msgstr ""
 
 #: src/renderer/chat/DemoBar.tsx:95
@@ -782,8 +798,8 @@ msgstr ""
 msgid "Connect to Twitch"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:972
-#: src/main/ipc/handlers.ts:977
+#: src/main/ipc/handlers.ts:975
+#: src/main/ipc/handlers.ts:980
 msgid "Connect to Twitch to moderate."
 msgstr ""
 
@@ -793,13 +809,13 @@ msgstr ""
 msgid "Connect to Twitch to open a channel."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1037
-#: src/main/ipc/handlers.ts:1042
+#: src/main/ipc/handlers.ts:1040
+#: src/main/ipc/handlers.ts:1045
 msgid "Connect to Twitch to see this card."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:876
-#: src/main/ipc/handlers.ts:881
+#: src/main/ipc/handlers.ts:879
+#: src/main/ipc/handlers.ts:884
 msgid "Connect to Twitch to write."
 msgstr ""
 
@@ -813,12 +829,12 @@ msgstr ""
 msgid "Connected as %s"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:763
+#: src/main/ipc/handlers.ts:766
 #, javascript-format
 msgid "Connected to #%1$s chat, as %2$s."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:762
+#: src/main/ipc/handlers.ts:765
 #, javascript-format
 msgid "Connected to #%s chat."
 msgstr ""
@@ -845,7 +861,7 @@ msgstr ""
 msgid "Couldn't check. It will try again on its own."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1606
+#: src/main/ipc/handlers.ts:1611
 msgid "Counter reset."
 msgstr ""
 
@@ -1128,6 +1144,10 @@ msgstr ""
 msgid "German"
 msgstr ""
 
+#: src/main/ipc/handlers.ts:2124
+msgid "GitHub could not be opened. Save the file below and send it another way."
+msgstr ""
+
 #: src/shared/commands.ts:103
 msgid "Give another channel a shoutout"
 msgstr ""
@@ -1171,11 +1191,11 @@ msgstr ""
 msgid "Hex colour"
 msgstr ""
 
-#: src/renderer/settings/preview-specimens.ts:86
+#: src/renderer/settings/preview-specimens.ts:96
 msgid "hey!"
 msgstr ""
 
-#: src/renderer/settings/preview-specimens.ts:94
+#: src/renderer/settings/preview-specimens.ts:104
 msgid "hi, just found the channel"
 msgstr ""
 
@@ -1195,7 +1215,7 @@ msgstr ""
 msgid "Highlighted message edge"
 msgstr ""
 
-#: src/renderer/settings/preview-specimens.ts:95
+#: src/renderer/settings/preview-specimens.ts:105
 msgid "highlighted with channel points"
 msgstr ""
 
@@ -1306,6 +1326,10 @@ msgstr ""
 msgid "invalid reconnect URL"
 msgstr ""
 
+#: src/shared/issue.ts:35
+msgid "It is in the folder that opened next to this form: drag it in."
+msgstr ""
+
 #: src/renderer/settings/palette.ts:137
 msgid "It stays, it fades."
 msgstr ""
@@ -1343,8 +1367,8 @@ msgstr ""
 msgid "Kept on top by click-through mode"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1654
-#: src/main/ipc/handlers.ts:1684
+#: src/main/ipc/handlers.ts:1659
+#: src/main/ipc/handlers.ts:1689
 msgid "Key cleared."
 msgstr ""
 
@@ -1352,8 +1376,8 @@ msgstr ""
 msgid "Key saved"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1647
-#: src/main/ipc/handlers.ts:1677
+#: src/main/ipc/handlers.ts:1652
+#: src/main/ipc/handlers.ts:1682
 msgid "Key saved."
 msgstr ""
 
@@ -1638,7 +1662,7 @@ msgstr ""
 msgid "network: timed out"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1741
+#: src/main/ipc/handlers.ts:1746
 msgid "No account connected."
 msgstr ""
 
@@ -1815,6 +1839,10 @@ msgstr ""
 msgid "Open the chat back up to non-subs"
 msgstr ""
 
+#: src/renderer/settings/AboutSection.tsx:151
+msgid "Open the form"
+msgstr ""
+
 #: src/renderer/chat/SignIn.tsx:80
 msgid "Open the page again"
 msgstr ""
@@ -1825,6 +1853,10 @@ msgstr ""
 
 #: src/renderer/settings/VoiceSection.tsx:604
 msgid "OpenRouter key saved"
+msgstr ""
+
+#: src/renderer/settings/AboutSection.tsx:138
+msgid "Opens the form on GitHub, already filled in with your version. The report file opens in a folder next to it: drag it into the form so the logs come with it."
 msgstr ""
 
 #: src/main/twitch/eventsub/messages.ts:174
@@ -1847,7 +1879,7 @@ msgstr ""
 msgid "Past that, the oldest ones are dropped. During a raid, chat spams faster than the voice can talk."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1637
+#: src/main/ipc/handlers.ts:1642
 msgid "Paste your Fish Audio key to save it."
 msgstr ""
 
@@ -1856,7 +1888,7 @@ msgstr ""
 msgid "Paste your key here"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1667
+#: src/main/ipc/handlers.ts:1672
 msgid "Paste your OpenRouter key to save it."
 msgstr ""
 
@@ -1953,16 +1985,16 @@ msgstr ""
 msgid "predictions in your chat"
 msgstr ""
 
+#: src/renderer/settings/AboutSection.tsx:151
+msgid "Preparing…"
+msgstr ""
+
 #: src/renderer/ui/ShortcutField.tsx:140
 msgid "Press a key…"
 msgstr ""
 
 #: src/renderer/settings/ChatPreview.tsx:36
 msgid "Preview"
-msgstr ""
-
-#: src/renderer/settings/AboutSection.tsx:133
-msgid "Problem report"
 msgstr ""
 
 #: src/shared/commands.ts:162
@@ -2122,7 +2154,11 @@ msgstr ""
 msgid "Replying to %s"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2089
+#: src/renderer/settings/AboutSection.tsx:137
+msgid "Report a bug"
+msgstr ""
+
+#: src/main/ipc/handlers.ts:2175
 #, javascript-format
 msgid "Report saved: %s"
 msgstr ""
@@ -2192,15 +2228,15 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: src/renderer/settings/AboutSection.tsx:140
-msgid "Save the report"
+#: src/renderer/settings/AboutSection.tsx:169
+msgid "Save the file"
 msgstr ""
 
 #: src/main/voice/real.ts:132
 msgid "Save your OpenRouter key before trying."
 msgstr ""
 
-#: src/renderer/settings/AboutSection.tsx:140
+#: src/renderer/settings/AboutSection.tsx:169
 msgid "Saving…"
 msgstr ""
 
@@ -2284,7 +2320,7 @@ msgstr ""
 msgid "Show deleted messages"
 msgstr ""
 
-#: src/renderer/settings/preview-specimens.ts:93
+#: src/renderer/settings/preview-specimens.ts:103
 msgid "sighs loudly"
 msgstr ""
 
@@ -2292,11 +2328,11 @@ msgstr ""
 msgid "Sign out"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1754
+#: src/main/ipc/handlers.ts:1759
 msgid "Signed out here, but Twitch didn't answer. Check your connections on twitch.tv."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1759
+#: src/main/ipc/handlers.ts:1764
 msgid "Signed out."
 msgstr ""
 
@@ -2410,7 +2446,7 @@ msgstr ""
 msgid "Stopped"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2102
+#: src/main/ipc/handlers.ts:2188
 msgid "StreamyChat theme"
 msgstr ""
 
@@ -2572,7 +2608,7 @@ msgstr ""
 msgid "That channel name isn't valid."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2180
+#: src/main/ipc/handlers.ts:2266
 msgid "That file isn't valid JSON."
 msgstr ""
 
@@ -2634,9 +2670,9 @@ msgstr ""
 msgid "The answer no longer looked like your message, so it was refused. On a real message, the text would be read as written."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1147
-#: src/main/ipc/handlers.ts:1170
-#: src/main/ipc/handlers.ts:1323
+#: src/main/ipc/handlers.ts:1150
+#: src/main/ipc/handlers.ts:1173
+#: src/main/ipc/handlers.ts:1326
 #: src/renderer/chat/App.tsx:431
 #: src/renderer/chat/App.tsx:601
 msgid "The app isn't ready."
@@ -2650,7 +2686,7 @@ msgstr ""
 msgid "The audio output you picked can't be found: the sample came out on the system one."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1614
+#: src/main/ipc/handlers.ts:1619
 msgid "The cache was already empty."
 msgstr ""
 
@@ -2667,7 +2703,7 @@ msgstr ""
 msgid "The chat stays visible over your game and your browser. That's the live setting."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1360
+#: src/main/ipc/handlers.ts:1363
 msgid "The chat window is back to its original size."
 msgstr ""
 
@@ -2704,15 +2740,15 @@ msgstr ""
 msgid "The connection was denied in the browser."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:981
+#: src/main/ipc/handlers.ts:984
 msgid "The demo channel can't be moderated."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:885
+#: src/main/ipc/handlers.ts:888
 msgid "The demo channel doesn't take messages."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1046
+#: src/main/ipc/handlers.ts:1049
 msgid "The demo usernames don't exist."
 msgstr ""
 
@@ -2768,8 +2804,12 @@ msgstr ""
 msgid "The real amount, the one OpenRouter bills you."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2094
+#: src/main/ipc/handlers.ts:2180
 msgid "The report couldn't be saved. Diagnostic mode stays on if you had turned it on."
+msgstr ""
+
+#: src/main/ipc/handlers.ts:2118
+msgid "The report file is in the folder that just opened. Drag it into the form."
 msgstr ""
 
 #: src/main/twitch/normalize/settings.ts:60
@@ -2796,11 +2836,11 @@ msgstr ""
 msgid "The stuff you need when something goes wrong."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2211
+#: src/main/ipc/handlers.ts:2297
 msgid "The theme couldn't be read."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2149
+#: src/main/ipc/handlers.ts:2235
 msgid "The theme couldn't be written."
 msgstr ""
 
@@ -2828,12 +2868,12 @@ msgstr ""
 msgid "The window was saved on a screen that isn't plugged in any more: it's been brought back to the main screen."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2202
+#: src/main/ipc/handlers.ts:2288
 #, javascript-format
 msgid "Theme « %s » loaded."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2201
+#: src/main/ipc/handlers.ts:2287
 #, javascript-format
 msgid "Theme « %s » loaded. Save it to keep it."
 msgstr ""
@@ -2842,7 +2882,7 @@ msgstr ""
 msgid "Theme changed, not saved yet."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2146
+#: src/main/ipc/handlers.ts:2232
 #, javascript-format
 msgid "Theme exported: %s"
 msgstr ""
@@ -2997,7 +3037,7 @@ msgstr ""
 msgid "This theme is unreadable and wasn't applied."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1057
+#: src/main/ipc/handlers.ts:1060
 msgid "This Twitch account no longer exists."
 msgstr ""
 
@@ -3297,7 +3337,7 @@ msgstr ""
 msgid "Warning message"
 msgstr ""
 
-#: src/renderer/settings/preview-specimens.ts:85
+#: src/renderer/settings/preview-specimens.ts:95
 msgid "we start in two minutes"
 msgstr ""
 
@@ -3321,7 +3361,7 @@ msgstr ""
 msgid "What you only notice when it's wrong."
 msgstr ""
 
-#: src/renderer/settings/AboutSection.tsx:173
+#: src/renderer/settings/AboutSection.tsx:202
 msgid "What's new"
 msgstr ""
 
@@ -3354,8 +3394,8 @@ msgstr ""
 msgid "Window position and size"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1642
-#: src/main/ipc/handlers.ts:1672
+#: src/main/ipc/handlers.ts:1647
+#: src/main/ipc/handlers.ts:1677
 msgid "Windows couldn't encrypt the key on this PC. It hasn't been saved."
 msgstr ""
 
@@ -3480,7 +3520,7 @@ msgstr ""
 msgid "You've hit the maximum number of VIPs."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1359
+#: src/main/ipc/handlers.ts:1362
 #, javascript-format
 msgid "Your %d chat windows are back to their original size."
 msgstr ""
@@ -3509,7 +3549,7 @@ msgstr ""
 msgid "your goals in your chat"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:228
+#: src/main/ipc/handlers.ts:231
 msgid "Your message didn't come back from chat. It may not have shown up."
 msgstr ""
 
@@ -3562,6 +3602,6 @@ msgstr ""
 msgid "Your Twitch session isn't valid for that action any more. Reconnect."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2100
+#: src/main/ipc/handlers.ts:2186
 msgid "ZIP archive"
 msgstr ""
