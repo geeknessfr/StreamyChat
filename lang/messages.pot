@@ -112,7 +112,7 @@ msgid_plural "%d characters"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/main/ipc/handlers.ts:1620
+#: src/main/ipc/handlers.ts:1622
 #, javascript-format
 msgid "%d correction cleared."
 msgid_plural "%d corrections cleared."
@@ -163,7 +163,7 @@ msgid_plural "%d messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/renderer/settings/AdvancedSection.tsx:168
+#: src/renderer/settings/AdvancedSection.tsx:198
 #, javascript-format
 msgid "%d message already cleaned up. It won't be paid for again."
 msgid_plural "%d messages already cleaned up. They won't be paid for again."
@@ -225,7 +225,7 @@ msgid_plural "%d unread messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/main/ipc/handlers.ts:2288
+#: src/main/ipc/handlers.ts:2319
 #, javascript-format
 msgid "%d unrecognised value went back to its default."
 msgid_plural "%d unrecognised values went back to their defaults."
@@ -406,11 +406,15 @@ msgstr ""
 msgid "Add a channel"
 msgstr ""
 
+#: src/renderer/settings/AdvancedSection.tsx:109
+msgid "Add a language"
+msgstr ""
+
 #: src/main/twitch/chat/moderation.ts:213
 msgid "Add a reason to the warn, they'll be able to read it."
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:61
+#: src/renderer/settings/AdvancedSection.tsx:68
 #: src/renderer/settings/SettingsApp.tsx:92
 msgid "Advanced"
 msgstr ""
@@ -423,7 +427,7 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:261
+#: src/renderer/settings/AdvancedSection.tsx:291
 msgid "All time"
 msgstr ""
 
@@ -439,11 +443,11 @@ msgstr ""
 msgid "An announcement needs some text."
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:144
+#: src/renderer/settings/AdvancedSection.tsx:174
 msgid "An estimate from the published rate. The Fish Audio console is what counts."
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:217
+#: src/renderer/settings/AdvancedSection.tsx:247
 msgid "An unfinished translation leaves the rest in English. You can add one by dropping a .po file into the lang folder of your data directory."
 msgstr ""
 
@@ -495,7 +499,7 @@ msgstr ""
 msgid "API key"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:71
+#: src/renderer/settings/AdvancedSection.tsx:78
 msgid "App language"
 msgstr ""
 
@@ -710,11 +714,11 @@ msgstr ""
 msgid "Clean up messages"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:131
+#: src/renderer/settings/AdvancedSection.tsx:161
 msgid "Cleanup"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:157
+#: src/renderer/settings/AdvancedSection.tsx:187
 msgid "Cleanups in memory"
 msgstr ""
 
@@ -861,7 +865,7 @@ msgstr ""
 msgid "Couldn't check. It will try again on its own."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1611
+#: src/main/ipc/handlers.ts:1613
 msgid "Counter reset."
 msgstr ""
 
@@ -931,11 +935,11 @@ msgstr ""
 msgid "Development"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:99
+#: src/renderer/settings/AdvancedSection.tsx:129
 msgid "Diagnostic mode"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:96
+#: src/renderer/settings/AdvancedSection.tsx:126
 msgid "Diagnostics"
 msgstr ""
 
@@ -974,7 +978,7 @@ msgstr ""
 msgid "Emotes that move. Turning them off helps a modest machine, and makes chat readable for people that motion bothers. Open channels reconnect to apply the change."
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:185
+#: src/renderer/settings/AdvancedSection.tsx:215
 msgid "Empty"
 msgstr ""
 
@@ -1144,7 +1148,7 @@ msgstr ""
 msgid "German"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2124
+#: src/main/ipc/handlers.ts:2126
 msgid "GitHub could not be opened. Save the file below and send it another way."
 msgstr ""
 
@@ -1367,8 +1371,8 @@ msgstr ""
 msgid "Kept on top by click-through mode"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1659
-#: src/main/ipc/handlers.ts:1689
+#: src/main/ipc/handlers.ts:1661
+#: src/main/ipc/handlers.ts:1691
 msgid "Key cleared."
 msgstr ""
 
@@ -1376,8 +1380,8 @@ msgstr ""
 msgid "Key saved"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1652
-#: src/main/ipc/handlers.ts:1682
+#: src/main/ipc/handlers.ts:1654
+#: src/main/ipc/handlers.ts:1684
 msgid "Key saved."
 msgstr ""
 
@@ -1393,7 +1397,7 @@ msgstr ""
 msgid "Korean"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:65
+#: src/renderer/settings/AdvancedSection.tsx:72
 #: src/renderer/settings/VoicePicker.tsx:285
 msgid "Language"
 msgstr ""
@@ -1475,7 +1479,7 @@ msgstr ""
 msgid "Live"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:100
+#: src/renderer/settings/AdvancedSection.tsx:130
 msgid "Logs everything StreamyChat exchanges with Twitch. Turn it on before reproducing a problem, then off again: the logs grow fast."
 msgstr ""
 
@@ -1662,7 +1666,7 @@ msgstr ""
 msgid "network: timed out"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1746
+#: src/main/ipc/handlers.ts:1748
 msgid "No account connected."
 msgstr ""
 
@@ -1698,7 +1702,7 @@ msgstr ""
 msgid "no subscription created within ten seconds"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:213
+#: src/renderer/settings/AdvancedSection.tsx:243
 msgid "No translation found for this language, so StreamyChat stays in English. Drop a .po file into the lang folder of your data directory."
 msgstr ""
 
@@ -1737,7 +1741,7 @@ msgstr ""
 msgid "Not found on Twitch."
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:165
+#: src/renderer/settings/AdvancedSection.tsx:195
 msgid "Nothing in memory yet. A message already cleaned up is never paid for twice."
 msgstr ""
 
@@ -1839,6 +1843,10 @@ msgstr ""
 msgid "Open the chat back up to non-subs"
 msgstr ""
 
+#: src/renderer/settings/AdvancedSection.tsx:121
+msgid "Open the folder"
+msgstr ""
+
 #: src/renderer/settings/AboutSection.tsx:151
 msgid "Open the form"
 msgstr ""
@@ -1853,6 +1861,10 @@ msgstr ""
 
 #: src/renderer/settings/VoiceSection.tsx:604
 msgid "OpenRouter key saved"
+msgstr ""
+
+#: src/renderer/settings/AdvancedSection.tsx:110
+msgid "Opens the folder where a translation goes. Drop a .po catalogue in it, restart StreamyChat, and your language shows up in the list above."
 msgstr ""
 
 #: src/renderer/settings/AboutSection.tsx:138
@@ -1879,7 +1891,7 @@ msgstr ""
 msgid "Past that, the oldest ones are dropped. During a raid, chat spams faster than the voice can talk."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1642
+#: src/main/ipc/handlers.ts:1644
 msgid "Paste your Fish Audio key to save it."
 msgstr ""
 
@@ -1888,7 +1900,7 @@ msgstr ""
 msgid "Paste your key here"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1672
+#: src/main/ipc/handlers.ts:1674
 msgid "Paste your OpenRouter key to save it."
 msgstr ""
 
@@ -2035,7 +2047,7 @@ msgstr ""
 msgid "Read %s's message out loud"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:141
+#: src/renderer/settings/AdvancedSection.tsx:171
 #: src/renderer/settings/VoiceSection.tsx:222
 msgid "Read aloud"
 msgstr ""
@@ -2158,12 +2170,12 @@ msgstr ""
 msgid "Report a bug"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2175
+#: src/main/ipc/handlers.ts:2177
 #, javascript-format
 msgid "Report saved: %s"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:268
+#: src/renderer/settings/AdvancedSection.tsx:298
 msgid "Reset"
 msgstr ""
 
@@ -2328,11 +2340,11 @@ msgstr ""
 msgid "Sign out"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1759
+#: src/main/ipc/handlers.ts:1761
 msgid "Signed out here, but Twitch didn't answer. Check your connections on twitch.tv."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1764
+#: src/main/ipc/handlers.ts:1766
 msgid "Signed out."
 msgstr ""
 
@@ -2340,7 +2352,7 @@ msgstr ""
 msgid "Signing out…"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:253
+#: src/renderer/settings/AdvancedSection.tsx:283
 msgid "Since launch"
 msgstr ""
 
@@ -2446,7 +2458,7 @@ msgstr ""
 msgid "Stopped"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2188
+#: src/main/ipc/handlers.ts:2219
 msgid "StreamyChat theme"
 msgstr ""
 
@@ -2608,7 +2620,7 @@ msgstr ""
 msgid "That channel name isn't valid."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2266
+#: src/main/ipc/handlers.ts:2297
 msgid "That file isn't valid JSON."
 msgstr ""
 
@@ -2686,7 +2698,7 @@ msgstr ""
 msgid "The audio output you picked can't be found: the sample came out on the system one."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1619
+#: src/main/ipc/handlers.ts:1621
 msgid "The cache was already empty."
 msgstr ""
 
@@ -2772,6 +2784,10 @@ msgstr ""
 msgid "the IRC fallback when EventSub goes down"
 msgstr ""
 
+#: src/main/ipc/handlers.ts:2212
+msgid "The language folder couldn't be opened."
+msgstr ""
+
 #: src/main/twitch/auth/constants.ts:217
 msgid "the list of viewers"
 msgstr ""
@@ -2800,15 +2816,15 @@ msgstr ""
 msgid "the permission was revoked"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:133
+#: src/renderer/settings/AdvancedSection.tsx:163
 msgid "The real amount, the one OpenRouter bills you."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2180
+#: src/main/ipc/handlers.ts:2182
 msgid "The report couldn't be saved. Diagnostic mode stays on if you had turned it on."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2118
+#: src/main/ipc/handlers.ts:2120
 msgid "The report file is in the folder that just opened. Drag it into the form."
 msgstr ""
 
@@ -2832,15 +2848,15 @@ msgstr ""
 msgid "The space between messages. A denser chat shows more of them, it doesn't write them smaller."
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:62
+#: src/renderer/settings/AdvancedSection.tsx:69
 msgid "The stuff you need when something goes wrong."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2297
+#: src/main/ipc/handlers.ts:2328
 msgid "The theme couldn't be read."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2235
+#: src/main/ipc/handlers.ts:2266
 msgid "The theme couldn't be written."
 msgstr ""
 
@@ -2868,12 +2884,12 @@ msgstr ""
 msgid "The window was saved on a screen that isn't plugged in any more: it's been brought back to the main screen."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2288
+#: src/main/ipc/handlers.ts:2319
 #, javascript-format
 msgid "Theme « %s » loaded."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2287
+#: src/main/ipc/handlers.ts:2318
 #, javascript-format
 msgid "Theme « %s » loaded. Save it to keep it."
 msgstr ""
@@ -2882,7 +2898,7 @@ msgstr ""
 msgid "Theme changed, not saved yet."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2232
+#: src/main/ipc/handlers.ts:2263
 #, javascript-format
 msgid "Theme exported: %s"
 msgstr ""
@@ -3111,7 +3127,7 @@ msgstr ""
 msgid "to mod"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:257
+#: src/renderer/settings/AdvancedSection.tsx:287
 msgid "Today"
 msgstr ""
 
@@ -3345,7 +3361,7 @@ msgstr ""
 msgid "What each line shows"
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:128
+#: src/renderer/settings/AdvancedSection.tsx:158
 msgid "What it costs"
 msgstr ""
 
@@ -3394,8 +3410,8 @@ msgstr ""
 msgid "Window position and size"
 msgstr ""
 
-#: src/main/ipc/handlers.ts:1647
-#: src/main/ipc/handlers.ts:1677
+#: src/main/ipc/handlers.ts:1649
+#: src/main/ipc/handlers.ts:1679
 msgid "Windows couldn't encrypt the key on this PC. It hasn't been saved."
 msgstr ""
 
@@ -3553,7 +3569,7 @@ msgstr ""
 msgid "Your message didn't come back from chat. It may not have shown up."
 msgstr ""
 
-#: src/renderer/settings/AdvancedSection.tsx:78
+#: src/renderer/settings/AdvancedSection.tsx:85
 #, javascript-format
 msgid "Your PC's language%s"
 msgstr ""
@@ -3602,6 +3618,6 @@ msgstr ""
 msgid "Your Twitch session isn't valid for that action any more. Reconnect."
 msgstr ""
 
-#: src/main/ipc/handlers.ts:2186
+#: src/main/ipc/handlers.ts:2217
 msgid "ZIP archive"
 msgstr ""
