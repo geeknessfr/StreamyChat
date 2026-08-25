@@ -24,6 +24,16 @@ Il alimente un panneau de la fenêtre de réglages : d'où la structure réguli�
 
 ---
 
+## Non publiée
+
+### Corrigé
+
+- **« Ajouter une langue » ouvre le dossier**, et le crée s'il n'est pas là. Il n'existe pas
+  tant que rien ne le crée, donc les instructions envoyaient les gens vers un chemin que
+  Windows disait introuvable.
+
+---
+
 ## 0.9.0 - 25 août 2026
 
 **StreamyChat parle anglais, et ta chaîne raconte ce qui s'y passe.**
