@@ -1,9 +1,9 @@
-# StreamyChat — catalogue français.
+# StreamyChat : catalogue français.
 #
 # 🚨 CE FICHIER N'EST PAS OPTIONNEL.
 #
 # Depuis la phase 8.5, les msgid sont en anglais : c'est la langue écrite dans le code. Le
-# français vit ici, et nulle part ailleurs. Une entrée manquante s'affiche donc en anglais —
+# français vit ici, et nulle part ailleurs. Une entrée manquante s'affiche donc en anglais,
 # y compris chez Geekness, qui teste en français.
 #
 # Un test unitaire exige ce catalogue complet à 100 % et fait échouer « npm run verify ».
@@ -15,7 +15,7 @@
 #
 # LE REGISTRE
 #
-#   Français gamer, pas français soutenu — CLAUDE.md règle 11 :
+#   Français gamer, pas français soutenu, CLAUDE.md règle 11 :
 #     - les mots de Twitch restent : ban, timeout, warn, raid, clip, sub, mod, VIP, emote ;
 #     - les chiffres s'écrivent en chiffres : « 14 jours » ;
 #     - la grammaire reste entière : « Il faut être modérateur », jamais « Faut être mod » ;
@@ -123,29 +123,26 @@ msgstr "Ajouter une chaîne"
 msgid "German"
 msgstr "Allemand"
 
-msgid "Alpha"
-msgstr "Alpha"
-
 msgid "English"
 msgstr "Anglais"
 
 msgid "Announcement"
 msgstr "Annonce"
 
-msgid "Announcement — blue"
-msgstr "Annonce — bleu"
+msgid "Announcement: blue"
+msgstr "Annonce : bleu"
 
-msgid "Announcement — magenta"
-msgstr "Annonce — magenta"
+msgid "Announcement: magenta"
+msgstr "Annonce : magenta"
 
-msgid "Announcement — orange"
-msgstr "Annonce — orange"
+msgid "Announcement: orange"
+msgstr "Annonce : orange"
 
-msgid "Announcement — green"
-msgstr "Annonce — vert"
+msgid "Announcement: green"
+msgstr "Annonce : vert"
 
-msgid "Announcement — purple"
-msgstr "Annonce — violet"
+msgid "Announcement: purple"
+msgstr "Annonce : violet"
 
 msgid "Highlighted announcement in chat"
 msgstr "Annonce mise en avant dans le chat"
@@ -238,8 +235,8 @@ msgstr "Avancé"
 msgid "With bits only"
 msgstr "Avec bits seulement"
 
-msgid "Permanent ban — /ban user [reason]"
-msgstr "Ban définitif — /ban pseudo [raison]"
+msgid "Permanent ban: /ban user [reason]"
+msgstr "Ban définitif : /ban pseudo [raison]"
 
 msgid "bans and timeouts"
 msgstr "ban et timeout"
@@ -428,8 +425,8 @@ msgstr "Choisir une chaîne"
 msgid "Pick a voice"
 msgstr "Choisir une voix"
 
-msgid "Pick a virtual audio cable — VoiceMeeter, VB-Cable — so your chat can hear the voice. On the default output, it only comes out in your headset."
-msgstr "Choisis un câble audio virtuel — VoiceMeeter, VB-Cable — pour que ton chat entende la voix. Sur la sortie par défaut, elle sort juste dans ton casque."
+msgid "Pick a virtual audio cable (VoiceMeeter, VB-Cable) so your chat can hear the voice. On the default output, it only comes out in your headset."
+msgstr "Choisis un câble audio virtuel (VoiceMeeter, VB-Cable) pour que ton chat entende la voix. Sur la sortie par défaut, elle sort juste dans ton casque."
 
 msgid "Brightness"
 msgstr "Clarté"
@@ -678,7 +675,7 @@ msgstr "En direct"
 msgid "All time"
 msgstr "En tout"
 
-msgid "Logs everything StreamyChat exchanges with Twitch. Turn it on before reproducing a problem, then off again — the logs grow fast."
+msgid "Logs everything StreamyChat exchanges with Twitch. Turn it on before reproducing a problem, then off again: the logs grow fast."
 msgstr "Enregistre le détail des échanges avec Twitch dans les logs. À activer avant de reproduire un problème, puis à éteindre : les logs grossissent vite."
 
 msgid "Save your OpenRouter key before trying."
@@ -817,8 +814,8 @@ msgstr "Hors ligne"
 msgid "It travels with the file when you export it."
 msgstr "Il accompagne le fichier quand tu l’exportes."
 
-msgid "You have to be live to do that — Twitch refuses a shoutout off stream."
-msgstr "Il faut être en direct pour faire ça — Twitch refuse un shoutout hors live."
+msgid "You have to be live to do that: Twitch refuses a shoutout off stream."
+msgstr "Il faut être en direct pour faire ça : Twitch refuse un shoutout hors live."
 
 msgid "You have to be a moderator of this channel to do that."
 msgstr "Il faut être modérateur de cette chaîne pour faire ça."
@@ -889,8 +886,8 @@ msgstr "l’autorisation a été retirée"
 msgid "Sending failed. Try again in a moment."
 msgstr "L’envoi a échoué. Réessaie dans un instant."
 
-msgid "The space between messages. A denser chat shows more of them — it doesn't write them smaller."
-msgstr "L’espace entre les messages. Un chat plus dense en affiche davantage — il ne les écrit pas plus petit."
+msgid "The space between messages. A denser chat shows more of them, it doesn't write them smaller."
+msgstr "L’espace entre les messages. Un chat plus dense en affiche davantage, il ne les écrit pas plus petit."
 
 msgid "The time in front of each message."
 msgstr "L’heure devant chaque message."
@@ -970,8 +967,8 @@ msgstr "La taille des messages seule, sans toucher au reste. Pseudonymes, horoda
 msgid "Let clicks through"
 msgstr "Laisser passer les clics"
 
-msgid "Let clicks through — only this bar stays clickable"
-msgstr "Laisser passer les clics — seule cette barre reste cliquable"
+msgid "Let clicks through: only this bar stays clickable"
+msgstr "Laisser passer les clics : seule cette barre reste cliquable"
 
 msgid "Language"
 msgstr "Langue"
@@ -1078,8 +1075,8 @@ msgstr "les bans ne seront pas détaillés : on saura que les messages ont été
 msgid "room mode changes (subs, slow, followers) will go unnoticed"
 msgstr "les changements de mode du salon (abonnés, lent, followers) passeront inaperçus"
 
-msgid "Clicks go through the chat and land on whatever is behind it. Only the title bar and the edges stay clickable — that's how you move the window and turn this off. It also keeps the window on top: otherwise the first click on your game would push it behind."
-msgstr "Les clics traversent le chat et vont à ce qu’il y a derrière. Seules la barre de titre et les bords restent cliquables — c’est par là qu’on déplace la fenêtre et qu’on coupe ce mode. Il la garde au premier plan : sinon le premier clic sur le jeu la ferait passer dessous."
+msgid "Clicks go through the chat and land on whatever is behind it. Only the title bar and the edges stay clickable: that's how you move the window and turn this off. It also keeps the window on top, otherwise the first click on your game would push it behind."
+msgstr "Les clics traversent le chat et vont à ce qu’il y a derrière. Seules la barre de titre et les bords restent cliquables : c’est par là qu’on déplace la fenêtre et qu’on coupe ce mode. Il la garde au premier plan : sinon le premier clic sur le jeu la ferait passer dessous."
 
 msgid "The colours of your chat. Everything you change shows up right away, here and in the chat window."
 msgstr "Les couleurs du chat. Tout ce que tu changes se voit tout de suite, ici et dans la fenêtre de chat."
@@ -1120,8 +1117,8 @@ msgstr "les raids partant de cette chaîne ne seront pas signalés"
 msgid "shoutouts"
 msgstr "les shoutouts"
 
-msgid "Viewers pick their colour on Twitch, and some of them vanish against the chat background. Those get lightened or darkened — keeping their hue, so they stay recognisable."
-msgstr "Les spectateurs choisissent leur couleur sur Twitch, et certaines disparaissent sur le fond du chat. Celles-là sont éclaircies ou assombries — en gardant leur teinte, pour qu’elles restent reconnaissables."
+msgid "Viewers pick their colour on Twitch, and some of them vanish against the chat background. Those get lightened or darkened, keeping their hue, so they stay recognisable."
+msgstr "Les spectateurs choisissent leur couleur sur Twitch, et certaines disparaissent sur le fond du chat. Celles-là sont éclaircies ou assombries, en gardant leur teinte, pour qu’elles restent reconnaissables."
 
 msgid "Text you read character by character: paths, codes."
 msgstr "Les textes qu’on relit caractère par caractère : chemins, codes."
@@ -1246,8 +1243,8 @@ msgstr "mode followers activé"
 msgid "followers mode off"
 msgstr "mode followers désactivé"
 
-msgid "Slow mode — /slow [seconds], 30 by default"
-msgstr "Mode lent — /slow [secondes], 30 par défaut"
+msgid "Slow mode: /slow [seconds], 30 by default"
+msgstr "Mode lent : /slow [secondes], 30 par défaut"
 
 msgid "Slow mode is on: wait a few seconds."
 msgstr "Mode lent actif : attends quelques secondes."
@@ -1267,8 +1264,8 @@ msgstr "Modération accordée."
 msgid "Unmodded."
 msgstr "Modération retirée."
 
-msgid "Turns the level up at the source. It's the only setting that can make the voice louder — volume can only turn it down. Changing it rebuilds messages already read, so it costs again."
-msgstr "Monte le niveau à la source. C’est le seul réglage qui peut rendre la voix plus forte — le volume, lui, ne fait que baisser. Le changer refabrique les messages déjà lus, donc ça recoûte."
+msgid "Turns the level up at the source. It's the only setting that can make the voice louder: volume can only turn it down. Changing it rebuilds messages already read, so it costs again."
+msgstr "Monte le niveau à la source. C’est le seul réglage qui peut rendre la voix plus forte : le volume, lui, ne fait que baisser. Le changer refabrique les messages déjà lus, donc ça recoûte."
 
 msgid "Replay speed multiplier"
 msgstr "Multiplicateur de vitesse de relecture"
@@ -1330,8 +1327,8 @@ msgstr "Où le son sort"
 msgid "Open the channel on Twitch"
 msgstr "Ouvrir la chaîne sur Twitch"
 
-msgid "Per channel. Past that, the oldest ones are released — that's what lets a chat run for eight hours without swelling."
-msgstr "Par chaîne. Au-delà, les plus anciens sont libérés — c’est ce qui permet à un chat de tourner huit heures sans gonfler."
+msgid "Per channel. Past that, the oldest ones are released, which is what lets a chat run for eight hours without swelling."
+msgstr "Par chaîne. Au-delà, les plus anciens sont libérés, c’est ce qui permet à un chat de tourner huit heures sans gonfler."
 
 msgid "No connection to Fish Audio. Check your internet connection."
 msgstr "Pas de connexion à Fish Audio. Vérifie ta connexion internet."
@@ -1381,8 +1378,8 @@ msgstr "Pseudos ignorés"
 msgid "Voice power"
 msgstr "Puissance de la voix"
 
-msgid "Purge the whole chat — can't be undone"
-msgstr "Purger tout le chat — irréversible"
+msgid "Purge the whole chat, can't be undone"
+msgstr "Purger tout le chat, irréversible"
 
 msgid "Quit StreamyChat"
 msgstr "Quitter StreamyChat"
@@ -1463,8 +1460,8 @@ msgstr "Répondre"
 msgid "Replay the fixture from the start at the end"
 msgstr "Reprendre la fixture au début à la fin"
 
-msgid "Take clicks again — the chat becomes clickable again"
-msgstr "Reprendre les clics — le chat redevient cliquable"
+msgid "Take clicks again: the chat becomes clickable again"
+msgstr "Reprendre les clics : le chat redevient cliquable"
 
 msgid "network: timed out"
 msgstr "réseau : délai dépassé"
@@ -1472,8 +1469,8 @@ msgstr "réseau : délai dépassé"
 msgid "network: error"
 msgstr "réseau : erreur"
 
-msgid "Followers-only chat — /followers [minutes]"
-msgstr "Réserver le chat à ceux qui suivent — /followers [minutes]"
+msgid "Followers-only chat: /followers [minutes]"
+msgstr "Réserver le chat à ceux qui suivent : /followers [minutes]"
 
 msgid "Make the chat subs only"
 msgstr "Réserver le chat aux abonnés"
@@ -1658,8 +1655,8 @@ msgstr "Thème StreamyChat"
 msgid "Built-in themes"
 msgstr "Thèmes fournis"
 
-msgid "Timeout — /timeout user 10m [reason]"
-msgstr "Timeout — /timeout pseudo 10m [raison]"
+msgid "Timeout: /timeout user 10m [reason]"
+msgstr "Timeout : /timeout pseudo 10m [raison]"
 
 msgid "Timeout for 1 hour"
 msgstr "Timeout de 1 heure"
@@ -1775,8 +1772,8 @@ msgstr "Un clic, une validation dans le navigateur, et ton chat s’affiche ici.
 msgid "One moment…"
 msgstr "Un instant…"
 
-msgid "A message in txt speak or full of typos gets rewritten before it's read — otherwise the voice mangles it. Every message cleaned up costs a few thousandths of a cent."
-msgstr "Un message en langage SMS ou plein de fautes est réécrit avant d’être lu — sinon la voix le prononce n’importe comment. Chaque message corrigé coûte quelques centimes de millième."
+msgid "A message in txt speak or full of typos gets rewritten before it's read, otherwise the voice mangles it. Every message cleaned up costs a few thousandths of a cent."
+msgstr "Un message en langage SMS ou plein de fautes est réécrit avant d’être lu, sinon la voix le prononce n’importe comment. Chaque message corrigé coûte quelques centimes de millième."
 
 msgid "One message every 30 seconds"
 msgstr "Un message toutes les 30 secondes"
@@ -1841,8 +1838,8 @@ msgstr "warn"
 msgid "Warn sent."
 msgstr "Warn envoyé."
 
-msgid "Warn without sanctioning — /warn user reason"
-msgstr "Warn sans sanction — /warn pseudo raison"
+msgid "Warn without sanctioning: /warn user reason"
+msgstr "Warn sans sanction : /warn pseudo raison"
 
 msgid "Windows couldn't encrypt the key on this PC. It hasn't been saved."
 msgstr "Windows n’a pas réussi à chiffrer la clé sur ce PC. Elle n’a pas été enregistrée."
@@ -1870,8 +1867,8 @@ msgid "Shoutout sent for #%s."
 msgstr "Shoutout envoyé pour #%s."
 
 #, javascript-format
-msgid "Raid on #%s started. It leaves in 90 seconds — /unraid cancels it."
-msgstr "Raid vers #%s lancé. Il part dans 90 secondes — /unraid l’annule."
+msgid "Raid on #%s started. It leaves in 90 seconds. /unraid cancels it."
+msgstr "Raid vers #%s lancé. Il part dans 90 secondes. /unraid l’annule."
 
 #, javascript-format
 msgid "%1$s is timed out for %2$s."
@@ -2184,8 +2181,8 @@ msgid "no welcome message"
 msgstr "pas de message de bienvenue"
 
 #, javascript-format
-msgid "%1$s — trying again in %2$s s"
-msgstr "%1$s — nouvelle tentative dans %2$s s"
+msgid "%1$s, trying again in %2$s s"
+msgstr "%1$s, nouvelle tentative dans %2$s s"
 
 #, javascript-format
 msgid "Unknown command: /%s. Type \"/\" to see the ones that exist."
@@ -2213,8 +2210,8 @@ msgstr[1] "%d événements"
 msgid "Refused: %s"
 msgstr "Refusé : %s"
 
-msgid "Your Twitch session has expired. You need to reconnect — it takes three clicks."
-msgstr "La session Twitch a expiré. Il faut se reconnecter — ça prend trois clics."
+msgid "Your Twitch session has expired. You need to reconnect, it takes three clicks."
+msgstr "La session Twitch a expiré. Il faut se reconnecter, ça prend trois clics."
 
 msgid "Twitch can't be reached. Check your internet connection; the app will retry on its own."
 msgstr "Twitch est injoignable. Vérifie ta connexion internet ; l’application réessaiera toute seule."
@@ -2360,12 +2357,12 @@ msgstr "La voix"
 msgid "Voice picked"
 msgstr "Voix choisie"
 
-msgid "One username per line. Put your bots in here — Nightbot, StreamElements — or they hog the queue."
-msgstr "Un pseudo par ligne. Mets-y tes bots — Nightbot, StreamElements — sinon ils monopolisent la file."
+msgid "One username per line. Put your bots in here (Nightbot, StreamElements) or they hog the queue."
+msgstr "Un pseudo par ligne. Mets-y tes bots (Nightbot, StreamElements) sinon ils monopolisent la file."
 
 #, javascript-format
-msgid "Read this message — %s on the line"
-msgstr "Lire ce message — %s sur la ligne"
+msgid "Read this message, %s on the line"
+msgstr "Lire ce message, %s sur la ligne"
 
 #, javascript-format
 msgid "Open #%s on Twitch"
@@ -2495,8 +2492,8 @@ msgstr "Objectif terminé, pas atteint : %s"
 msgid "Goal reached: %s"
 msgstr "Objectif atteint : %s"
 
-msgid "Goal started: %s — %s to go."
-msgstr "Objectif lancé : %s — %s à atteindre."
+msgid "Goal started: %s, %s to go."
+msgstr "Objectif lancé : %s, %s à atteindre."
 
 msgid "Hype train over at level %s."
 msgstr "Hype train terminé au niveau %s."
@@ -2510,8 +2507,8 @@ msgstr "les hype trains dans ton chat"
 msgid "Poll over: %s"
 msgstr "Sondage terminé : %s"
 
-msgid "Poll over: %s — “%s” wins."
-msgstr "Sondage terminé : %s — « %s » gagne."
+msgid "Poll over: %s. “%s” wins."
+msgstr "Sondage terminé : %s. « %s » gagne."
 
 msgid "Poll started: %s"
 msgstr "Sondage lancé : %s"
@@ -2525,8 +2522,8 @@ msgstr "Prédiction ouverte : %s"
 msgid "Prediction over: %s"
 msgstr "Prédiction terminée : %s"
 
-msgid "Prediction over: %s — “%s” wins."
-msgstr "Prédiction terminée : %s — « %s » gagne."
+msgid "Prediction over: %s. “%s” wins."
+msgstr "Prédiction terminée : %s. « %s » gagne."
 
 msgid "predictions in your chat"
 msgstr "les prédictions dans ton chat"
@@ -2613,3 +2610,6 @@ msgstr "Quelle version tu fais tourner, et comment signaler un problème."
 
 msgid "What's new"
 msgstr "Nouveautés"
+
+msgid "Beta"
+msgstr "Bêta"
