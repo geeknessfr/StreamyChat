@@ -2667,3 +2667,15 @@ msgstr "Enregistrer le fichier"
 
 msgid "The report file is in the folder that just opened. Drag it into the form."
 msgstr "Le fichier de rapport est dans le dossier qui vient de s'ouvrir. Glisse-le dans le formulaire."
+
+msgid "Add a language"
+msgstr "Ajouter une langue"
+
+msgid "Open the folder"
+msgstr "Ouvrir le dossier"
+
+msgid "Opens the folder where a translation goes. Drop a .po catalogue in it, restart StreamyChat, and your language shows up in the list above."
+msgstr "Ouvre le dossier où se dépose une traduction. Mets-y un catalogue .po, relance StreamyChat, et ta langue apparaît dans la liste au-dessus."
+
+msgid "The language folder couldn't be opened."
+msgstr "Le dossier des langues n'a pas pu s'ouvrir."
