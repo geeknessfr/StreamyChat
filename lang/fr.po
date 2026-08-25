@@ -2545,3 +2545,71 @@ msgstr "Tes réglages, tes chaînes et ton compte Twitch ont été repris de Str
 
 msgid "Your settings and your channels were carried over from StreamyChat, but not your Twitch account: you have to sign in again. The two versions keep their own settings from now on."
 msgstr "Tes réglages et tes chaînes ont été repris de StreamyChat, mais pas ton compte Twitch : il faut te reconnecter. À partir de maintenant, les deux versions gardent leurs réglages chacune de leur côté."
+
+msgid "This test build has been switched off."
+msgstr "Cette build de test a été coupée."
+
+msgid "This test build has been switched off. Ask Geekness for the current one."
+msgstr "Cette build de test a été coupée. Demande la nouvelle à Geekness."
+
+msgid "This test build has expired. Ask Geekness for the current one."
+msgstr "Cette build de test a expiré. Demande la nouvelle à Geekness."
+
+msgid "StreamyChat xD hasn't been able to check in for a week. Connect to the internet and start it again."
+msgstr "StreamyChat xD n'arrive plus à se vérifier depuis une semaine. Connecte-toi à internet et relance-le."
+
+msgid "This test build stops working in %d day. Ask Geekness for the current one."
+msgid_plural "This test build stops working in %d days. Ask Geekness for the current one."
+msgstr[0] "Cette build de test s’arrête dans %d jour. Demande la nouvelle à Geekness."
+msgstr[1] "Cette build de test s’arrête dans %d jours. Demande la nouvelle à Geekness."
+
+msgid "A new version is out."
+msgstr "Une nouvelle version est sortie."
+
+msgid "A new version is ready to install."
+msgstr "Une nouvelle version est prête à installer."
+
+msgid "About"
+msgstr "À propos"
+
+msgid "Check now"
+msgstr "Vérifier maintenant"
+
+msgid "Checking…"
+msgstr "Vérification…"
+
+msgid "Couldn't check. It will try again on its own."
+msgstr "La vérification a échoué. Il réessaiera tout seul."
+
+msgid "Downloading the update…"
+msgstr "Téléchargement de la mise à jour…"
+
+msgid "Downloading the update… %s%"
+msgstr "Téléchargement de la mise à jour… %s %"
+
+msgid "Ready to install."
+msgstr "Prête à installer."
+
+msgid "Restart and install"
+msgstr "Redémarrer et installer"
+
+msgid "Something is wrong"
+msgstr "Quelque chose ne va pas"
+
+msgid "The edition and the number of the build you are running."
+msgstr "La version que tu fais tourner, et son numéro."
+
+msgid "Up to date."
+msgstr "À jour."
+
+msgid "Updates"
+msgstr "Mises à jour"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Which version you run, and how to report a problem."
+msgstr "Quelle version tu fais tourner, et comment signaler un problème."
+
+msgid "What's new"
+msgstr "Nouveautés"
