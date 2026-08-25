@@ -687,8 +687,6 @@ msgstr "Enregistrement…"
 msgid "Save"
 msgstr "Enregistrer"
 
-msgid "Save the report"
-msgstr "Enregistrer le rapport"
 
 msgid "Send (Enter)"
 msgstr "Envoyer (Entrée)"
@@ -1396,15 +1394,11 @@ msgstr "raison inconnue"
 msgid "Fast"
 msgstr "Rapide"
 
-msgid "Problem report"
-msgstr "Rapport de problème"
 
 #, javascript-format
 msgid "Report saved: %s"
 msgstr "Rapport enregistré : %s"
 
-msgid "Bundles the logs, the session summary and your settings into one file to send. You pick where it goes, and your Twitch access tokens are stripped out."
-msgstr "Rassemble les logs, le résumé de la session et tes réglages dans un fichier à envoyer. Tu choisis où l’enregistrer, et tes jetons d’accès à Twitch en sont retirés."
 
 msgid "Take text again"
 msgstr "Réaccepter le texte"
@@ -2634,3 +2628,42 @@ msgstr "message mis en avant avec des points de chaîne"
 
 msgid "and one with bits"
 msgstr "et un autre avec des bits"
+
+msgid "**How to reproduce it**"
+msgstr "**Comment le reproduire**"
+
+msgid "**The report file**"
+msgstr "**Le fichier de rapport**"
+
+msgid "**What happens**"
+msgstr "**Ce qui se passe**"
+
+msgid "Bug report file"
+msgstr "Fichier de rapport de bug"
+
+msgid "Bundles the logs, the session summary and your settings into one file. You pick where it goes, and your Twitch access tokens are stripped out."
+msgstr "Rassemble les logs, le résumé de la session et tes réglages dans un seul fichier. Tu choisis où il va, et tes jetons Twitch en sont retirés."
+
+msgid "GitHub could not be opened. Save the file below and send it another way."
+msgstr "GitHub n'a pas pu s'ouvrir. Enregistre le fichier ci-dessous et envoie-le autrement."
+
+msgid "It is in the folder that opened next to this form: drag it in."
+msgstr "Il est dans le dossier qui vient de s’ouvrir à côté : glisse-le dedans."
+
+msgid "Open the form"
+msgstr "Ouvrir le formulaire"
+
+msgid "Opens the form on GitHub, already filled in with your version. The report file opens in a folder next to it: drag it into the form so the logs come with it."
+msgstr "Ouvre le formulaire sur GitHub, déjà rempli avec ta version. Le fichier de rapport s’ouvre dans un dossier à côté : glisse-le dans le formulaire pour que les logs partent avec."
+
+msgid "Preparing…"
+msgstr "Préparation…"
+
+msgid "Report a bug"
+msgstr "Signaler un bug"
+
+msgid "Save the file"
+msgstr "Enregistrer le fichier"
+
+msgid "The report file is in the folder that just opened. Drag it into the form."
+msgstr "Le fichier de rapport est dans le dossier qui vient de s'ouvrir. Glisse-le dans le formulaire."
