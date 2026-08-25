@@ -28,6 +28,27 @@ proved itself.
 
 ---
 
+## 0.9.3 - 25 August 2026
+
+### Fixed
+
+- **"Restart and install" did nothing at all.** The update downloaded, the button appeared, the
+  click went nowhere and nothing said why. Closing the app installed it anyway, which is how
+  0.9.2 reached anyone who had it.
+
+---
+
+## 0.9.2 - 25 August 2026
+
+### Fixed
+
+- **"Sign out" no longer shows up before you have signed in.** It was there, greyed out, on a
+  fresh install.
+- **The language setting claimed an unfinished translation falls back to French.** It falls back
+  to English, and has since the interface was rewritten in English.
+
+---
+
 ## 0.9.1 - 25 August 2026
 
 ### Fixed
