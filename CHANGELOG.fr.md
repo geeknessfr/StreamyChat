@@ -24,6 +24,27 @@ Il alimente un panneau de la fenêtre de réglages : d'où la structure réguli�
 
 ---
 
+## 0.9.3 - 25 août 2026
+
+### Corrigé
+
+- **« Redémarrer et installer » ne faisait rien du tout.** La mise à jour se téléchargeait, le
+  bouton apparaissait, le clic partait dans le vide et rien ne disait pourquoi. Fermer
+  l'application l'installait quand même, et c'est comme ça que la 0.9.2 est arrivée.
+
+---
+
+## 0.9.2 - 25 août 2026
+
+### Corrigé
+
+- **« Se déconnecter » n'apparaît plus avant que tu ne sois connecté.** Il était là, grisé, sur
+  une installation neuve.
+- **Le réglage de langue disait qu'une traduction incomplète retombe sur le français.** Elle
+  retombe sur l'anglais, et depuis que l'interface est écrite en anglais.
+
+---
+
 ## 0.9.1 - 25 août 2026
 
 ### Corrigé
