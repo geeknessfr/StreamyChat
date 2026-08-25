@@ -118,6 +118,11 @@ l'application reste utilisable quel que soit le point où tu t'es arrêté.
 
 Le détail est dans [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Ce qui a changé
+
+Chaque version, avec ce qu’elle apportait : [CHANGELOG.fr.md](CHANGELOG.fr.md).
+[In English](CHANGELOG.md).
+
 ---
 
 © 2026 Geekness. Sans lien avec Twitch.
