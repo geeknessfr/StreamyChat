@@ -23,6 +23,11 @@ vraie chaîne.*
 *Chaque couleur, chaque police, chaque espacement est à toi. Un thème est un fichier que tu peux
 exporter et partager.*
 
+![Trois thèmes livrés](images/fr/themes.png)
+
+*Six thèmes sont livrés avec, et chacun est un point de départ plutôt qu'un choix figé :
+prends le plus proche, puis change ce que tu veux.*
+
 ## Ce qu'elle fait aujourd'hui
 
 - **Plusieurs chaînes à la fois**, dans des onglets que tu déplaces à la souris, pour les
