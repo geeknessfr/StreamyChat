@@ -20,6 +20,11 @@ to edit, no command line, no token to paste.
 
 *Every colour, font and spacing is yours. A theme is a file you can export and share.*
 
+![Three built-in themes](images/en/themes.png)
+
+*Six themes ship with it, and each one is a starting point rather than a fixed choice: pick
+the closest, then change whatever you want.*
+
 ## What it does today
 
 - **Several channels at once**, in tabs you can drag: reorder them, move them to another
