@@ -288,6 +288,10 @@ msgstr ""
 msgid "A new version is ready to install."
 msgstr ""
 
+#: src/renderer/settings/preview-specimens.ts:89
+msgid "a noticeably longer message, written on purpose to check that wrapping works and that the second line stays aligned with the first"
+msgstr ""
+
 #: src/main/twitch/chat/commands.ts:780
 msgid "A raid is already in progress. Cancel it with /unraid before starting another."
 msgstr ""
@@ -429,6 +433,10 @@ msgstr ""
 
 #: src/renderer/settings/AdvancedSection.tsx:217
 msgid "An unfinished translation leaves the rest in English. You can add one by dropping a .po file into the lang folder of your data directory."
+msgstr ""
+
+#: src/renderer/settings/preview-specimens.ts:96
+msgid "and one with bits"
 msgstr ""
 
 #: src/renderer/chat/EmotePicker.tsx:172
@@ -1163,6 +1171,14 @@ msgstr ""
 msgid "Hex colour"
 msgstr ""
 
+#: src/renderer/settings/preview-specimens.ts:86
+msgid "hey!"
+msgstr ""
+
+#: src/renderer/settings/preview-specimens.ts:94
+msgid "hi, just found the channel"
+msgstr ""
+
 #: src/shared/commands.ts:95
 msgid "Highlighted announcement in chat"
 msgstr ""
@@ -1177,6 +1193,10 @@ msgstr ""
 
 #: src/renderer/settings/palette.ts:130
 msgid "Highlighted message edge"
+msgstr ""
+
+#: src/renderer/settings/preview-specimens.ts:95
+msgid "highlighted with channel points"
 msgstr ""
 
 #: src/shared/shortcut.ts:93
@@ -1937,7 +1957,7 @@ msgstr ""
 msgid "Press a key…"
 msgstr ""
 
-#: src/renderer/settings/ChatPreview.tsx:69
+#: src/renderer/settings/ChatPreview.tsx:36
 msgid "Preview"
 msgstr ""
 
@@ -2264,6 +2284,10 @@ msgstr ""
 msgid "Show deleted messages"
 msgstr ""
 
+#: src/renderer/settings/preview-specimens.ts:93
+msgid "sighs loudly"
+msgstr ""
+
 #: src/renderer/settings/SettingsApp.tsx:429
 msgid "Sign out"
 msgstr ""
@@ -2459,7 +2483,7 @@ msgstr ""
 msgid "switchover deadline missed after a session_reconnect"
 msgstr ""
 
-#: src/shared/theme.ts:375
+#: src/shared/theme.ts:382
 msgid "System font"
 msgstr ""
 
@@ -2898,11 +2922,11 @@ msgstr ""
 msgid "This config comes from a newer version of StreamyChat. Unknown settings are ignored."
 msgstr ""
 
-#: src/shared/theme.ts:568
+#: src/shared/theme.ts:575
 msgid "This file doesn't contain a theme."
 msgstr ""
 
-#: src/shared/theme.ts:577
+#: src/shared/theme.ts:584
 msgid "This file isn't a StreamyChat theme: it has no colours in it."
 msgstr ""
 
@@ -2964,12 +2988,12 @@ msgid_plural "This test build stops working in %d days. Ask Geekness for the cur
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/shared/theme.ts:588
+#: src/shared/theme.ts:595
 #, javascript-format
 msgid "This theme is in format %1$s, and this version of StreamyChat reads format %2$s."
 msgstr ""
 
-#: src/shared/theme.ts:598
+#: src/shared/theme.ts:605
 msgid "This theme is unreadable and wasn't applied."
 msgstr ""
 
@@ -3271,6 +3295,10 @@ msgstr ""
 
 #: src/renderer/settings/palette.ts:166
 msgid "Warning message"
+msgstr ""
+
+#: src/renderer/settings/preview-specimens.ts:85
+msgid "we start in two minutes"
 msgstr ""
 
 #: src/renderer/settings/ChatSection.tsx:77
