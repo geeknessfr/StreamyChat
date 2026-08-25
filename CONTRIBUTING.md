@@ -25,13 +25,18 @@ StreamyChat's interface lives in [gettext](https://www.gnu.org/software/gettext/
 
 ### Try it before you send it
 
-Drop your `.po` into the `lang` folder of your data directory, then restart StreamyChat and pick
-your language under **Settings → Advanced → Language**.
+Drop your `.po` into the `lang` folder of your data, then restart StreamyChat and pick your
+language under **Settings → Advanced → Language**.
 
-| Install type | Where the folder is |
+**The folder does not exist until you create it**, so do that first: press `Win`+`R`, paste the
+path below, press Enter, and make a `lang` folder there.
+
+| Install type | Where to paste |
 |---|---|
-| Installed | `%APPDATA%\StreamyChat\lang` |
-| Portable | `StreamyChat-data\lang`, next to the executable |
+| Installed | `%APPDATA%\StreamyChat` |
+| Portable | the `StreamyChat-data` folder next to the executable |
+
+If you are on the xD edition, the folder is `%APPDATA%\StreamyChat-xD` instead.
 
 ## Things worth knowing
 
@@ -86,10 +91,15 @@ Les textes vivent dans des catalogues [gettext](https://www.gnu.org/software/get
 Dépose ton `.po` dans le dossier `lang` de tes données, relance StreamyChat, et choisis ta langue
 dans **Réglages → Avancé → Langue**.
 
-| Type d'installation | Où est le dossier |
+**Le dossier n'existe pas tant que tu ne l'as pas créé**, alors commence par là : `Win`+`R`, colle
+le chemin ci-dessous, Entrée, et crée un dossier `lang` dedans.
+
+| Type d'installation | Ce que tu colles |
 |---|---|
-| Installée | `%APPDATA%\StreamyChat\lang` |
-| Portable | `StreamyChat-data\lang`, à côté de l'exécutable |
+| Installée | `%APPDATA%\StreamyChat` |
+| Portable | le dossier `StreamyChat-data`, à côté de l'exécutable |
+
+Sur l'édition xD, le dossier est `%APPDATA%\StreamyChat-xD`.
 
 ## Ce qu'il faut savoir
 
