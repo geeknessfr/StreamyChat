@@ -53,12 +53,16 @@ will not report anything.
   your PC.
 - **You can add your own language.** Drop a `.po` file into the `lang` folder of your data, then
   restart. An unfinished translation falls back to English.
+- **StreamyChat updates itself.** It checks on launch, downloads in the background, and installs
+  the next time you restart it.
+- **An "About" section**, with your version, the update button and what each version brought.
+- **A "Report a bug" button.** It opens the form on GitHub already filled in with your version,
+  and drops the report file in a folder next to it, ready to drag in.
 
 ### Fixed
 
 - **The emote picker could stay empty for a whole session**, on every tab. The emotes were
   loaded: the screen did not know it.
-- **A window could open in the wrong language** and stay there until it was closed.
 - **Nicknames with no colour were all white.** They now take one of Twitch's colours, derived
   from the name: the same one from one evening to the next, as on the site.
 - **The channel's own emotes went missing every other time** from the "This channel" section.
@@ -86,7 +90,7 @@ will not report anything.
   with its OpenRouter key and its test field.
 - **The model and the cleanup prompt are no longer adjustable.** StreamyChat answers for the
   quality of the cleanup, so it sets the details.
-- **The spending counters moved to "Advanced"**, next to the problem report.
+- **The spending counters moved to "Advanced"**, next to the bug report.
 
 ---
 
