@@ -49,12 +49,17 @@ ta chaîne ne dira rien de ce qui s'y passe.
   celle de ton PC.
 - **Tu peux ajouter ta langue.** Un fichier `.po` dans le dossier `lang` de tes données, puis tu
   relances. Une traduction incomplète retombe sur l'anglais.
+- **StreamyChat se met à jour toute seule.** Elle vérifie au lancement, télécharge en arrière-plan
+  et installe au redémarrage suivant.
+- **Une section « À propos »**, avec ta version, le bouton de mise à jour et ce qu'apporte chaque
+  version.
+- **Un bouton « Signaler un bug ».** Il ouvre le formulaire sur GitHub, déjà rempli avec ta
+  version, et pose le fichier de rapport dans un dossier à côté, prêt à glisser dedans.
 
 ### Corrigé
 
 - **Le sélecteur d'emotes pouvait rester vide toute la session**, sur tous les onglets. Les
   emotes étaient chargées : c'est l'écran qui ne le savait pas.
-- **Une fenêtre pouvait s'ouvrir dans la mauvaise langue** et y rester jusqu'à sa fermeture.
 - **Les pseudos sans couleur étaient tous blancs.** Ils prennent une couleur de Twitch dérivée
   du pseudo : la même d'une soirée à l'autre, comme sur le site.
 - **Les emotes de la chaîne manquaient une fois sur deux** dans la section « Cette chaîne ».
@@ -84,7 +89,7 @@ ta chaîne ne dira rien de ce qui s'y passe.
   « Voix », avec sa clé OpenRouter et son champ d'essai.
 - **Le modèle et le prompt de correction ne se règlent plus.** StreamyChat répond de la qualité
   de la correction, donc il en règle les détails.
-- **Les compteurs de dépense sont dans « Avancé »**, à côté du rapport de problème.
+- **Les compteurs de dépense sont dans « Avancé »**, à côté du rapport de bug.
 
 ---
 
