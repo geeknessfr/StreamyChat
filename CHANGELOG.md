@@ -28,13 +28,23 @@ proved itself.
 
 ---
 
-## Unreleased
+## 0.9.1 - 25 August 2026
 
 ### Fixed
 
+- **Automatic updates did not work at all in 0.9.0.** "Check now" answered "The check failed",
+  every time. If you are on 0.9.0, install this one by hand: 0.9.0 cannot fetch it for you.
 - **"Add a language" now opens the folder for you**, and creates it if it is not there. The
   folder does not exist until something makes it, so the instructions sent people to a path
   Windows called missing.
+- **Command names in "What's new" were showing their backticks**, as if the file had been
+  pasted raw into the window.
+
+### Changed
+
+- **"What's new" is shorter, and sorted.** The main version leads with what it brought, its
+  fixes sit under it, and the two main versions before it follow. A link opens the full
+  changelog on GitHub, in your language.
 
 ---
 
