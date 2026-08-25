@@ -1,0 +1,2547 @@
+# StreamyChat — catalogue français.
+#
+# 🚨 CE FICHIER N'EST PAS OPTIONNEL.
+#
+# Depuis la phase 8.5, les msgid sont en anglais : c'est la langue écrite dans le code. Le
+# français vit ici, et nulle part ailleurs. Une entrée manquante s'affiche donc en anglais —
+# y compris chez Geekness, qui teste en français.
+#
+# Un test unitaire exige ce catalogue complet à 100 % et fait échouer « npm run verify ».
+#
+# CE QUI NE SE TRADUIT PAS
+#
+#   Les noms de langue du sélecteur, les exemples d'heure (14:32) et les unités universelles
+#   (12 px, +6 dB). Voir CLAUDE.md.
+#
+# LE REGISTRE
+#
+#   Français gamer, pas français soutenu — CLAUDE.md règle 11 :
+#     - les mots de Twitch restent : ban, timeout, warn, raid, clip, sub, mod, VIP, emote ;
+#     - les chiffres s'écrivent en chiffres : « 14 jours » ;
+#     - la grammaire reste entière : « Il faut être modérateur », jamais « Faut être mod » ;
+#     - le tutoiement, et des phrases avec majuscule et point.
+#
+# LES MARQUEURS
+#
+#   %s et %d portent une valeur posée à l'exécution. Il faut tous les garder. %1$s / %2$s
+#   quand le français change l'ordre des mots.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StreamyChat\n"
+"Language: fr\n"
+"Language-Team: StreamyChat\n"
+"Last-Translator: Geekness\n"
+"PO-Revision-Date: 2026-08-24 00:00+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "« Geekness says: hi everyone ». Handy when you're not watching your chat. The username is billed too."
+msgstr "« Geekness dit : salut tout le monde ». Pratique quand tu ne regardes pas ton chat. Le pseudo est facturé aussi."
+
+#, javascript-format
+msgid "%1$s, %2$s."
+msgstr "%1$s, %2$s."
+
+#, javascript-format
+msgid "%d character"
+msgid_plural "%d characters"
+msgstr[0] "%d caractère"
+msgstr[1] "%d caractères"
+
+#, javascript-format
+msgid "%d message"
+msgid_plural "%d messages"
+msgstr[0] "%d message"
+msgstr[1] "%d messages"
+
+#, javascript-format
+msgid "%d message already cleaned up. It won't be paid for again."
+msgid_plural "%d messages already cleaned up. They won't be paid for again."
+msgstr[0] "%d message déjà corrigé. Il ne sera pas repayé."
+msgstr[1] "%d messages déjà corrigés. Ils ne seront pas repayés."
+
+#, javascript-format
+msgid "%s viewer"
+msgid_plural "%s viewers"
+msgstr[0] "%s spectateur"
+msgstr[1] "%s spectateurs"
+
+msgid "to make a VIP"
+msgstr "à distinguer"
+
+msgid "just now"
+msgstr "à l’instant"
+
+msgid "to mod"
+msgstr "à nommer"
+
+msgid "When to start cleaning up"
+msgstr "À partir de quand corriger"
+
+msgid "How fast the voice talks. Changing it re-synthesises everything already read, so it costs again."
+msgstr "À quelle vitesse la voix parle. La changer resynthétise tout ce qui a déjà été lu, donc ça recoûte."
+
+msgid "Sub"
+msgstr "Abonné"
+
+msgid "Subs, raids, gifts."
+msgstr "Abonnements, raids, cadeaux."
+
+msgid "Subs"
+msgstr "Abonnés"
+
+msgid "Subs only"
+msgstr "Abonnés seulement"
+
+msgid "Accent"
+msgstr "Accent"
+
+msgid "Muted accent"
+msgstr "Accent atténué"
+
+msgid "Accent and borders"
+msgstr "Accent et bordures"
+
+msgid "Hovered accent"
+msgstr "Accent survolé"
+
+msgid "Roomy"
+msgstr "Aéré"
+
+msgid "Show deleted messages"
+msgstr "Afficher les messages effacés"
+
+msgid "Add a reason to the warn, they'll be able to read it."
+msgstr "Ajoute une raison au warn, la personne pourra le lire."
+
+msgid "Add a channel"
+msgstr "Ajouter une chaîne"
+
+msgid "German"
+msgstr "Allemand"
+
+msgid "Alpha"
+msgstr "Alpha"
+
+msgid "English"
+msgstr "Anglais"
+
+msgid "Announcement"
+msgstr "Annonce"
+
+msgid "Announcement — blue"
+msgstr "Annonce — bleu"
+
+msgid "Announcement — magenta"
+msgstr "Annonce — magenta"
+
+msgid "Announcement — orange"
+msgstr "Annonce — orange"
+
+msgid "Announcement — green"
+msgstr "Annonce — vert"
+
+msgid "Announcement — purple"
+msgstr "Annonce — violet"
+
+msgid "Highlighted announcement in chat"
+msgstr "Annonce mise en avant dans le chat"
+
+msgid "Say who's talking"
+msgstr "Annoncer qui parle"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Cancel the reply (Esc)"
+msgstr "Annuler la réponse (Échap)"
+
+msgid "Cancel the raid in progress"
+msgstr "Annuler le raid en cours"
+
+msgid "Preview"
+msgstr "Aperçu"
+
+msgid "Look"
+msgstr "Apparence"
+
+msgid "Press a key…"
+msgstr "Appuie sur une touche…"
+
+msgid "After"
+msgstr "Après"
+
+msgid "ZIP archive"
+msgstr "Archive ZIP"
+
+msgid "Stopped"
+msgstr "Arrêté"
+
+msgid "Stop"
+msgstr "Arrêter"
+
+#, javascript-format
+msgid "Stop %s"
+msgstr "Arrêter %s"
+
+msgid "Past that, the oldest ones are dropped. During a raid, chat spams faster than the voice can talk."
+msgstr "Au-delà, les plus vieux sont jetés. Pendant un raid, le chat spam plus vite que la voix ne parle."
+
+msgid "Above that, nothing gets read. A 500-character wall blocks the queue for a minute."
+msgstr "Au-dessus, on ne lit pas. Un pavé de 500 caractères bloque la file une minute."
+
+msgid "None"
+msgstr "Aucun"
+
+msgid "No account connected."
+msgstr "Aucun compte connecté."
+
+msgid "No session header found in the log."
+msgstr "Aucun en-tête de session trouvé dans le journal."
+
+msgid "No limit"
+msgstr "Aucune"
+
+msgid "No channel matches."
+msgstr "Aucune chaîne ne correspond."
+
+msgid "No channel open."
+msgstr "Aucune chaîne ouverte."
+
+msgid "You don't follow any channel."
+msgstr "Aucune chaîne suivie."
+
+msgid "No emote matches."
+msgstr "Aucune emote ne correspond."
+
+msgid "no subscription created within ten seconds"
+msgstr "aucune souscription créée dans les dix secondes"
+
+msgid "No translation found for this language, so StreamyChat stays in English. Drop a .po file into the lang folder of your data directory."
+msgstr "Aucune traduction trouvée pour cette langue : l’application reste en français. Dépose un fichier .po dans le dossier lang de tes données."
+
+msgid "No voice picked yet: nothing gets read until you choose one."
+msgstr "Aucune voix choisie : rien ne sera lu tant que tu n’en as pas pris une."
+
+msgid "No voice found. Try another language, or another name."
+msgstr "Aucune voix trouvée. Essaie une autre langue, ou un autre nom."
+
+msgid "Today"
+msgstr "Aujourd’hui"
+
+msgid "Advanced"
+msgstr "Avancé"
+
+msgid "With bits only"
+msgstr "Avec bits seulement"
+
+msgid "Permanent ban — /ban user [reason]"
+msgstr "Ban définitif — /ban pseudo [raison]"
+
+msgid "bans and timeouts"
+msgstr "ban et timeout"
+
+msgid "Ban permanently"
+msgstr "Bannir définitivement"
+
+msgid "Scrollbar"
+msgstr "Barre de défilement"
+
+msgid "Hovered scrollbar"
+msgstr "Barre de défilement survolée"
+
+msgid "Title bar, tab bar."
+msgstr "Barre de titre, barre d’onglets."
+
+msgid "Title bar, tabs, system text."
+msgstr "Barre de titre, onglets, texte système."
+
+msgid "Bars"
+msgstr "Barres"
+
+msgid "Borders"
+msgstr "Bordures"
+
+msgid "Strong borders"
+msgstr "Bordures marquées"
+
+msgid "Loop"
+msgstr "Boucle"
+
+msgid "Buttons, selection, active outlines."
+msgstr "Boutons, sélection, liserés actifs."
+
+msgid "Cards and slightly raised areas."
+msgstr "Cartes et zones légèrement détachées."
+
+msgid "This chat needs a verified phone number."
+msgstr "Ce chat demande un numéro de téléphone vérifié."
+
+msgid "This chat needs a verified email address on your Twitch account."
+msgstr "Ce chat demande une adresse e-mail vérifiée sur ton compte Twitch."
+
+msgid "This chat is for channel subs only."
+msgstr "Ce chat est réservé aux abonnés de la chaîne."
+
+msgid "This chat is subs only."
+msgstr "Ce chat est réservé aux abonnés."
+
+msgid "This chat is for followers only."
+msgstr "Ce chat est réservé aux personnes qui suivent la chaîne."
+
+msgid "This chat only takes emotes."
+msgstr "Ce chat n’accepte que les emotes."
+
+msgid "That login code has expired. Ask for a new one."
+msgstr "Ce code de connexion n’est plus valable. Demande un nouveau code."
+
+msgid "This account isn't new."
+msgstr "Ce compte n’est pas récent."
+
+msgid "This Twitch account no longer exists."
+msgstr "Ce compte Twitch n’existe plus."
+
+msgid "This file isn't a StreamyChat theme: it has no colours in it."
+msgstr "Ce fichier n’est pas un thème StreamyChat : il ne contient aucune couleur."
+
+msgid "This file doesn't contain a theme."
+msgstr "Ce fichier ne contient pas un thème."
+
+msgid "This message is too old to delete."
+msgstr "Ce message est trop vieux pour être supprimé."
+
+msgid "This message has no id, so it can't be deleted."
+msgstr "Ce message n’a pas d’identifiant : impossible de le supprimer."
+
+msgid "This message no longer exists."
+msgstr "Ce message n’existe plus."
+
+msgid "What you only notice when it's wrong."
+msgstr "Ce qu’on ne remarque que lorsque c’est raté."
+
+msgid "What it costs"
+msgstr "Ce que ça coûte"
+
+msgid "What Twitch and the app say in the feed."
+msgstr "Ce que Twitch et l’application disent dans le fil."
+
+msgid "Readable without asking for attention."
+msgstr "Ce qui doit se lire sans se signaler."
+
+msgid "What stands out inside a line."
+msgstr "Ce qui se détache à l’intérieur d’une ligne."
+
+msgid "The stuff you need when something goes wrong."
+msgstr "Ce qui sert quand quelque chose ne va pas."
+
+msgid "That role can't be changed for this person."
+msgstr "Ce rôle ne peut pas être changé pour cette personne."
+
+msgid "This theme is unreadable and wasn't applied."
+msgstr "Ce thème est illisible et n’a pas été appliqué."
+
+#, javascript-format
+msgid "Your PC's language%s"
+msgstr "Celle de ton PC%s"
+
+msgid "This channel"
+msgstr "Cette chaîne"
+
+msgid "This channel is suspended."
+msgstr "Cette chaîne est suspendue."
+
+msgid "This command needs a permission your session doesn't have. Reconnect to Twitch."
+msgstr "Cette commande demande une autorisation que ta session n’a pas. Reconnecte-toi à Twitch."
+
+msgid "This config comes from a newer version of StreamyChat. Unknown settings are ignored."
+msgstr "Cette configuration vient d’une version plus récente de StreamyChat. Les réglages inconnus sont ignorés."
+
+msgid "This person is already banned from this channel."
+msgstr "Cette personne est déjà bannie de cette chaîne."
+
+msgid "This person already mods the channel."
+msgstr "Cette personne est déjà modératrice de la chaîne."
+
+msgid "This person is already a VIP of the channel."
+msgstr "Cette personne est déjà VIP de la chaîne."
+
+msgid "This person mods the channel: unmod them before making them a VIP."
+msgstr "Cette personne modère la chaîne : retire-lui la modération avant de la faire VIP."
+
+msgid "This person has no ban or timeout on this channel."
+msgstr "Cette personne n’est ni bannie ni exclue de cette chaîne."
+
+msgid "This person isn't a VIP of the channel."
+msgstr "Cette personne n’est pas VIP de la chaîne."
+
+msgid "That voice isn't available any more. Pick another one."
+msgstr "Cette voix n’est plus disponible. Choisis-en une autre."
+
+msgid "Demo channel"
+msgstr "Chaîne de démonstration"
+
+msgid "Channels"
+msgstr "Chaînes"
+
+msgid "Channels you follow"
+msgstr "Chaînes suivies"
+
+msgid "Input fields"
+msgstr "Champs de saisie"
+
+msgid "Every message that gets past the filters is read without you clicking. It can add up fast on a big channel: start with tight filters."
+msgstr "Chaque message qui passe les filtres est lu sans que tu cliques. Ça peut coûter cher sur une grosse chaîne : commence avec des filtres serrés."
+
+msgid "Monospace"
+msgstr "Chasse fixe"
+
+msgid "Chat"
+msgstr "Chat"
+
+msgid "Chat running in fallback mode (IRC): no GIFs, no gigantified emotes, no shared chat."
+msgstr "Chat en mode dégradé (IRC) : pas de GIF, pas d’emotes gigantifiées, pas de chat partagé."
+
+msgid "Chat cleared."
+msgstr "Chat purgé."
+
+msgid "Search for a voice name"
+msgstr "Cherche un nom de voix"
+
+msgid "Look this channel up on Twitch"
+msgstr "Chercher cette chaîne sur Twitch"
+
+msgid "Search for an emote"
+msgstr "Chercher une emote"
+
+msgid "Chinese"
+msgstr "Chinois"
+
+msgid "Pick"
+msgstr "Choisir"
+
+msgid "Pick a channel"
+msgstr "Choisir une chaîne"
+
+msgid "Pick a voice"
+msgstr "Choisir une voix"
+
+msgid "Pick a virtual audio cable — VoiceMeeter, VB-Cable — so your chat can hear the voice. On the default output, it only comes out in your headset."
+msgstr "Choisis un câble audio virtuel — VoiceMeeter, VB-Cable — pour que ton chat entende la voix. Sur la sortie par défaut, elle sort juste dans ton casque."
+
+msgid "Brightness"
+msgstr "Clarté"
+
+msgid "API key"
+msgstr "Clé d’API"
+
+msgid "Key cleared."
+msgstr "Clé effacée."
+
+msgid "Key saved"
+msgstr "Clé enregistrée"
+
+msgid "Key saved."
+msgstr "Clé enregistrée."
+
+msgid "OpenRouter key"
+msgstr "Clé OpenRouter"
+
+msgid "OpenRouter key saved"
+msgstr "Clé OpenRouter enregistrée"
+
+msgid "Left click on its own doesn't work: you couldn't click anything any more. Add Ctrl, Alt or Shift."
+msgstr "Clic gauche tout seul, ça marche pas : tu ne pourrais plus rien cliquer. Ajoute Ctrl, Alt ou Maj."
+
+msgid "Click it, then press the key or button you want. It reads the message under your mouse, and it won't fire while you're typing in chat."
+msgstr "Clique dessus, puis appuie sur la touche ou le bouton que tu veux. Ça lit le message sous ta souris, et ça ne se déclenche pas pendant que tu tapes dans le chat."
+
+msgid "Click « + » at the top left to open a channel's chat."
+msgstr "Clique sur « + » en haut à gauche pour ouvrir le chat d’une chaîne."
+
+#, javascript-format
+msgid "close code %s"
+msgstr "code de fermeture %s"
+
+msgid "Window corners"
+msgstr "Coins de la fenêtre"
+
+msgid "Paste your Fish Audio key to save it."
+msgstr "Colle ta clé Fish Audio pour l’enregistrer."
+
+msgid "Paste your key here"
+msgstr "Colle ta clé ici"
+
+msgid "Paste your OpenRouter key to save it."
+msgstr "Colle ta clé OpenRouter pour l’enregistrer."
+
+msgid "How the message flow reads."
+msgstr "Comment le flux de messages se lit."
+
+msgid "How chat windows sit and show up on screen. The size of the interface itself is set in « Look »."
+msgstr "Comment les fenêtres de chat se placent et se voient à l’écran. La taille de l’interface, elle, se règle dans « Apparence »."
+
+msgid "Compact"
+msgstr "Compact"
+
+msgid "Counter reset."
+msgstr "Compteur remis à zéro."
+
+#, javascript-format
+msgid "Config updated from version %s."
+msgstr "Configuration mise à jour depuis la version %s."
+
+msgid "Confirm?"
+msgstr "Confirmer ?"
+
+msgid "Connected"
+msgstr "Connecté"
+
+#, javascript-format
+msgid "Connected as %s"
+msgstr "Connecté en tant que %s"
+
+msgid "Connect StreamyChat to Twitch"
+msgstr "Connecte StreamyChat à Twitch"
+
+msgid "Connect to Twitch to write."
+msgstr "Connecte-toi à Twitch pour écrire."
+
+msgid "Connect to Twitch to moderate."
+msgstr "Connecte-toi à Twitch pour modérer."
+
+msgid "Connect to Twitch to open a channel."
+msgstr "Connecte-toi à Twitch pour ouvrir une chaîne."
+
+msgid "Connect to Twitch to see this card."
+msgstr "Connecte-toi à Twitch pour voir cette fiche."
+
+msgid "Connecting…"
+msgstr "Connexion…"
+
+msgid "Korean"
+msgstr "Coréen"
+
+msgid "Cleanup"
+msgstr "Correction"
+
+msgid "Cleanups in memory"
+msgstr "Corrections en mémoire"
+
+msgid "Clean up messages"
+msgstr "Corriger les messages"
+
+msgid "Fix unreadable usernames"
+msgstr "Corriger les pseudonymes illisibles"
+
+msgid "Hex colour"
+msgstr "Couleur en hexadécimal"
+
+msgid "Turn off slow mode"
+msgstr "Couper le mode lent"
+
+msgid "Created less than an hour ago: that's the signature of a throwaway account."
+msgstr "Créé il y a moins d’une heure : c’est la signature d’un compte jetable."
+
+msgid "Created less than a week ago."
+msgstr "Créé il y a moins d’une semaine."
+
+msgid "In messages"
+msgstr "Dans les messages"
+
+msgid "Signed out here, but Twitch didn't answer. Check your connections on twitch.tv."
+msgstr "Déconnecté ici, mais Twitch n’a pas répondu. Vérifie tes connexions sur twitch.tv."
+
+msgid "Signed out."
+msgstr "Déconnecté."
+
+msgid "Signing out…"
+msgstr "Déconnexion…"
+
+msgid "Already in memory: this one cost nothing."
+msgstr "Déjà en mémoire : ça n’a rien coûté cette fois."
+
+msgid "switchover deadline missed after a session_reconnect"
+msgstr "délai de bascule dépassé après un session_reconnect"
+
+msgid "Ask for a new code"
+msgstr "Demander un nouveau code"
+
+msgid "Starting…"
+msgstr "Démarrage…"
+
+msgid "Start"
+msgstr "Démarrer"
+
+msgid "Density"
+msgstr "Densité"
+
+msgid "Move to a new window"
+msgstr "Déplacer dans une nouvelle fenêtre"
+
+#, javascript-format
+msgid "Move to « %s »"
+msgstr "Déplacer vers « %s »"
+
+msgid "Since launch"
+msgstr "Depuis le lancement"
+
+msgid "Details"
+msgstr "Détails"
+
+msgid "Two layers: a wide one for depth, a tight one to lift the edge."
+msgstr "Deux couches : une large pour la profondeur, une serrée pour détacher le bord."
+
+msgid "Development"
+msgstr "Développement"
+
+msgid "Diagnostics"
+msgstr "Diagnostic"
+
+msgid "hand out VIP status"
+msgstr "donner le statut VIP"
+
+msgid "Make VIP"
+msgstr "Donner le statut VIP"
+
+msgid "Timeout length"
+msgstr "Durée du timeout"
+
+#, javascript-format
+msgid "Can't read that length: « %s ». Try 10, or 1h."
+msgstr "Durée illisible : « %s ». Essaie 10, ou 1h."
+
+#, javascript-format
+msgid "Can't read that length: « %s ». Try 30, or 1m."
+msgstr "Durée illisible : « %s ». Essaie 30, ou 1m."
+
+msgid "Connection failed"
+msgstr "Échec de connexion"
+
+msgid "Listen and compare voices before you pick one."
+msgstr "Écoute et compare les voix avant de choisir."
+
+msgid "Listen, compare, take your time. The sample comes out on the device you picked."
+msgstr "Écoute, compare, prends ton temps. L’extrait sort sur le périph que tu as choisi."
+
+#, javascript-format
+msgid "Listen to %s"
+msgstr "Écouter %s"
+
+msgid "Write in the third person"
+msgstr "Écrire à la troisième personne"
+
+msgid "write in chat"
+msgstr "écrire dans le chat"
+
+msgid "Write a badly spelled message and see what comes out. That's how you check your key works, without waiting for a real message."
+msgstr "Écris un message mal orthographié et regarde ce que ça donne. C’est le moyen de vérifier que ta clé marche, sans attendre un vrai message."
+
+msgid "Write a sentence to clean up."
+msgstr "Écris une phrase à corriger."
+
+msgid "Can't write"
+msgstr "Écriture impossible"
+
+msgid "Clear"
+msgstr "Effacer"
+
+msgid "It's encrypted on your PC. It never shows up in the logs, or in a problem report."
+msgstr "Elle est chiffrée sur ton PC. Elle n’apparaît jamais dans les logs, ni dans un rapport de bug."
+
+msgid "Fire the whole fixture at once, without waiting for the delays"
+msgstr "Émettre toute la fixture d'un coup, sans attendre les délais"
+
+msgid "Emotes"
+msgstr "Emotes"
+
+msgid "Emotes (Ctrl+E)"
+msgstr "Emotes (Ctrl+E)"
+
+msgid "Animated emotes"
+msgstr "Emotes animées"
+
+msgid "Waiting for you to approve it in the browser."
+msgstr "En attente de ta validation dans le navigateur."
+
+msgid "Working…"
+msgstr "En cours…"
+
+msgid "Below that, nothing gets read. « gg » read out loud adds nothing."
+msgstr "En dessous, on ne lit pas. « gg » lu à voix haute n’apporte rien."
+
+msgid "Live"
+msgstr "En direct"
+
+msgid "All time"
+msgstr "En tout"
+
+msgid "Logs everything StreamyChat exchanges with Twitch. Turn it on before reproducing a problem, then off again — the logs grow fast."
+msgstr "Enregistre le détail des échanges avec Twitch dans les logs. À activer avant de reproduire un problème, puis à éteindre : les logs grossissent vite."
+
+msgid "Save your OpenRouter key before trying."
+msgstr "Enregistre ta clé OpenRouter avant d’essayer."
+
+msgid "Saving…"
+msgstr "Enregistrement…"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Save the report"
+msgstr "Enregistrer le rapport"
+
+msgid "Send (Enter)"
+msgstr "Envoyer (Entrée)"
+
+msgid "Send your viewers to another channel"
+msgstr "Envoyer tes spectateurs sur une autre chaîne"
+
+msgid "Balanced"
+msgstr "Équilibrée"
+
+msgid "internal Twitch server error"
+msgstr "erreur interne du serveur Twitch"
+
+msgid "Spanish"
+msgstr "Espagnol"
+
+msgid "Export"
+msgstr "Exporter"
+
+#, javascript-format
+msgid "Voice sample won't play: %s"
+msgstr "Extrait de voix injouable : %s"
+
+msgid "Have chat messages read out loud, and pick where the sound comes out."
+msgstr "Faire lire les messages du chat à voix haute, et choisir où le son sort."
+
+msgid "Has chat messages read out loud. Every sentence read is billed by Fish Audio."
+msgstr "Fait lire les messages du chat à voix haute. Chaque phrase lue est facturée par Fish Audio."
+
+msgid "Window"
+msgstr "Fenêtre"
+
+msgid "Main window"
+msgstr "Fenêtre principale"
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "Close (Esc)"
+msgstr "Fermer (Échap)"
+
+msgid "Close this window"
+msgstr "Fermer cette fenêtre"
+
+msgid "Close the channel"
+msgstr "Fermer la chaîne"
+
+msgid "Close the raid banner"
+msgstr "Fermer le bandeau de raid"
+
+msgid "Card unavailable."
+msgstr "Fiche indisponible."
+
+msgid "User card"
+msgstr "Fiche utilisateur"
+
+msgid "Fish Audio isn't answering right now. Try again in a moment."
+msgstr "Fish Audio ne répond pas en ce moment. Réessaie dans un instant."
+
+msgid "Fixture replayed by demo mode"
+msgstr "Fixture rejouée par le mode démo"
+
+msgid "Followers"
+msgstr "Followers"
+
+msgid "« Subs only » background"
+msgstr "Fond « abonnés seuls »"
+
+msgid "Highlighted message background"
+msgstr "Fond d’un message mis en avant"
+
+msgid "First message background"
+msgstr "Fond d’un premier message"
+
+msgid "Announcement background"
+msgstr "Fond d’une annonce"
+
+msgid "Lifted sanction background"
+msgstr "Fond d’une levée"
+
+msgid "Notice background"
+msgstr "Fond d’une notice"
+
+msgid "Sanction background"
+msgstr "Fond d’une sanction"
+
+msgid "Panel background"
+msgstr "Fond des blocs"
+
+msgid "Chat background"
+msgstr "Fond du chat"
+
+msgid "Background when you're mentioned"
+msgstr "Fond quand on te mentionne"
+
+msgid "Backgrounds of selected items."
+msgstr "Fonds d’éléments sélectionnés."
+
+msgid "Backgrounds and text"
+msgstr "Fonds et texte"
+
+msgid "French"
+msgstr "Français"
+
+msgid "Kept on top by click-through mode"
+msgstr "Gardé au premier plan par le mode « laisser passer les clics »"
+
+msgid "Keep on top"
+msgstr "Garder au premier plan"
+
+msgid "Keep the banner open"
+msgstr "Garder le bandeau ouvert"
+
+msgid "Timestamps"
+msgstr "Horodatage"
+
+msgid "Timestamps, labels, system text."
+msgstr "Horodatage, libellés, texte système."
+
+msgid "Offline"
+msgstr "Hors ligne"
+
+msgid "It travels with the file when you export it."
+msgstr "Il accompagne le fichier quand tu l’exportes."
+
+msgid "You have to be live to do that — Twitch refuses a shoutout off stream."
+msgstr "Il faut être en direct pour faire ça — Twitch refuse un shoutout hors live."
+
+msgid "You have to be a moderator of this channel to do that."
+msgstr "Il faut être modérateur de cette chaîne pour faire ça."
+
+msgid "There's no raid in progress to cancel."
+msgstr "Il n’y a aucun raid en cours à annuler."
+
+msgid "There's nothing to change."
+msgstr "Il n’y a rien à changer."
+
+msgid "There's nothing to send."
+msgstr "Il n’y a rien à envoyer."
+
+msgid "It stays, it fades."
+msgstr "Il reste, il s’efface."
+
+msgid "Import"
+msgstr "Importer"
+
+msgid "Can't open this channel."
+msgstr "Impossible d’ouvrir cette chaîne."
+
+msgid "Can't reach Twitch. Check your connection."
+msgstr "Impossible de joindre Twitch. Vérifie ta connexion."
+
+msgid "Can't read this channel's chat. The details are in the logs."
+msgstr "Impossible de lire le chat de cette chaîne. Le détail est dans le journal."
+
+msgid "Idle"
+msgstr "Inactif"
+
+msgid "Tell me who to unban."
+msgstr "Indique la personne à débannir."
+
+msgid "Tell me who you mean."
+msgstr "Indique la personne visée."
+
+msgid "Tell me which message to delete. The easiest way is through the chat."
+msgstr "Indique le message à supprimer. Le plus simple est de passer par le chat."
+
+msgid "Interface"
+msgstr "Interface"
+
+msgid "Not found on Twitch."
+msgstr "Introuvable sur Twitch."
+
+msgid "Italian"
+msgstr "Italien"
+
+msgid "Japanese"
+msgstr "Japonais"
+
+msgid "The action couldn't go through. Check your connection."
+msgstr "L’action n’a pas pu partir. Vérifie ta connexion."
+
+msgid "The call failed. Check your OpenRouter key."
+msgstr "L’appel a échoué. Vérifie ta clé OpenRouter."
+
+msgid "The app isn't ready."
+msgstr "L’application n’est pas prête."
+
+msgid "How rounded the four corners are. Windows used to round them itself; StreamyChat does it now, at the value you pick. A maximised window stays square."
+msgstr "L’arrondi des quatre coins. Windows les arrondissait lui-même ; l’application le fait désormais, et à la valeur que tu choisis. Une fenêtre maximisée reste carrée."
+
+msgid "the permission was revoked"
+msgstr "l’autorisation a été retirée"
+
+msgid "Sending failed. Try again in a moment."
+msgstr "L’envoi a échoué. Réessaie dans un instant."
+
+msgid "The space between messages. A denser chat shows more of them — it doesn't write them smaller."
+msgstr "L’espace entre les messages. Un chat plus dense en affiche davantage — il ne les écrit pas plus petit."
+
+msgid "The time in front of each message."
+msgstr "L’heure devant chaque message."
+
+#, javascript-format
+msgid "The channel #%s doesn't exist on Twitch."
+msgstr "La chaîne #%s n’existe pas sur Twitch."
+
+msgid "The demo channel doesn't take messages."
+msgstr "La chaîne de démonstration ne reçoit pas de message."
+
+msgid "The demo channel can't be moderated."
+msgstr "La chaîne de démonstration ne se modère pas."
+
+msgid "The Fish Audio key"
+msgstr "La clé Fish Audio"
+
+#, javascript-format
+msgid "The /%s command isn't supported yet."
+msgstr "La commande /%s n’est pas encore gérée."
+
+#, javascript-format
+msgid "The config was unreadable. StreamyChat started over on default settings; the old file was kept as %s."
+msgstr "La configuration était illisible. StreamyChat est reparti sur les réglages par défaut ; l’ancien fichier a été conservé sous %s."
+
+msgid "The connection was denied in the browser."
+msgstr "La connexion a été refusée dans le navigateur."
+
+msgid "The cleanup didn't go through."
+msgstr "La correction n’a pas abouti."
+
+msgid "The app's colour, and what separates its areas."
+msgstr "La couleur de l’application, et ce qui sépare les zones."
+
+msgid "The colour you stare at for eight hours a day."
+msgstr "La couleur qu’on regarde huit heures par jour."
+
+msgid "The chat window is back to its original size."
+msgstr "La fenêtre de chat a retrouvé sa taille d’origine."
+
+msgid "The window was saved on a screen that isn't plugged in any more: it's been brought back to the main screen."
+msgstr "La fenêtre était enregistrée sur un écran qui n'est plus branché : elle a été ramenée sur l'écran principal."
+
+msgid "Playback failed. The details are in the logs."
+msgstr "La lecture a échoué. Le détail est dans les logs."
+
+msgid "Read aloud isn't ready."
+msgstr "La lecture vocale n’est pas prête."
+
+msgid "the list of viewers"
+msgstr "la liste des spectateurs"
+
+msgid "The voice list couldn't load. Try again in a moment."
+msgstr "La liste des voix n’a pas pu charger. Réessaie dans un instant."
+
+msgid "The voice list couldn't be loaded."
+msgstr "La liste des voix n’a pas pu être chargée."
+
+msgid "The font of the chat body. Inter, Nunito and JetBrains Mono ship with the app: they look the same on every machine."
+msgstr "La police du corps du chat. Inter, Nunito et JetBrains Mono sont fournies avec l’application : elles rendent la même chose sur toutes les machines."
+
+msgid "Twitch search didn't answer."
+msgstr "La recherche Twitch n’a pas répondu."
+
+msgid "The answer no longer looked like your message, so it was refused. On a real message, the text would be read as written."
+msgstr "La réponse ne ressemblait plus à ton message, elle a été refusée. Sur un vrai message, le texte serait lu tel quel."
+
+msgid "Your Twitch session isn't accepted any more. You need to reconnect."
+msgstr "La session Twitch n’est plus acceptée. Il faut se reconnecter."
+
+msgid "The audio output you picked can't be found: the sample came out on the system one."
+msgstr "La sortie audio choisie est introuvable : l’extrait est sorti sur celle du système."
+
+msgid "The size of messages only, leaving everything else alone. Usernames, timestamps and system text follow it."
+msgstr "La taille des messages seule, sans toucher au reste. Pseudonymes, horodatage et texte système suivent."
+
+msgid "Let clicks through"
+msgstr "Laisser passer les clics"
+
+msgid "Let clicks through — only this bar stays clickable"
+msgstr "Laisser passer les clics — seule cette barre reste cliquable"
+
+msgid "Language"
+msgstr "Langue"
+
+msgid "App language"
+msgstr "Langue de l’application"
+
+msgid "Latency"
+msgstr "Latence"
+
+msgid "A message's button reads it out"
+msgstr "Le bouton d’un message le fait lire"
+
+msgid "The cache was already empty."
+msgstr "Le cache était déjà vide."
+
+msgid "Changing it costs nothing: messages already read aren't re-synthesised. It can only turn the sound down, never up."
+msgstr "Le changer ne coûte rien : les messages déjà lus ne sont pas resynthétisés. Il ne peut que baisser le son, pas le monter."
+
+msgid "The chat stays visible over your game and your browser. That's the live setting."
+msgstr "Le chat reste visible par-dessus le jeu et le navigateur. C’est le réglage d’un live."
+
+msgid "The code expired before it was approved. You need a new one."
+msgstr "Le code a expiré avant la validation. Il en faut un nouveau."
+
+msgid "The code expired. Ask for a new one to try again."
+msgstr "Le code a expiré. Demande un nouveau code pour réessayer."
+
+#, javascript-format
+msgid "The account %s doesn't exist on Twitch."
+msgstr "Le compte %s n’existe pas sur Twitch."
+
+msgid "the account was deleted"
+msgstr "le compte a été supprimé"
+
+msgid "You can't write in the merged feed: pick a channel's tab to talk to it."
+msgstr "Le flux mêlé ne s’écrit pas : choisis l’onglet d’une chaîne pour lui parler."
+
+msgid "Follow age goes from 0 minutes to 3 months."
+msgstr "Le follow demandé va de 0 minute à 3 mois."
+
+msgid "the add-a-channel menu"
+msgstr "le menu d’ajout de chaîne"
+
+#, javascript-format
+msgid "Twitch refused the fallback mode (%s)."
+msgstr "Le mode de secours a été refusé par Twitch (%s)."
+
+#, javascript-format
+msgid "Slow mode goes from %s to %s seconds."
+msgstr "Le mode lent va de %s à %s secondes."
+
+msgid "The model didn't follow the instruction. On a real message, the text would be read as written."
+msgstr "Le modèle a mal suivi la consigne. Sur un vrai message, le texte serait lu tel quel."
+
+msgid "The model took too long to answer. On a real message, the text would be read as written."
+msgstr "Le modèle a mis trop de temps à répondre. Sur un vrai message, le texte serait lu tel quel."
+
+msgid "The model returned nothing. On a real message, the text would be read as written."
+msgstr "Le modèle n’a rien renvoyé. Sur un vrai message, le texte serait lu tel quel."
+
+msgid "The report couldn't be saved. Diagnostic mode stays on if you had turned it on."
+msgstr "Le rapport n’a pas pu être enregistré. Le mode diagnostic reste allumé si tu l’avais allumé."
+
+msgid "the IRC fallback when EventSub goes down"
+msgstr "le repli IRC quand EventSub tombe"
+
+msgid "The room has no restrictions left."
+msgstr "Le salon n’a plus aucune restriction."
+
+msgid "The only red that doesn't mean « error »."
+msgstr "Le seul rouge qui ne veut pas dire « erreur »."
+
+msgid "The theme couldn't be written."
+msgstr "Le thème n’a pas pu être écrit."
+
+msgid "The theme couldn't be read."
+msgstr "Le thème n’a pas pu être lu."
+
+msgid "A viewer's very first message."
+msgstr "Le tout premier message d’un spectateur."
+
+msgid "The real amount, the one OpenRouter bills you."
+msgstr "Le vrai montant, celui qu’OpenRouter te facture."
+
+msgid "Auto-read on"
+msgstr "Lecture auto activée"
+
+msgid "Read aloud"
+msgstr "Lecture vocale"
+
+msgid "Slow"
+msgstr "Lent"
+
+msgid "subs, raids and announcements won't show up"
+msgstr "les abonnements, les raids et les annonces ne s’afficheront pas"
+
+msgid "announcements"
+msgstr "les annonces"
+
+msgid "bans won't be detailed: we'll know messages were removed, not why"
+msgstr "les bans ne seront pas détaillés : on saura que les messages ont été effacés, pas pourquoi"
+
+msgid "room mode changes (subs, slow, followers) will go unnoticed"
+msgstr "les changements de mode du salon (abonnés, lent, followers) passeront inaperçus"
+
+msgid "Clicks go through the chat and land on whatever is behind it. Only the title bar and the edges stay clickable — that's how you move the window and turn this off. It also keeps the window on top: otherwise the first click on your game would push it behind."
+msgstr "Les clics traversent le chat et vont à ce qu’il y a derrière. Seules la barre de titre et les bords restent cliquables — c’est par là qu’on déplace la fenêtre et qu’on coupe ce mode. Il la garde au premier plan : sinon le premier clic sur le jeu la ferait passer dessous."
+
+msgid "The colours of your chat. Everything you change shows up right away, here and in the chat window."
+msgstr "Les couleurs du chat. Tout ce que tu changes se voit tout de suite, ici et dans la fenêtre de chat."
+
+msgid "The two colours everything else follows from."
+msgstr "Les deux couleurs qui décident de toutes les autres."
+
+msgid "This channel's emotes aren't loaded yet."
+msgstr "Les emotes de cette chaîne ne sont pas encore chargées."
+
+msgid "Emotes that move. Turning them off helps a modest machine, and makes chat readable for people that motion bothers. Open channels reconnect to apply the change."
+msgstr "Les emotes qui bougent. Les éteindre soulage une machine modeste, et rend le chat lisible aux personnes que le mouvement gêne. Les chaînes ouvertes se reconnectent pour appliquer le changement."
+
+msgid "lifted bans and timeouts won't be reported"
+msgstr "les levées de ban et de timeout ne seront pas signalées"
+
+msgid "The messages you mustn't miss."
+msgstr "Les messages qu’on ne doit pas rater."
+
+msgid "deleted messages will stay on screen"
+msgstr "les messages supprimés resteront affichés"
+
+msgid "The demo usernames don't exist."
+msgstr "Les pseudonymes de la démonstration n’existent pas."
+
+msgid "a viewer being purged won't be reported"
+msgstr "les purges d’un spectateur ne seront pas signalées"
+
+msgid "room purges won't be reported"
+msgstr "les purges du salon ne seront pas signalées"
+
+msgid "raids"
+msgstr "les raids"
+
+msgid "raids leaving this channel won't be reported"
+msgstr "les raids partant de cette chaîne ne seront pas signalés"
+
+msgid "shoutouts"
+msgstr "les shoutouts"
+
+msgid "Viewers pick their colour on Twitch, and some of them vanish against the chat background. Those get lightened or darkened — keeping their hue, so they stay recognisable."
+msgstr "Les spectateurs choisissent leur couleur sur Twitch, et certaines disparaissent sur le fond du chat. Celles-là sont éclaircies ou assombries — en gardant leur teinte, pour qu’elles restent reconnaissables."
+
+msgid "Text you read character by character: paths, codes."
+msgstr "Les textes qu’on relit caractère par caractère : chemins, codes."
+
+msgid "Lift a ban or a timeout"
+msgstr "Lever un ban ou un timeout"
+
+msgid "Lift a timeout"
+msgstr "Lever un timeout"
+
+msgid "Links"
+msgstr "Liens"
+
+msgid "Hovered links"
+msgstr "Liens survolés"
+
+#, javascript-format
+msgid "Line %s of %s is unreadable."
+msgstr "Ligne %s de %s illisible."
+
+#, javascript-format
+msgid "Unreadable fixture line: %s"
+msgstr "Ligne de fixture illisible : %s"
+
+msgid "Hovered line"
+msgstr "Ligne survolée"
+
+msgid "Highlighted lines"
+msgstr "Lignes mises en avant"
+
+msgid "Read this message"
+msgstr "Lire ce message"
+
+msgid "read chat"
+msgstr "lire le chat"
+
+msgid "Read the message under the mouse"
+msgstr "Lire le message sous la souris"
+
+msgid "Read messages on its own"
+msgstr "Lire les messages tout seul"
+
+msgid "Highlighted message edge"
+msgstr "Liseré d’un message mis en avant"
+
+msgid "First message edge"
+msgstr "Liseré d’un premier message"
+
+msgid "Notice edge"
+msgstr "Liseré d’une notice"
+
+msgid "Collapsed message edge"
+msgstr "Liseré des messages repliés"
+
+msgid "Maximum length"
+msgstr "Longueur maximale"
+
+msgid "Minimum length"
+msgstr "Longueur minimale"
+
+msgid "Memory"
+msgstr "Mémoire"
+
+msgid "Someone else being mentioned"
+msgstr "Mention de quelqu’un d’autre"
+
+msgid "Floating menus"
+msgstr "Menus flottants"
+
+msgid "My emotes"
+msgstr "Mes emotes"
+
+msgid "My voices"
+msgstr "Mes voix"
+
+msgid "Warning message"
+msgstr "Message d’avertissement"
+
+msgid "Error message"
+msgstr "Message d’erreur"
+
+msgid "Info message"
+msgstr "Message d’information"
+
+msgid "Message refused by Twitch."
+msgstr "Message refusé par Twitch."
+
+msgid "Message deleted"
+msgstr "Message supprimé"
+
+#, javascript-format
+msgid "Message too long: %s characters for %s max."
+msgstr "Message trop long : %s caractères pour %s au maximum."
+
+msgid "Messages"
+msgstr "Messages"
+
+msgid "Messages kept"
+msgstr "Messages conservés"
+
+msgid "Messages in the active channel's buffer"
+msgstr "Messages dans le tampon de la chaîne active"
+
+msgid "Messages waiting"
+msgstr "Messages en attente"
+
+msgid "Measured: 280 ms before the first sound on Balanced, 690 ms on Polished. On a chat message, you can barely hear the difference in quality."
+msgstr "Mesuré : 280 ms avant le premier son en Équilibrée, 690 ms en Soignée. Sur un message de chat, la différence de qualité s’entend à peine."
+
+msgid "Scales everything: text, buttons, bars, emotes. It's the zoom of the whole app."
+msgstr "Met tout à l’échelle : textes, boutons, barres, emotes. C’est le zoom de l’application entière."
+
+msgid "Give another channel a shoutout"
+msgstr "Mettre en avant une autre chaîne"
+
+msgid "Diagnostic mode"
+msgstr "Mode diagnostic"
+
+msgid "followers mode on"
+msgstr "mode followers activé"
+
+msgid "followers mode off"
+msgstr "mode followers désactivé"
+
+msgid "Slow mode — /slow [seconds], 30 by default"
+msgstr "Mode lent — /slow [secondes], 30 par défaut"
+
+msgid "Slow mode is on: wait a few seconds."
+msgstr "Mode lent actif : attends quelques secondes."
+
+msgid "slow mode off"
+msgstr "mode lent désactivé"
+
+msgid "Moderator"
+msgstr "Modérateur"
+
+msgid "Moderation"
+msgstr "Modération"
+
+msgid "Modded."
+msgstr "Modération accordée."
+
+msgid "Unmodded."
+msgstr "Modération retirée."
+
+msgid "Turns the level up at the source. It's the only setting that can make the voice louder — volume can only turn it down. Changing it rebuilds messages already read, so it costs again."
+msgstr "Monte le niveau à la source. C’est le seul réglage qui peut rendre la voix plus forte — le volume, lui, ne fait que baisser. Le changer refabrique les messages déjà lus, donc ça recoûte."
+
+msgid "Replay speed multiplier"
+msgstr "Multiplicateur de vitesse de relecture"
+
+msgid "Only take emotes"
+msgstr "N’accepter que les emotes"
+
+msgid "Only read messages that come with bits. Ticked together with « Subs only », the two stack."
+msgstr "Ne lire que les messages accompagnés de bits. Coché avec « Abonnés seulement », les deux se cumulent."
+
+msgid "Only read messages from your channel's subs."
+msgstr "Ne lire que les messages des abonnés à ta chaîne."
+
+msgid "Stop keeping on top"
+msgstr "Ne plus garder au premier plan"
+
+msgid "Stop keeping the banner open"
+msgstr "Ne plus garder le bandeau ouvert"
+
+msgid "Neither red nor green: lifting a sanction is a fact, not news."
+msgstr "Ni rouge ni vert : lever une sanction est un fait, pas une nouvelle."
+
+msgid "Channel name or Twitch URL"
+msgstr "Nom de chaîne ou URL Twitch"
+
+msgid "Theme name"
+msgstr "Nom du thème"
+
+msgid "Make moderator"
+msgstr "Nommer modérateur"
+
+msgid "make someone a moderator"
+msgstr "nommer un modérateur"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Default"
+msgstr "Normale"
+
+msgid "Notices, system and announcements"
+msgstr "Notices, système et annonces"
+
+msgid "Menu shadow"
+msgstr "Ombre des menus"
+
+msgid "You can't target yourself with that command."
+msgstr "On ne peut pas se viser soi-même avec cette commande."
+
+msgid "Window opacity"
+msgstr "Opacité de la fenêtre"
+
+msgid "Background opacity"
+msgstr "Opacité du fond"
+
+msgid "Where the sound comes out"
+msgstr "Où le son sort"
+
+msgid "Open the channel on Twitch"
+msgstr "Ouvrir la chaîne sur Twitch"
+
+msgid "Per channel. Past that, the oldest ones are released — that's what lets a chat run for eight hours without swelling."
+msgstr "Par chaîne. Au-delà, les plus anciens sont libérés — c’est ce qui permet à un chat de tourner huit heures sans gonfler."
+
+msgid "No connection to Fish Audio. Check your internet connection."
+msgstr "Pas de connexion à Fish Audio. Vérifie ta connexion internet."
+
+msgid "no internet connection"
+msgstr "pas de connexion internet"
+
+msgid "Skip to the next one"
+msgstr "Passer au suivant"
+
+msgid "« Live » dot"
+msgstr "Pastille « en direct »"
+
+msgid "Unnamed device"
+msgstr "Périphérique sans nom"
+
+msgid "Test sentence"
+msgstr "Phrase d’essai"
+
+msgid "ping not honoured"
+msgstr "ping non honoré"
+
+msgid "Lighter than the background: a layer that floats gets closer to it."
+msgstr "Plus clair que le fond : une couche qui flotte s’en rapproche."
+
+msgid "The higher the threshold, the more the app steps in. At the minimum, it only touches colours that really drown in the background."
+msgstr "Plus le seuil est haut, plus l’application intervient. Au minimum, elle ne touche qu’aux couleurs vraiment noyées dans le fond."
+
+msgid "Channel points."
+msgstr "Points de chaîne."
+
+msgid "Portuguese"
+msgstr "Portugais"
+
+msgid "Window position and size"
+msgstr "Position et taille des fenêtres"
+
+msgid "to complete"
+msgstr "pour compléter"
+
+msgid "Usernames"
+msgstr "Pseudonymes"
+
+msgid "Ignored usernames"
+msgstr "Pseudos ignorés"
+
+msgid "Voice power"
+msgstr "Puissance de la voix"
+
+msgid "Purge the whole chat — can't be undone"
+msgstr "Purger tout le chat — irréversible"
+
+msgid "Quit StreamyChat"
+msgstr "Quitter StreamyChat"
+
+msgid "Burst"
+msgstr "Rafale"
+
+msgid "Raid cancelled."
+msgstr "Raid annulé."
+
+msgid "reason unknown"
+msgstr "raison inconnue"
+
+msgid "Fast"
+msgstr "Rapide"
+
+msgid "Problem report"
+msgstr "Rapport de problème"
+
+#, javascript-format
+msgid "Report saved: %s"
+msgstr "Rapport enregistré : %s"
+
+msgid "Bundles the logs, the session summary and your settings into one file to send. You pick where it goes, and your Twitch access tokens are stripped out."
+msgstr "Rassemble les logs, le résumé de la session et tes réglages dans un fichier à envoyer. Tu choisis où l’enregistrer, et tes jetons d’accès à Twitch en sont retirés."
+
+msgid "Take text again"
+msgstr "Réaccepter le texte"
+
+msgid "Take repeated messages again"
+msgstr "Réaccepter les messages répétés"
+
+msgid "Recent"
+msgstr "Récentes"
+
+msgid "Reconnect to see the channels you follow: that permission didn't exist when your session was opened."
+msgstr "Reconnecte-toi pour voir les chaînes que tu suis : cette autorisation n’existait pas quand ta session a été ouverte."
+
+msgid "Reconnecting…"
+msgstr "Reconnexion…"
+
+msgid "Minimise"
+msgstr "Réduire"
+
+msgid "Refused by the channel's AutoMod."
+msgstr "Refusé par l’AutoMod de la chaîne."
+
+msgid "Refuse repeated messages"
+msgstr "Refuser les messages répétés"
+
+msgid "Settings"
+msgstr "Réglages"
+
+msgid "set the room modes"
+msgstr "régler les modes du salon"
+
+msgid "Puts your chat windows back to the size they started at, and re-centres each one on its screen. That's what you want if you've resized one by accident, or if one has ended up in a corner where you can't find it."
+msgstr "Remet tes fenêtres de chat à la taille qu’elles avaient au départ, et les recentre chacune sur son écran. C’est ce qu’il te faut si tu en as agrandi une sans le vouloir, ou si l’une d’elles a fini dans un coin où tu ne la retrouves plus."
+
+msgid "Reset"
+msgstr "Remettre à zéro"
+
+msgid "Put back"
+msgstr "Remettre en place"
+
+msgid "Makes everything translucent, text included. The minimum is 40 %: below that, the chat would stop being readable."
+msgstr "Rend tout translucide, texte compris. Le minimum est 40 % : en dessous, le chat cesserait d’être lisible."
+
+msgid "Makes only the background translucent: the text always stays sharp. That's what you want to put the chat over a game and still read it. The two settings stack."
+msgstr "Rend translucide le fond seul : le texte, lui, reste toujours net. C’est ce qu’il faut pour poser le chat sur un jeu et le lire quand même. Les deux réglages se cumulent."
+
+msgid "Collapse deleted messages"
+msgstr "Replier les messages effacés"
+
+msgid "Reply"
+msgstr "Répondre"
+
+msgid "Replay the fixture from the start at the end"
+msgstr "Reprendre la fixture au début à la fin"
+
+msgid "Take clicks again — the chat becomes clickable again"
+msgstr "Reprendre les clics — le chat redevient cliquable"
+
+msgid "network: timed out"
+msgstr "réseau : délai dépassé"
+
+msgid "network: error"
+msgstr "réseau : erreur"
+
+msgid "Followers-only chat — /followers [minutes]"
+msgstr "Réserver le chat à ceux qui suivent — /followers [minutes]"
+
+msgid "Make the chat subs only"
+msgstr "Réserver le chat aux abonnés"
+
+msgid "Make the chat followers only"
+msgstr "Réserver le chat aux followers"
+
+msgid "Restore"
+msgstr "Rétablir"
+
+msgid "Held by AutoMod: a moderator has to approve it."
+msgstr "Retenu par l’AutoMod : un modérateur doit le valider."
+
+msgid "Unmod"
+msgstr "Retirer la modération"
+
+msgid "Remove the shortcut"
+msgstr "Retirer le raccourci"
+
+msgid "Remove VIP status"
+msgstr "Retirer le statut VIP"
+
+#, javascript-format
+msgid "Nothing to clean up. %1$s, %2$s."
+msgstr "Rien à corriger. %1$s, %2$s."
+
+msgid "Nothing in memory yet. A message already cleaned up is never paid for twice."
+msgstr "Rien en mémoire pour l’instant. Un message déjà corrigé ne se repaie pas."
+
+msgid "Nothing was attempted."
+msgstr "Rien n’a été tenté."
+
+msgid "Open the chat back up to everyone"
+msgstr "Rouvrir le chat à tout le monde"
+
+msgid "Open the chat back up to non-subs"
+msgstr "Rouvrir le chat aux non-abonnés"
+
+msgid "Subscribe"
+msgstr "S’abonner"
+
+msgid "Subscribe on Twitch"
+msgstr "S’abonner sur Twitch"
+
+#, javascript-format
+msgid "Room: %s."
+msgstr "Salon : %s."
+
+msgid "Hovered sanction"
+msgstr "Sanction survolée"
+
+msgid "Sanctions, lifts, and a room closed to writing."
+msgstr "Sanctions, levées, et salon fermé à l’écriture."
+
+msgid "Without it, no message gets cleaned up. You create it on openrouter.ai, in your account settings."
+msgstr "Sans elle, aucun message n’est corrigé. Tu la crées sur openrouter.ai, dans les réglages de ton compte."
+
+msgid "Without it, nothing can be read. You create it on fish.audio, in your account settings."
+msgstr "Sans elle, rien ne peut être lu. Tu la crées sur fish.audio, dans les réglages de ton compte."
+
+msgid "Saturation"
+msgstr "Saturation"
+
+msgid "know where you're a moderator"
+msgstr "savoir où tu es modérateur"
+
+msgid "know whether you're subscribed"
+msgstr "savoir si tu es abonné"
+
+msgid "Connect to Twitch"
+msgstr "Se connecter à Twitch"
+
+msgid "Sign out"
+msgstr "Se déconnecter"
+
+msgid "Reconnect to Twitch"
+msgstr "Se reconnecter à Twitch"
+
+msgid "Settings sections"
+msgstr "Sections des réglages"
+
+msgid "Only the streamer can do that on their channel."
+msgstr "Seul le streamer peut faire ça sur sa chaîne."
+
+msgid "Six chat windows at most. Close one, or pick a window you already have."
+msgstr "Six fenêtres de chat au maximum. Ferme-en une, ou choisis une fenêtre existante."
+
+msgid "Polished"
+msgstr "Soignée"
+
+msgid "Audio output"
+msgstr "Sortie audio"
+
+msgid "System output"
+msgstr "Sortie du système"
+
+msgid "Suggestions"
+msgstr "Suggestions"
+
+msgid "Delete this message"
+msgstr "Supprimer ce message"
+
+msgid "delete a message and purge"
+msgstr "supprimer un message et purger"
+
+msgid "Delete a message by its id"
+msgstr "Supprimer un message par son identifiant"
+
+msgid "On Twitch"
+msgstr "Sur Twitch"
+
+msgid "Your channel"
+msgstr "Ta chaîne"
+
+msgid "Your Fish Audio key is refused. Check it in the voice settings."
+msgstr "Ta clé Fish Audio est refusée. Vérifie-la dans les réglages de la voix."
+
+msgid "Your Twitch session has expired. Reconnect."
+msgstr "Ta session Twitch a expiré. Reconnecte-toi."
+
+msgid "Your Twitch session isn't valid for that action any more. Reconnect."
+msgstr "Ta session Twitch n’est plus valable pour cette action. Reconnecte-toi."
+
+msgid "Interface size"
+msgstr "Taille de l’interface"
+
+msgid "Text size"
+msgstr "Taille du texte"
+
+msgid "Type a channel name to open its chat."
+msgstr "Tape le nom d’une chaîne pour ouvrir son chat."
+
+msgid "Hue"
+msgstr "Teinte"
+
+msgid "Held by « Let clicks through »: a chat you click through and that drops behind your game can't be got back with a click. It'll go back to this setting when you turn that mode off."
+msgstr "Tenu par « Laisser passer les clics » : un chat qu’on traverse et qui passe derrière le jeu ne se récupère plus au clic. Il retrouvera ce réglage quand tu couperas ce mode."
+
+msgid "Your channels"
+msgstr "Tes chaînes"
+
+msgid "your sub emotes"
+msgstr "tes emotes d’abonnement"
+
+msgid "« Subs only » text"
+msgstr "Texte « abonnés seuls »"
+
+msgid "Lifted sanction text"
+msgstr "Texte d’une levée"
+
+msgid "Notice text"
+msgstr "Texte d’une notice"
+
+msgid "Sanction text"
+msgstr "Texte d’une sanction"
+
+msgid "Message text"
+msgstr "Texte des messages"
+
+msgid "Faint text"
+msgstr "Texte effacé"
+
+msgid "Text when you're mentioned"
+msgstr "Texte quand on te mentionne"
+
+msgid "Secondary text"
+msgstr "Texte secondaire"
+
+msgid "Text on the accent"
+msgstr "Texte sur l’accent"
+
+#, javascript-format
+msgid "Theme exported: %s"
+msgstr "Thème exporté : %s"
+
+msgid "Theme changed, not saved yet."
+msgstr "Thème modifié, pas encore enregistré."
+
+msgid "StreamyChat theme"
+msgstr "Thème StreamyChat"
+
+msgid "Built-in themes"
+msgstr "Thèmes fournis"
+
+msgid "Timeout — /timeout user 10m [reason]"
+msgstr "Timeout — /timeout pseudo 10m [raison]"
+
+msgid "Timeout for 1 hour"
+msgstr "Timeout de 1 heure"
+
+msgid "Timeout for 1 minute"
+msgstr "Timeout de 1 minute"
+
+msgid "Timeout for 10 minutes"
+msgstr "Timeout de 10 minutes"
+
+msgid "Timeout for 10 seconds"
+msgstr "Timeout de 10 secondes"
+
+msgid "Timeout for 24 hours"
+msgstr "Timeout de 24 heures"
+
+msgid "Timeout for a while"
+msgstr "Timeout pour un moment"
+
+msgid "Your browser has opened the authorisation page. If it hasn't, go to twitch.tv/activate and enter this code:"
+msgstr "Ton navigateur s’est ouvert sur la page d’autorisation. Si ce n’est pas le cas, va sur twitch.tv/activate et saisis ce code :"
+
+msgid "Always on top"
+msgstr "Toujours au premier plan"
+
+msgid "Cut everything and empty the queue"
+msgstr "Tout couper et vider la file"
+
+msgid "All"
+msgstr "Toutes"
+
+msgid "Every channel in this window, merged in the order they arrive"
+msgstr "Toutes les chaînes de cette fenêtre, mêlées dans l’ordre d’arrivée"
+
+msgid "outbound traffic forbidden: the client sent a message on the socket"
+msgstr "trafic sortant interdit : le client a envoyé un message sur la socket"
+
+msgid "Too many channels open at once: Twitch allows three. Close a tab, then reopen this one."
+msgstr "Trop de chaînes ouvertes en même temps : Twitch en autorise trois. Ferme un onglet, puis rouvre celle-ci."
+
+msgid "Too many messages in a row: wait a few seconds."
+msgstr "Trop de messages d’affilée : attends quelques secondes."
+
+msgid "You've hit the maximum number of VIPs."
+msgstr "Tu as atteint le nombre maximum de VIP."
+
+msgid "You're writing too fast for Twitch: wait a second."
+msgstr "Tu écris trop vite pour Twitch : attends une seconde."
+
+msgid "You don't have any voices of your own yet. Create them on fish.audio and they'll show up here."
+msgstr "Tu n’as pas encore de voix à toi. Crée-les sur fish.audio, elles apparaîtront ici."
+
+msgid "You're not allowed to write in this chat."
+msgstr "Tu n’as pas le droit d’écrire dans ce chat."
+
+msgid "You're out of Fish Audio credit. Top your account up to carry on."
+msgstr "Tu n’as plus de crédit Fish Audio. Recharge ton compte pour continuer."
+
+msgid "You can't ban the streamer or a moderator."
+msgstr "Tu ne peux pas bannir le streamer ni un modérateur."
+
+msgid "You can't write in this chat."
+msgstr "Tu ne peux pas écrire dans ce chat."
+
+#, javascript-format
+msgid "You can't target yourself: #%s is the channel you're writing in."
+msgstr "Tu ne peux pas te viser toi-même : #%s est la chaîne où tu écris."
+
+msgid "You're going too fast: ten VIPs every ten seconds at most."
+msgstr "Tu vas trop vite : dix VIP toutes les dix secondes au maximum."
+
+msgid "You're going too fast. Wait a moment."
+msgstr "Tu vas trop vite. Attends un instant."
+
+msgid "You just sent that message. Twitch refuses duplicates."
+msgstr "Tu viens d’envoyer ce message. Twitch refuse les doublons."
+
+#, javascript-format
+msgid "Twitch cut off « %s »: %s. You need to reconnect."
+msgstr "Twitch a coupé « %s » : %s. Il faut se reconnecter."
+
+msgid "Twitch refused that message."
+msgstr "Twitch a refusé ce message."
+
+msgid "Twitch refused that action."
+msgstr "Twitch a refusé cette action."
+
+msgid "Twitch sent back an unexpected answer. The details are in the logs."
+msgstr "Twitch a renvoyé une réponse inattendue. Le détail est dans le journal."
+
+msgid "Twitch has withdrawn this version of the event"
+msgstr "Twitch a retiré cette version de l’événement"
+
+msgid "Twitch is asking you to wait before trying again."
+msgstr "Twitch demande d’attendre avant de recommencer."
+
+msgid "Twitch is asking to slow the checks down."
+msgstr "Twitch demande de ralentir les vérifications."
+
+msgid "Twitch didn't confirm the send. Try again."
+msgstr "Twitch n’a pas confirmé l’envoi. Réessaie."
+
+msgid "Twitch found nothing for that command."
+msgstr "Twitch n’a rien trouvé pour cette commande."
+
+#, javascript-format
+msgid "Unknown event type: « %s »"
+msgstr "Type d'événement inconnu : « %s »"
+
+msgid "One click, one approval in the browser, and your chat shows up here. No token to copy."
+msgstr "Un clic, une validation dans le navigateur, et ton chat s’affiche ici. Aucun jeton à copier."
+
+msgid "One moment…"
+msgstr "Un instant…"
+
+msgid "A message in txt speak or full of typos gets rewritten before it's read — otherwise the voice mangles it. Every message cleaned up costs a few thousandths of a cent."
+msgstr "Un message en langage SMS ou plein de fautes est réécrit avant d’être lu — sinon la voix le prononce n’importe comment. Chaque message corrigé coûte quelques centimes de millième."
+
+msgid "One message every 30 seconds"
+msgstr "Un message toutes les 30 secondes"
+
+msgid "A raid is already in progress. Cancel it with /unraid before starting another."
+msgstr "Un raid est déjà en cours. Annule-le avec /unraid avant d’en lancer un autre."
+
+msgid "A raid only leaves from your own channel."
+msgstr "Un raid ne part que de ta propre chaîne."
+
+msgid "A timeout lasts 14 days at most. Past that, it's a ban."
+msgstr "Un timeout dure 14 jours au maximum. Au-delà, c’est un ban."
+
+msgid "A timeout lasts at least 1 second."
+msgstr "Un timeout dure au moins 1 seconde."
+
+msgid "An announcement needs some text."
+msgstr "Une annonce a besoin d’un texte."
+
+msgid "An estimate from the published rate. The Fish Audio console is what counts."
+msgstr "Une estimation à partir du tarif affiché. C’est la console Fish Audio qui fait foi."
+
+msgid "An unfinished translation leaves the rest in English. You can add one by dropping a .po file into the lang folder of your data directory."
+msgstr "Une traduction incomplète laisse le reste en français. Tu peux en ajouter une en déposant un fichier .po dans le dossier lang de tes données."
+
+msgid "Unique"
+msgstr "Unique"
+
+msgid "invalid reconnect URL"
+msgstr "URL de reconnexion invalide"
+
+msgid "Empty"
+msgstr "Vider"
+
+msgid "VIP granted."
+msgstr "VIP accordé."
+
+msgid "VIP removed."
+msgstr "VIP retiré."
+
+msgid "Speed"
+msgstr "Vitesse"
+
+msgid "see how long someone has followed you"
+msgstr "voir depuis quand quelqu’un te follow"
+
+msgid "see the sanctions on your channel"
+msgstr "voir les sanctions de ta chaîne"
+
+msgid "Voice"
+msgstr "Voix"
+
+msgid "Unnamed voice"
+msgstr "Voix sans nom"
+
+msgid "Volume"
+msgstr "Volume"
+
+msgid "warn"
+msgstr "warn"
+
+msgid "Warn sent."
+msgstr "Warn envoyé."
+
+msgid "Warn without sanctioning — /warn user reason"
+msgstr "Warn sans sanction — /warn pseudo raison"
+
+msgid "Windows couldn't encrypt the key on this PC. It hasn't been saved."
+msgstr "Windows n’a pas réussi à chiffrer la clé sur ce PC. Elle n’a pas été enregistrée."
+
+msgid "Tell me which channel to shout out."
+msgstr "Indique la chaîne à mettre en avant."
+
+msgid "Tell me which channel to raid."
+msgstr "Indique la chaîne à raider."
+
+msgid "Tell me who to ban."
+msgstr "Indique la personne à bannir."
+
+msgid "Tell me who to time out."
+msgstr "Indique la personne à qui mettre un timeout."
+
+msgid "Tell me who to warn."
+msgstr "Indique la personne à qui mettre un warn."
+
+msgid "Tell me who to untimeout."
+msgstr "Indique la personne à qui retirer son timeout."
+
+#, javascript-format
+msgid "Shoutout sent for #%s."
+msgstr "Shoutout envoyé pour #%s."
+
+#, javascript-format
+msgid "Raid on #%s started. It leaves in 90 seconds — /unraid cancels it."
+msgstr "Raid vers #%s lancé. Il part dans 90 secondes — /unraid l’annule."
+
+#, javascript-format
+msgid "%1$s is timed out for %2$s."
+msgstr "%1$s a un timeout de %2$s."
+
+#, javascript-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d seconde"
+msgstr[1] "%d secondes"
+
+#, javascript-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minute"
+msgstr[1] "%d minutes"
+
+#, javascript-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d heure"
+msgstr[1] "%d heures"
+
+#, javascript-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d jour"
+msgstr[1] "%d jours"
+
+#, javascript-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d semaine"
+msgstr[1] "%d semaines"
+
+#, javascript-format
+msgid "Feature unavailable: %s."
+msgstr "Fonctionnalité indisponible : %s."
+
+#, javascript-format
+msgid "Features unavailable: %s."
+msgstr "Fonctionnalités indisponibles : %s."
+
+#, javascript-format
+msgid "This chat requires following the channel for %s."
+msgstr "Ce chat demande de suivre la chaîne depuis %s."
+
+msgid "Account age unknown"
+msgstr "Âge du compte inconnu"
+
+msgid "Account created just now"
+msgstr "Compte créé à l’instant"
+
+msgid "Follow unknown"
+msgstr "Follow inconnu"
+
+msgid "Not following the channel"
+msgstr "N’est pas follower de la chaîne"
+
+msgid "Follower for less than a minute"
+msgstr "Follower depuis moins d’une minute"
+
+msgid "a viewer"
+msgstr "un spectateur"
+
+#, javascript-format
+msgid "%1$s is raiding %2$s."
+msgstr "%1$s part en raid vers %2$s."
+
+#, javascript-format
+msgid "Message from %s deleted."
+msgstr "Message de %s supprimé."
+
+#, javascript-format
+msgid "%s got a timeout."
+msgstr "%s a pris un timeout."
+
+#, javascript-format
+msgid "%1$s got a %2$d s timeout."
+msgstr "%1$s a pris un timeout de %2$d s."
+
+#, javascript-format
+msgid "%s got banned."
+msgstr "%s a pris un ban."
+
+msgid "The room was cleared."
+msgstr "Le salon a été purgé."
+
+#, javascript-format
+msgid "Messages from %s were removed."
+msgstr "Les messages de %s ont été effacés."
+
+#, javascript-format
+msgid "Sanction lifted for %s."
+msgstr "Sanction levée pour %s."
+
+#, javascript-format
+msgid "Account created %d minute ago"
+msgid_plural "Account created %d minutes ago"
+msgstr[0] "Compte créé il y a %d minute"
+msgstr[1] "Compte créé il y a %d minutes"
+
+#, javascript-format
+msgid "Account created %d hour ago"
+msgid_plural "Account created %d hours ago"
+msgstr[0] "Compte créé il y a %d heure"
+msgstr[1] "Compte créé il y a %d heures"
+
+#, javascript-format
+msgid "Account created %d day ago"
+msgid_plural "Account created %d days ago"
+msgstr[0] "Compte créé il y a %d jour"
+msgstr[1] "Compte créé il y a %d jours"
+
+#, javascript-format
+msgid "Account created %d month ago"
+msgid_plural "Account created %d months ago"
+msgstr[0] "Compte créé il y a %d mois"
+msgstr[1] "Compte créé il y a %d mois"
+
+#, javascript-format
+msgid "Account created %d year ago"
+msgid_plural "Account created %d years ago"
+msgstr[0] "Compte créé il y a %d an"
+msgstr[1] "Compte créé il y a %d ans"
+
+#, javascript-format
+msgid "Follower for %d minute"
+msgid_plural "Follower for %d minutes"
+msgstr[0] "Follower depuis %d minute"
+msgstr[1] "Follower depuis %d minutes"
+
+#, javascript-format
+msgid "Follower for %d hour"
+msgid_plural "Follower for %d hours"
+msgstr[0] "Follower depuis %d heure"
+msgstr[1] "Follower depuis %d heures"
+
+#, javascript-format
+msgid "Follower for %d day"
+msgid_plural "Follower for %d days"
+msgstr[0] "Follower depuis %d jour"
+msgstr[1] "Follower depuis %d jours"
+
+#, javascript-format
+msgid "Follower for %d month"
+msgid_plural "Follower for %d months"
+msgstr[0] "Follower depuis %d mois"
+msgstr[1] "Follower depuis %d mois"
+
+#, javascript-format
+msgid "Follower for %d year"
+msgid_plural "Follower for %d years"
+msgstr[0] "Follower depuis %d an"
+msgstr[1] "Follower depuis %d ans"
+
+#, javascript-format
+msgid "%1$s is raiding %2$s, with %3$d viewer."
+msgid_plural "%1$s is raiding %2$s, with %3$d viewers."
+msgstr[0] "%1$s part en raid vers %2$s, avec %3$d spectateur."
+msgstr[1] "%1$s part en raid vers %2$s, avec %3$d spectateurs."
+
+msgid "Shift"
+msgstr "Maj"
+
+msgid "Space"
+msgstr "Espace"
+
+msgid "Esc"
+msgstr "Échap"
+
+msgid "Enter"
+msgstr "Entrée"
+
+msgid "Backspace"
+msgstr "Retour arrière"
+
+msgid "Del"
+msgstr "Suppr"
+
+msgid "Page Up"
+msgstr "Page haut"
+
+msgid "Page Down"
+msgstr "Page bas"
+
+msgid "Home"
+msgstr "Début"
+
+msgid "End"
+msgstr "Fin"
+
+msgid "Ins"
+msgstr "Inser"
+
+msgid "System font"
+msgstr "Police du système"
+
+#, javascript-format
+msgid "This theme is in format %1$s, and this version of StreamyChat reads format %2$s."
+msgstr "Ce thème est au format %1$s, et cette version de StreamyChat lit le format %2$s."
+
+msgid "Left click"
+msgstr "Clic gauche"
+
+msgid "Middle click"
+msgstr "Clic molette"
+
+msgid "Right click"
+msgstr "Clic droit"
+
+msgid "Mouse button 4"
+msgstr "Bouton souris 4"
+
+msgid "Mouse button 5"
+msgstr "Bouton souris 5"
+
+msgid "The sample wouldn't play. The details are in the logs."
+msgstr "L’extrait n’a pas pu être joué. Le détail est dans les logs."
+
+#, javascript-format
+msgid "Subscribe to #%s on Twitch"
+msgstr "S’abonner à #%s sur Twitch"
+
+#, javascript-format
+msgid "Reply to %s"
+msgstr "Répondre à %s"
+
+#, javascript-format
+msgid "Write in #%s"
+msgstr "Écrire dans #%s"
+
+msgid "animated"
+msgstr "animée"
+
+#, javascript-format
+msgid "Read %s's message out loud"
+msgstr "Lire le message de %s à voix haute"
+
+#, javascript-format
+msgid "In reply to @%1$s: %2$s"
+msgstr "En réponse à @%1$s : %2$s"
+
+#, javascript-format
+msgid "Your session is missing %d Twitch permission."
+msgid_plural "Your session is missing %d Twitch permissions."
+msgstr[0] "Il manque %d autorisation Twitch à ta session."
+msgstr[1] "Il manque %d autorisations Twitch à ta session."
+
+#, javascript-format
+msgid "%d feature needs a Twitch permission."
+msgid_plural "%d features need a Twitch permission."
+msgstr[0] "%d fonctionnalité demande une autorisation Twitch."
+msgstr[1] "%d fonctionnalités demandent une autorisation Twitch."
+
+msgid "burst finished"
+msgstr "rafale terminée"
+
+msgid "Twitch isn't answering, and fallback mode isn't available on this session. Reconnect to turn it on."
+msgstr "Twitch ne répond plus, et le mode de secours n’est pas disponible sur cette session. Reconnecte-toi pour l’activer."
+
+msgid "(system event with no text)"
+msgstr "(événement système sans texte)"
+
+msgid "fallback mode: IRC"
+msgstr "mode dégradé : IRC"
+
+msgid "emote-only on"
+msgstr "emotes seules activées"
+
+msgid "emote-only off"
+msgstr "emotes seules désactivées"
+
+msgid "subs-only on"
+msgstr "mode abonnés activé"
+
+msgid "subs-only off"
+msgstr "mode abonnés désactivé"
+
+msgid "unique messages on"
+msgstr "messages uniques activés"
+
+msgid "unique messages off"
+msgstr "messages uniques désactivés"
+
+#, javascript-format
+msgid "slow mode: %s s"
+msgstr "mode lent : %s s"
+
+msgid "slow"
+msgstr "lent"
+
+#, javascript-format
+msgid "slow (%s s)"
+msgstr "lent (%s s)"
+
+msgid "subs"
+msgstr "abonnés"
+
+msgid "unique messages"
+msgstr "messages uniques"
+
+msgid "subscriptions failed"
+msgstr "les souscriptions ont échoué"
+
+msgid "long silence"
+msgstr "silence prolongé"
+
+msgid "no welcome message"
+msgstr "pas de message de bienvenue"
+
+#, javascript-format
+msgid "%1$s — trying again in %2$s s"
+msgstr "%1$s — nouvelle tentative dans %2$s s"
+
+#, javascript-format
+msgid "Unknown command: /%s. Type \"/\" to see the ones that exist."
+msgstr "Commande inconnue : /%s. Tape « / » pour voir celles qui existent."
+
+#, javascript-format
+msgid "Unknown command: /%1$s. Did you mean %2$s?"
+msgstr "Commande inconnue : /%1$s. Tu voulais peut-être %2$s ?"
+
+#, javascript-format
+msgid "Twitch refused the /%1$s command: %2$s"
+msgstr "Twitch a refusé la commande /%1$s : %2$s"
+
+#, javascript-format
+msgid "The /%1$s command couldn't be sent: %2$s"
+msgstr "La commande /%1$s n’a pas pu être envoyée : %2$s"
+
+#, javascript-format
+msgid "%d event"
+msgid_plural "%d events"
+msgstr[0] "%d événement"
+msgstr[1] "%d événements"
+
+#, javascript-format
+msgid "Refused: %s"
+msgstr "Refusé : %s"
+
+msgid "Your Twitch session has expired. You need to reconnect — it takes three clicks."
+msgstr "La session Twitch a expiré. Il faut se reconnecter — ça prend trois clics."
+
+msgid "Twitch can't be reached. Check your internet connection; the app will retry on its own."
+msgstr "Twitch est injoignable. Vérifie ta connexion internet ; l’application réessaiera toute seule."
+
+msgid "Your Twitch session is saved again."
+msgstr "La session Twitch est de nouveau enregistrée."
+
+msgid "Your Twitch session couldn't be saved: chat keeps working, but you'll have to reconnect next time you start."
+msgstr "La session Twitch n’a pas pu être enregistrée : le chat continue, mais il faudra se reconnecter au prochain démarrage."
+
+msgid "Connecting to Twitch failed. The details are in the logs."
+msgstr "La connexion à Twitch a échoué. Le détail est dans le journal."
+
+msgid "Playback didn't start on the chosen device."
+msgstr "La lecture n’a pas démarré sur le périph choisi."
+
+msgid "Your message didn't come back from chat. It may not have shown up."
+msgstr "Ton message n’est pas revenu du chat. Il n’a peut-être pas été affiché."
+
+#, javascript-format
+msgid "Connected to #%s chat."
+msgstr "Connecté au chat de #%s."
+
+#, javascript-format
+msgid "Connected to #%1$s chat, as %2$s."
+msgstr "Connecté au chat de #%1$s, en tant que %2$s."
+
+msgid "Pick a voice in the settings to have messages read out loud."
+msgstr "Choisis une voix dans les réglages pour faire lire les messages."
+
+msgid "The chosen output device can't be found: the voice came out on the system one. Pick it again in the settings."
+msgstr "Le périph de sortie choisi est introuvable : la voix est sortie sur celui du système. Rechoisis-le dans les réglages."
+
+#, javascript-format
+msgid "Theme « %s » loaded. Save it to keep it."
+msgstr "Thème « %s » chargé. Enregistre-le pour le garder."
+
+#, javascript-format
+msgid "Theme « %s » loaded."
+msgstr "Thème « %s » chargé."
+
+#, javascript-format
+msgid "Your %d chat windows are back to their original size."
+msgstr "Tes %d fenêtres de chat ont retrouvé leur taille d’origine."
+
+#, javascript-format
+msgid "%d correction cleared."
+msgid_plural "%d corrections cleared."
+msgstr[0] "%d correction effacée."
+msgstr[1] "%d corrections effacées."
+
+#, javascript-format
+msgid "%d unrecognised value went back to its default."
+msgid_plural "%d unrecognised values went back to their defaults."
+msgstr[0] "%d valeur non reconnue a repris son défaut."
+msgstr[1] "%d valeurs non reconnues ont repris leur défaut."
+
+#, javascript-format
+msgid "The « %s » setting was invalid and went back to its default."
+msgstr "Le réglage « %s » était invalide et a repris sa valeur par défaut."
+
+msgid "Your channels couldn't be found. The details are in the logs."
+msgstr "Impossible de retrouver tes chaînes. Le détail est dans le journal."
+
+#, javascript-format
+msgid "The « %s » channel no longer exists on Twitch. It was removed."
+msgstr "La chaîne « %s » n’existe plus sur Twitch. Elle a été retirée."
+
+msgid "That channel name isn't valid."
+msgstr "Ce nom de chaîne n’est pas valide."
+
+#, javascript-format
+msgid "You're already following %d channels, the most a Twitch connection takes. Close a tab to open another one."
+msgstr "Tu suis déjà %d chaînes, le maximum qu’une connexion Twitch accepte. Ferme un onglet pour en ouvrir un autre."
+
+#, javascript-format
+msgid "The « %s » channel doesn't exist on Twitch."
+msgstr "La chaîne « %s » n’existe pas sur Twitch."
+
+msgid "Twitch didn't answer. Try again in a moment."
+msgstr "Twitch n’a pas répondu. Réessaie dans un instant."
+
+msgid "That channel isn't open."
+msgstr "Cette chaîne n’est pas ouverte."
+
+#, javascript-format
+msgid "You already have %d chat windows, the most there can be. Close one, or move this channel into a window you already have."
+msgstr "Tu as déjà %d fenêtres de chat, le maximum. Ferme-en une, ou déplace cette chaîne dans une fenêtre existante."
+
+msgid "Demo"
+msgstr "Démo"
+
+#, javascript-format
+msgid "%d setting was invalid and went back to its default."
+msgid_plural "%d settings were invalid and went back to their defaults."
+msgstr[0] "%d réglage était invalide et a repris sa valeur par défaut."
+msgstr[1] "%d réglages étaient invalides et ont repris leur valeur par défaut."
+
+msgid "emote-only"
+msgstr "emotes seules"
+
+msgid "followers"
+msgstr "followers"
+
+#, javascript-format
+msgid "followers for %s min"
+msgstr "followers depuis %s min"
+
+#, javascript-format
+msgid "Chat in #%s…"
+msgstr "Écris dans #%s…"
+
+#, javascript-format
+msgid "%d result"
+msgid_plural "%d results"
+msgstr[0] "%d résultat"
+msgstr[1] "%d résultats"
+
+#, javascript-format
+msgid "Replying to %s"
+msgstr "Réponse à %s"
+
+msgid "Skip"
+msgstr "Passer"
+
+#, javascript-format
+msgid "%s on a message to read it out"
+msgstr "%s sur un message pour le lire"
+
+#, javascript-format
+msgid "Remove the %s shortcut"
+msgstr "Retirer le raccourci %s"
+
+msgid "What each line shows"
+msgstr "Ce que chaque ligne montre"
+
+msgid "Current voice"
+msgstr "Voix actuelle"
+
+msgid "The voice"
+msgstr "La voix"
+
+msgid "Voice picked"
+msgstr "Voix choisie"
+
+msgid "One username per line. Put your bots in here — Nightbot, StreamElements — or they hog the queue."
+msgstr "Un pseudo par ligne. Mets-y tes bots — Nightbot, StreamElements — sinon ils monopolisent la file."
+
+#, javascript-format
+msgid "Read this message — %s on the line"
+msgstr "Lire ce message — %s sur la ligne"
+
+#, javascript-format
+msgid "Open #%s on Twitch"
+msgstr "Ouvrir #%s sur Twitch"
+
+msgid "to choose"
+msgstr "pour choisir"
+
+msgid "Confirm the connection on Twitch"
+msgstr "Valide la connexion sur Twitch"
+
+#, javascript-format
+msgid "This code expires in %s"
+msgstr "Ce code expire dans %s"
+
+msgid "Open the page again"
+msgstr "Rouvrir la page"
+
+#, javascript-format
+msgid "%s's card"
+msgstr "Fiche de %s"
+
+msgid "Said nothing this session."
+msgstr "Rien dit dans cette session."
+
+#, javascript-format
+msgid "Delete %s's message"
+msgstr "Supprimer le message de %s"
+
+#, javascript-format
+msgid "Message from %s"
+msgstr "Message venu de %s"
+
+msgid "end of the fixture"
+msgstr "fin de la fixture"
+
+#, javascript-format
+msgid "trying again in %s s"
+msgstr "nouvelle tentative dans %s s"
+
+msgid "That file isn't valid JSON."
+msgstr "Ce fichier n’est pas un JSON valide."
+
+#, javascript-format
+msgid "%d message waiting"
+msgid_plural "%d messages waiting"
+msgstr[0] "%d message en attente"
+msgstr[1] "%d messages en attente"
+
+#, javascript-format
+msgid "%d unread message"
+msgid_plural "%d unread messages"
+msgstr[0] "%d message non lu"
+msgstr[1] "%d messages non lus"
+
+#, javascript-format
+msgid "%d new message"
+msgid_plural "%d new messages"
+msgstr[0] "%d nouveau message"
+msgstr[1] "%d nouveaux messages"
+
+#, javascript-format
+msgid "less than %s"
+msgstr "moins de %s"
+
+#, javascript-format
+msgid "by %s"
+msgstr "par %s"
+
+msgid "%d h ago"
+msgstr "il y a %d h"
+
+msgid "%d min ago"
+msgstr "il y a %d min"
+
+msgid "Chatters"
+msgstr "Pseudos du chat"
+
+msgid "Commands"
+msgstr "Commandes"
+
+msgid "Contains"
+msgstr "Contient"
+
+msgid "Nobody has spoken here yet."
+msgstr "Personne n'a encore parlé ici."
+
+msgid "open"
+msgstr "ouvert"
+
+msgid "Open #%s"
+msgstr "Ouvrir #%s"
+
+msgid "Pick #%s"
+msgstr "Choisir #%s"
+
+msgid "Reconnect"
+msgstr "Se reconnecter"
+
+msgid "Starts with"
+msgstr "Commence par"
+
+msgid "to confirm"
+msgstr "pour valider"
+
+msgid "%s gave this channel a shoutout."
+msgstr "%s a fait un shoutout pour cette chaîne."
+
+msgid "%s just followed."
+msgstr "%s vient de follow."
+
+msgid "%s redeemed %s for %s points."
+msgstr "%s a échangé %s pour %s points."
+
+msgid "Ad break: %s seconds."
+msgstr "Coupure pub : %s secondes."
+
+msgid "ad breaks in your chat"
+msgstr "les coupures pub dans ton chat"
+
+msgid "channel point redeems in your chat"
+msgstr "les redeems de points de chaîne dans ton chat"
+
+msgid "Goal over, not reached: %s"
+msgstr "Objectif terminé, pas atteint : %s"
+
+msgid "Goal reached: %s"
+msgstr "Objectif atteint : %s"
+
+msgid "Goal started: %s — %s to go."
+msgstr "Objectif lancé : %s — %s à atteindre."
+
+msgid "Hype train over at level %s."
+msgstr "Hype train terminé au niveau %s."
+
+msgid "Hype train started at level %s."
+msgstr "Hype train lancé au niveau %s."
+
+msgid "hype trains in your chat"
+msgstr "les hype trains dans ton chat"
+
+msgid "Poll over: %s"
+msgstr "Sondage terminé : %s"
+
+msgid "Poll over: %s — “%s” wins."
+msgstr "Sondage terminé : %s — « %s » gagne."
+
+msgid "Poll started: %s"
+msgstr "Sondage lancé : %s"
+
+msgid "polls in your chat"
+msgstr "les sondages dans ton chat"
+
+msgid "Prediction open: %s"
+msgstr "Prédiction ouverte : %s"
+
+msgid "Prediction over: %s"
+msgstr "Prédiction terminée : %s"
+
+msgid "Prediction over: %s — “%s” wins."
+msgstr "Prédiction terminée : %s — « %s » gagne."
+
+msgid "predictions in your chat"
+msgstr "les prédictions dans ton chat"
+
+msgid "Shoutout for %s."
+msgstr "Shoutout pour %s."
+
+msgid "You have %d channels open, and the limit is %d. Close a few: past the limit, Twitch stops telling us when a channel raids."
+msgstr "Tu as %d chaînes ouvertes, et la limite est de %d. Ferme-en quelques-unes : au-delà, Twitch ne nous dit plus quand une chaîne part en raid."
+
+msgid "your goals in your chat"
+msgstr "tes objectifs dans ton chat"
+
+msgid "Your settings, your channels and your Twitch account were carried over from StreamyChat. The two versions keep their own settings from now on."
+msgstr "Tes réglages, tes chaînes et ton compte Twitch ont été repris de StreamyChat. À partir de maintenant, les deux versions gardent leurs réglages chacune de leur côté."
+
+msgid "Your settings and your channels were carried over from StreamyChat, but not your Twitch account: you have to sign in again. The two versions keep their own settings from now on."
+msgstr "Tes réglages et tes chaînes ont été repris de StreamyChat, mais pas ton compte Twitch : il faut te reconnecter. À partir de maintenant, les deux versions gardent leurs réglages chacune de leur côté."
