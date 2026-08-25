@@ -2613,3 +2613,24 @@ msgstr "Nouveautés"
 
 msgid "Beta"
 msgstr "Bêta"
+
+msgid "we start in two minutes"
+msgstr "on démarre dans deux minutes"
+
+msgid "hey!"
+msgstr "hey !"
+
+msgid "a noticeably longer message, written on purpose to check that wrapping works and that the second line stays aligned with the first"
+msgstr "un message nettement plus long que les autres, écrit exprès pour vérifier que le retour à la ligne se fait correctement et que la deuxième ligne reste alignée sur la première"
+
+msgid "sighs loudly"
+msgstr "soupire bruyamment"
+
+msgid "hi, just found the channel"
+msgstr "salut, je découvre la chaîne"
+
+msgid "highlighted with channel points"
+msgstr "message mis en avant avec des points de chaîne"
+
+msgid "and one with bits"
+msgstr "et un autre avec des bits"
