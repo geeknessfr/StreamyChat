@@ -82,8 +82,8 @@ window, the channel events. That list is the promise, not a date.
 What is coming is a paid edition called **StreamyChat xD**. Two examples of what it is meant to
 carry:
 
-- **Reading chat out loud**, with an automatic cleanup pass so that `slt tt le monde` is spoken
-  as a sentence rather than as letters.
+- **Reading chat out loud**, with an automatic cleanup pass so that `hi evry1 hru` is spoken as
+  a sentence and not letter by letter.
 - **Doing things when your viewers spend**: triggering the app's features from channel points,
   bits and donations.
 
