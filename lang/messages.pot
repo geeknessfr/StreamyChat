@@ -291,7 +291,7 @@ msgstr ""
 msgid "A message's button reads it out"
 msgstr ""
 
-#: src/main/update/updater.ts:232
+#: src/main/update/updater.ts:270
 #: src/renderer/settings/AboutSection.tsx:42
 msgid "A new version is out."
 msgstr ""
@@ -448,7 +448,7 @@ msgid "An estimate from the published rate. The Fish Audio console is what count
 msgstr ""
 
 #: src/renderer/settings/AdvancedSection.tsx:247
-msgid "An unfinished translation leaves the rest in English. You can add one by dropping a .po file into the lang folder of your data directory."
+msgid "An unfinished translation leaves the rest in English."
 msgstr ""
 
 #: src/renderer/settings/preview-specimens.ts:106
@@ -701,7 +701,7 @@ msgstr ""
 msgid "Check now"
 msgstr ""
 
-#: src/main/update/updater.ts:226
+#: src/main/update/updater.ts:264
 #: src/renderer/settings/AboutSection.tsx:36
 msgid "Checking…"
 msgstr ""
@@ -860,7 +860,7 @@ msgstr ""
 msgid "Contains"
 msgstr ""
 
-#: src/main/update/updater.ts:234
+#: src/main/update/updater.ts:272
 #: src/renderer/settings/AboutSection.tsx:44
 msgid "Couldn't check. It will try again on its own."
 msgstr ""
@@ -943,7 +943,7 @@ msgstr ""
 msgid "Diagnostics"
 msgstr ""
 
-#: src/main/update/updater.ts:228
+#: src/main/update/updater.ts:266
 msgid "Downloading the update…"
 msgstr ""
 
@@ -1012,6 +1012,10 @@ msgstr ""
 
 #: src/renderer/settings/VoiceSection.tsx:459
 msgid "Every message that gets past the filters is read without you clicking. It can add up fast on a big channel: start with tight filters."
+msgstr ""
+
+#: src/renderer/settings/AboutSection.tsx:245
+msgid "Every version, on GitHub"
 msgstr ""
 
 #: src/renderer/settings/AppearanceSection.tsx:148
@@ -1905,7 +1909,7 @@ msgid "Paste your OpenRouter key to save it."
 msgstr ""
 
 #: src/renderer/settings/ChatSection.tsx:108
-msgid "Per channel. Past that, the oldest ones are released, which is what lets a chat run for eight hours without swelling."
+msgid "Per channel. Past that, the oldest ones are released, which is what lets a chat run for 8 hours without swelling."
 msgstr ""
 
 #: src/shared/commands.ts:126
@@ -2084,7 +2088,7 @@ msgstr ""
 msgid "Readable without asking for attention."
 msgstr ""
 
-#: src/main/update/updater.ts:230
+#: src/main/update/updater.ts:268
 #: src/renderer/settings/AboutSection.tsx:40
 msgid "Ready to install."
 msgstr ""
@@ -2736,7 +2740,7 @@ msgid "The code expired. Ask for a new one to try again."
 msgstr ""
 
 #: src/renderer/settings/palette.ts:61
-msgid "The colour you stare at for eight hours a day."
+msgid "The colour you stare at for 8 hours a day."
 msgstr ""
 
 #: src/renderer/settings/AppearanceSection.tsx:128
@@ -3278,7 +3282,7 @@ msgstr ""
 msgid "Unreadable fixture line: %s"
 msgstr ""
 
-#: src/main/update/updater.ts:237
+#: src/main/update/updater.ts:275
 msgid "Up to date."
 msgstr ""
 
@@ -3377,7 +3381,7 @@ msgstr ""
 msgid "What you only notice when it's wrong."
 msgstr ""
 
-#: src/renderer/settings/AboutSection.tsx:202
+#: src/renderer/settings/AboutSection.tsx:217
 msgid "What's new"
 msgstr ""
 
