@@ -113,6 +113,11 @@ application stays usable no matter how far you got.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the details.
 
+## What changed
+
+Every version, with what it brought: [CHANGELOG.md](CHANGELOG.md).
+[En français](CHANGELOG.fr.md).
+
 ---
 
 © 2026 Geekness. Not affiliated with Twitch.
