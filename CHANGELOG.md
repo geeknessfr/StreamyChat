@@ -28,6 +28,16 @@ proved itself.
 
 ---
 
+## Unreleased
+
+### Fixed
+
+- **"Add a language" now opens the folder for you**, and creates it if it is not there. The
+  folder does not exist until something makes it, so the instructions sent people to a path
+  Windows called missing.
+
+---
+
 ## 0.9.0 - 25 August 2026
 
 **StreamyChat speaks English, and your channel says what happens on it.**
