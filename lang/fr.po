@@ -920,8 +920,8 @@ msgstr "La correction n’a pas abouti."
 msgid "The app's colour, and what separates its areas."
 msgstr "La couleur de l’application, et ce qui sépare les zones."
 
-msgid "The colour you stare at for eight hours a day."
-msgstr "La couleur qu’on regarde huit heures par jour."
+msgid "The colour you stare at for 8 hours a day."
+msgstr "La couleur qu’on regarde 8 heures par jour."
 
 msgid "The chat window is back to its original size."
 msgstr "La fenêtre de chat a retrouvé sa taille d’origine."
@@ -1325,8 +1325,8 @@ msgstr "Où le son sort"
 msgid "Open the channel on Twitch"
 msgstr "Ouvrir la chaîne sur Twitch"
 
-msgid "Per channel. Past that, the oldest ones are released, which is what lets a chat run for eight hours without swelling."
-msgstr "Par chaîne. Au-delà, les plus anciens sont libérés, c’est ce qui permet à un chat de tourner huit heures sans gonfler."
+msgid "Per channel. Past that, the oldest ones are released, which is what lets a chat run for 8 hours without swelling."
+msgstr "Par chaîne. Au-delà, les plus anciens sont libérés, c’est ce qui permet à un chat de tourner 8 heures sans gonfler."
 
 msgid "No connection to Fish Audio. Check your internet connection."
 msgstr "Pas de connexion à Fish Audio. Vérifie ta connexion internet."
@@ -1790,8 +1790,8 @@ msgstr "Une annonce a besoin d’un texte."
 msgid "An estimate from the published rate. The Fish Audio console is what counts."
 msgstr "Une estimation à partir du tarif affiché. C’est la console Fish Audio qui fait foi."
 
-msgid "An unfinished translation leaves the rest in English. You can add one by dropping a .po file into the lang folder of your data directory."
-msgstr "Une traduction incomplète laisse le reste en français. Tu peux en ajouter une en déposant un fichier .po dans le dossier lang de tes données."
+msgid "An unfinished translation leaves the rest in English."
+msgstr "Une traduction incomplète laisse le reste en anglais."
 
 msgid "Unique"
 msgstr "Unique"
@@ -2679,3 +2679,6 @@ msgstr "Ouvre le dossier où se dépose une traduction. Mets-y un catalogue .po,
 
 msgid "The language folder couldn't be opened."
 msgstr "Le dossier des langues n'a pas pu s'ouvrir."
+
+msgid "Every version, on GitHub"
+msgstr "Toutes les versions, sur GitHub"
