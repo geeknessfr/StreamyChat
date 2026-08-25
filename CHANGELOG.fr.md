@@ -24,13 +24,24 @@ Il alimente un panneau de la fenêtre de réglages : d'où la structure réguli�
 
 ---
 
-## Non publiée
+## 0.9.1 - 25 août 2026
 
 ### Corrigé
 
-- **« Ajouter une langue » ouvre le dossier**, et le crée s'il n'est pas là. Il n'existe pas
+- **La mise à jour automatique ne marchait pas du tout en 0.9.0.** « Vérifier maintenant »
+  répondait « La vérification a échoué », à chaque fois. Si tu es en 0.9.0, installe celle-ci à
+  la main : la 0.9.0 ne sait pas aller la chercher.
+- **« Ajouter une langue » ouvre le dossier**, et le crée s'il n'est pas là. Il n'existe pas
   tant que rien ne le crée, donc les instructions envoyaient les gens vers un chemin que
   Windows disait introuvable.
+- **Les noms de commande des « Nouveautés » affichaient leurs accents graves**, comme si le
+  fichier avait été collé brut dans la fenêtre.
+
+### Changé
+
+- **Les « Nouveautés » sont plus courtes, et rangées.** La version principale
+  ouvre avec ce qu'elle apporte, ses correctifs sont rangés dessous, et les deux principales
+  d'avant suivent. Un lien ouvre le changelog complet sur GitHub, dans ta langue.
 
 ---
 
@@ -45,9 +56,9 @@ ta chaîne ne dira rien de ce qui s'y passe.
 
 - **Un menu de pseudos.** Photo de profil, couleur du pseudo, et depuis quand la personne a
   parlé. Tape `@` et il s'ouvre tout seul.
-- **Il filtre pendant que tu tapes.** Tu ouvres sur « ge », tu continues avec « ek », la liste
+- **Il filtre pendant que tu tapes.** Tu ouvres sur « ge », tu continues avec « ek », la liste
   se réduit et ton texte ne bouge pas.
-- **Un pseudo se trouve par le milieu.** « geek » propose aussi « LeGeeK ».
+- **Un pseudo se trouve par le milieu.** « geek » propose aussi « LeGeeK ».
 - **Les commandes à pseudo ouvrent ce menu.** `/ban`, `/timeout`, `/warn`, `/vip`, `/mod` et les
   autres, comme `/raid` ouvre celui des chaînes.
 - **Ta chaîne raconte ce qui s'y passe.** Redeems, sondages, prédictions, hype trains, objectifs
@@ -55,15 +66,15 @@ ta chaîne ne dira rien de ce qui s'y passe.
 - **Les shoutouts apparaissent.** Ceux que tu envoies, ceux que tu reçois, ceux des autres
   modos. Twitch n'en met aucun dans le chat : sans ça, ils n'existaient nulle part.
 - **Les nouveaux follows aussi.** Sur ta chaîne et sur celles où tu es modérateur.
-- **StreamyChat parle anglais.** La langue se choisit dans « Avancé » ; par défaut, elle suit
+- **StreamyChat parle anglais.** La langue se choisit dans « Avancé » ; par défaut, elle suit
   celle de ton PC.
 - **Tu peux ajouter ta langue.** Un fichier `.po` dans le dossier `lang` de tes données, puis tu
   relances. Une traduction incomplète retombe sur l'anglais.
 - **StreamyChat se met à jour toute seule.** Elle vérifie au lancement, télécharge en arrière-plan
   et installe au redémarrage suivant.
-- **Une section « À propos »**, avec ta version, le bouton de mise à jour et ce qu'apporte chaque
+- **Une section « À propos »**, avec ta version, le bouton de mise à jour et ce qu'apporte chaque
   version.
-- **Un bouton « Signaler un bug ».** Il ouvre le formulaire sur GitHub, déjà rempli avec ta
+- **Un bouton « Signaler un bug ».** Il ouvre le formulaire sur GitHub, déjà rempli avec ta
   version, et pose le fichier de rapport dans un dossier à côté, prêt à glisser dedans.
 
 ### Corrigé
@@ -72,34 +83,34 @@ ta chaîne ne dira rien de ce qui s'y passe.
   emotes étaient chargées : c'est l'écran qui ne le savait pas.
 - **Les pseudos sans couleur étaient tous blancs.** Ils prennent une couleur de Twitch dérivée
   du pseudo : la même d'une soirée à l'autre, comme sur le site.
-- **Les emotes de la chaîne manquaient une fois sur deux** dans la section « Cette chaîne ».
+- **Les emotes de la chaîne manquaient une fois sur deux** dans la section « Cette chaîne ».
 
 ### Changé
 
-- **Les textes de modération emploient les mots de Twitch.** Un « timeout », un « ban », un
-  « warn », comme les commandes, qui s'appelaient déjà comme ça.
+- **Les textes de modération emploient les mots de Twitch.** Un « timeout », un « ban », un
+  « warn », comme les commandes, qui s'appelaient déjà comme ça.
 - **Les six thèmes fournis gardent leur nom anglais.** Un nom de thème voyage avec le fichier
   que tu exportes : il reste le même quelle que soit la langue. Ton thème en cours n'est pas
   touché.
 - **Plus de textes suivent la langue choisie.** L'âge d'un compte, les lignes de modération, les
   modes du salon, les messages de connexion, l'écran de connexion.
-- **Les montants s'écrivent comme ta langue les écrit.** « 0,003 $ » en français, « $0.003 » en
+- **Les montants s'écrivent comme ta langue les écrit.** « 0,003 $ » en français, « $0.003 » en
   anglais.
 - **Le nombre de chaînes ouvertes passe de 33 à 10.** L'ancien chiffre était faux : au-delà de
   la 11e, Twitch cessait de signaler les raids sans que rien ne le dise. Tes onglets sont tous
   rouverts.
 - **Les emotes globales sont rangées par fournisseur** (Twitch, 7TV, BTTV, FFZ) au lieu d'une
   seule rubrique.
-- **Les versions empaquetées s'affichent « Bêta », et plus « Alpha ».** L'application disait
+- **Les versions empaquetées s'affichent « Bêta », et plus « Alpha ».** L'application disait
   une chose et la page de téléchargement une autre.
 
 ### StreamyChat xD
 
-- **Cinq sections de réglages au lieu de six.** « Corriger les messages » est passé en bas de
-  « Voix », avec sa clé OpenRouter et son champ d'essai.
+- **Cinq sections de réglages au lieu de six.** « Corriger les messages » est passé en bas de
+  « Voix », avec sa clé OpenRouter et son champ d'essai.
 - **Le modèle et le prompt de correction ne se règlent plus.** StreamyChat répond de la qualité
   de la correction, donc il en règle les détails.
-- **Les compteurs de dépense sont dans « Avancé »**, à côté du rapport de bug.
+- **Les compteurs de dépense sont dans « Avancé »**, à côté du rapport de bug.
 
 ---
 
@@ -113,13 +124,13 @@ dehors pour lui ouvrir sa propre fenêtre.
 
 - **Les onglets se déplacent à la souris.** Les remettre dans l'ordre, les faire passer d'une
   fenêtre à l'autre, ou en sortir un sur le bureau pour lui ouvrir sa propre fenêtre.
-- **Un bouton « Remettre en place »** dans Réglages → Fenêtre. Il rend à tes fenêtres de chat
+- **Un bouton « Remettre en place »** dans Réglages → Fenêtre. Il rend à tes fenêtres de chat
   leur taille de départ et les recentre.
 
 ### Corrigé
 
-- **La croix de la barre de titre dit ce qu'elle fait.** « Quitter StreamyChat » sur la fenêtre
-  principale, « Fermer cette fenêtre » sur les autres. Les deux affichaient « Fermer », alors
+- **La croix de la barre de titre dit ce qu'elle fait.** « Quitter StreamyChat » sur la fenêtre
+  principale, « Fermer cette fenêtre » sur les autres. Les deux affichaient « Fermer », alors
   qu'une seule est sans retour.
 - **Fermer la fenêtre principale quitte pour de bon.** L'app restait en vie derrière tes autres
   fenêtres de chat, sans plus aucun moyen de faire revenir la principale.
@@ -163,11 +174,11 @@ images.
 - **Les messages sont corrigés avant d'être lus à voix haute.** Abréviations, accents manquants,
   lettres étirées. Le texte devient prononçable sans changer ce qui était dit.
 - **Un champ d'essai** dans les réglages, pour entendre la différence avant d'allumer.
-- **Un curseur « Puissance de la voix »**, au-dessus du volume. Le volume ne fait que baisser le
+- **Un curseur « Puissance de la voix »**, au-dessus du volume. Le volume ne fait que baisser le
   son ; celui-là le monte à la source.
 - **Deux compteurs disent ce que tout ça coûte**, par session, par jour et en tout.
 - **Un message déjà corrigé n'est jamais repayé**, même après un redémarrage.
-- **Les émoticônes ne sont plus prononcées n'importe comment.** Un `x)` se faisait lire « ixe »
+- **Les émoticônes ne sont plus prononcées n'importe comment.** Un `x)` se faisait lire « ixe »
   au milieu d'une phrase. Elles deviennent une petite pause. `xD`, lui, reste.
 - **La voix était beaucoup trop faible.** Elle sort maintenant environ **sept fois plus fort**.
 - **Toutes les voix sortent au même niveau.** Changer de voix pouvait diviser ou multiplier le
@@ -212,14 +223,14 @@ des messages qui parlent français.
 
 - **Une barre réclame une reconnexion** tant qu'il manque des autorisations, et ne part qu'une
   fois réglée.
-- **« Se déconnecter » dans les réglages**, en bas à gauche, avec le compte connecté au-dessus.
+- **« Se déconnecter » dans les réglages**, en bas à gauche, avec le compte connecté au-dessus.
 - **La déconnexion retire aussi l'autorisation côté Twitch.**
 
 ### Corrigé
 
 - **Les messages d'erreur ne parlent plus technique** : plus de noms d'autorisations, de codes,
   ni d'anglais.
-- **Plus de bouton « Exclure » ou « Bannir » sur ses propres messages**, que Twitch refuse de
+- **Plus de bouton « Exclure » ou « Bannir » sur ses propres messages**, que Twitch refuse de
   toute façon.
 - **`/vip` et `/mod` partent sur les chaînes que tu modères** : c'est Twitch qui décide, plus
   l'application.
@@ -252,7 +263,7 @@ affaire avant de décider.
 
 ### Corrigé
 
-- **La fenêtre principale garde son nom**, « StreamyChat », au lieu de prendre celui de l'onglet
+- **La fenêtre principale garde son nom**, « StreamyChat », au lieu de prendre celui de l'onglet
   actif.
 - **Le pseudonyme d'un message effacé s'ouvre en fiche** : on peut lever la sanction depuis le
   dépliant.
@@ -267,10 +278,10 @@ toutes.
 ### Ajouté
 
 - **Une seule connexion Twitch partagée** : le plafond passe de 3 à 33 chaînes.
-- **Toutes les fenêtres ont leur barre d'onglets et leur « + ».**
+- **Toutes les fenêtres ont leur barre d'onglets et leur « + ».**
 - **Une chaîne se déplace d'une fenêtre à l'autre** par le menu contextuel.
 - **Fermer une fenêtre rend ses chaînes à la principale**, sans rien déconnecter.
-- **Un onglet « Tout » dès deux chaînes** : tous les messages mêlés dans l'ordre d'arrivée.
+- **Un onglet « Tout » dès deux chaînes** : tous les messages mêlés dans l'ordre d'arrivée.
 - **Une photo et un liseré de couleur devant chaque ligne** pour dire sa chaîne.
 - **Un message de chat partagé n'apparaît qu'une fois** dans le flux fusionné.
 - **Un bandeau de chaîne** : titre du live, jeu, spectateurs, durée, suivi et abonnement.
@@ -285,7 +296,7 @@ toutes.
 - **Le clic-à-travers épingle la fenêtre**, et lui rend son épinglage d'avant en le coupant.
 - **Le sélecteur d'emotes reste collé au champ de saisie.**
 - **Échap sur `/raid` ou `/shoutout` ne bloque plus le menu de chaînes** pour la session.
-- **Les versions empaquetées s'affichent « Alpha ».**
+- **Les versions empaquetées s'affichent « Alpha ».**
 
 ---
 
@@ -319,7 +330,7 @@ toutes.
 - **L'autocomplétion des pseudonymes, emotes, commandes et chaînes.**
 - **Un sélecteur d'emotes à quatre sections**, qui retient les récentes.
 - **`/me`, `/announce`, `/shoutout`, `/raid` et `/unraid`.**
-- **Un salon en mode « abonnés » ou « followers » ferme le champ et dit pourquoi.**
+- **Un salon en mode « abonnés » ou « followers » ferme le champ et dit pourquoi.**
 - **7TV, BetterTTV et FrankerFaceZ**, globales et par chaîne.
 - **Les emotes superposées (zero-width).**
 - **Les emotes animées peuvent être figées.**
