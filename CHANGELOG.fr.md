@@ -24,6 +24,54 @@ Il alimente un panneau de la fenêtre de réglages : d'où la structure réguli�
 
 ---
 
+## 0.10.0 - 4 octobre 2026
+
+**Une seconde sortie pour la voix, et une mise à jour qui s'installe en silence.**
+
+### Corrigé
+
+- **La mise à jour par le bouton affichait les fenêtres de l'installeur.** Elle se fait
+  maintenant comme quand tu fermes simplement l'app : en silence, puis elle revient.
+
+### StreamyChat xD
+
+- **Une sortie secondaire joue la voix sur un autre périphérique.** La même voix, la même sortie
+  principale, et un appareil de plus — un casque, par exemple. Éteinte par défaut.
+
+- **Les deux listes refusent de proposer le même périphérique deux fois.** Si les deux pointent
+  au même endroit, le champ le dit et dit quoi faire, et la seconde lecture n'a pas lieu.
+
+---
+
+## 0.9.4 - 26 août 2026
+
+### Ajouté
+
+- **Les logs portent la mémoire que prend StreamyChat**, toutes les dix minutes, avec le nombre
+  de chaînes ouvertes. Si elle te paraît lourde un jour, le rapport de bug le dira tout seul.
+
+- **La fiche d'une personne annonce ses derniers messages**, et ils ne se mélangent plus.
+
+### Changé
+
+- **« Répondre » met le curseur dans le champ de saisie.** Il fallait cliquer dans le champ
+  après avoir cliqué sur le bouton.
+
+- **Plus de bouton « Répondre » là où tu ne peux pas écrire** — un chat en mode followers ou
+  subs, et le flux fusionné.
+
+- **En chat partagé, la photo de la chaîne remplace son nom.** Le nom écrit en entier prenait
+  une place folle sur chaque ligne. Il reste au survol.
+
+- **La photo d'une chaîne dit son nom au survol**, dans l'onglet « Tout » aussi.
+
+### Corrigé
+
+- **L'infobulle d'un onglet ne reste plus par-dessus le bandeau de chaîne** quand cet onglet
+  devient l'onglet actif.
+
+---
+
 ## 0.9.3 - 25 août 2026
 
 ### Corrigé
