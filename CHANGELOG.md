@@ -28,6 +28,54 @@ proved itself.
 
 ---
 
+## 0.10.0 - 4 October 2026
+
+**A second output for the voice, and an update that installs quietly.**
+
+### Fixed
+
+- **Updating from the button showed the installer's windows.** It now installs the way it does
+  when you just close the app: silently, then it comes back.
+
+### StreamyChat xD
+
+- **A second output plays the voice on another device.** The same voice, the same main output,
+  one more device — a headset, say. Off by default.
+
+- **The two lists refuse to show the same device twice.** If both point at the same place, the
+  field says so and tells you what to do, and the second one doesn't play.
+
+---
+
+## 0.9.4 - 26 August 2026
+
+### Added
+
+- **The logs now carry how much memory StreamyChat uses**, every ten minutes, with how many
+  channels are open. If it ever feels heavy, the bug report says so on its own.
+
+- **A user's card announces their latest messages**, and they no longer run into each other.
+
+### Changed
+
+- **"Reply" now puts the caret in the input.** You had to click the field after clicking the
+  button.
+
+- **No more "Reply" button where you can't write** — a followers-only or subs-only chat, and
+  the merged feed.
+
+- **In shared chat, the channel's picture replaces its name.** The full name took up a huge
+  amount of room on every line. It stays on hover.
+
+- **A channel's picture now names it on hover**, in the "All" tab too.
+
+### Fixed
+
+- **A tab's tooltip no longer sits on top of the channel banner** when that tab becomes the
+  active one.
+
+---
+
 ## 0.9.3 - 25 August 2026
 
 ### Fixed
