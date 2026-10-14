@@ -28,6 +28,18 @@ proved itself.
 
 ---
 
+## 0.10.1 - 14 October 2026
+
+**One fix, for StreamyChat xD.**
+
+### StreamyChat xD
+
+- **StreamyChat xD updates itself again.** Since 0.9.0 it said "Couldn't check" on every PC but
+  the one that builds it. This version has to be installed by hand once; after that, it updates
+  on its own.
+
+---
+
 ## 0.10.0 - 4 October 2026
 
 **A second output for the voice, and an update that installs quietly.**
