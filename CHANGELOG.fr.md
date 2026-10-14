@@ -24,6 +24,18 @@ Il alimente un panneau de la fenêtre de réglages : d'où la structure réguli�
 
 ---
 
+## 0.10.1 - 14 octobre 2026
+
+**Un correctif, pour StreamyChat xD.**
+
+### StreamyChat xD
+
+- **StreamyChat xD se met de nouveau à jour tout seul.** Depuis la 0.9.0, il affichait « La
+  vérification a échoué » sur tous les PC sauf celui qui le construit. Cette version s'installe une
+  fois à la main ; ensuite, il se met à jour tout seul.
+
+---
+
 ## 0.10.0 - 4 octobre 2026
 
 **Une seconde sortie pour la voix, et une mise à jour qui s'installe en silence.**
