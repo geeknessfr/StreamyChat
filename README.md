@@ -1,6 +1,6 @@
 # StreamyChat
 
-*[Lire en français](LISEZMOI.md)*
+*[Lire en français](LISEZMOI.md)* · **Website: [streamychat.live](https://streamychat.live/)**
 
 A Twitch chat client for Windows. One frameless, fully themeable window that replaces Twitch's
 chat pop-out: several channels at once, moderation built in, and a look you actually choose.
