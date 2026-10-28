@@ -1,6 +1,6 @@
 # StreamyChat
 
-*[Read in English](README.md)*
+*[Read in English](README.md)* · **Site : [streamychat.live](https://streamychat.live/fr/)**
 
 Un client de chat Twitch pour Windows. Une fenêtre sans cadre, entièrement customisable, qui
 remplace la pop-up de chat de Twitch : plusieurs chaînes à la fois, la modération intégrée, et
